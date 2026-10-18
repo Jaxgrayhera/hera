@@ -34,3 +34,15 @@ python flowscope.py --detail   # plus every "FUD, not flight" episode
 ## Blocked sources worth adding
 
 These are the stronger institutional-flow and sentiment series, but the environment's network policy blocks them today: `farside.co.uk` (daily BTC/ETH ETF flows), `api.alternative.me` (Crypto Fear & Greed history), `publicreporting.cftc.gov` (COT: asset manager vs leveraged fund positioning in CME BTC and Nasdaq futures), `stablecoins.llama.fi`.
+
+## TimesFM forecasts (`forecast.py`)
+
+Runs Google's TimesFM 3.0 (`pip install "timesfm[torch]==3.0.2"`, CPU is fine) on log BTC price, alone and with the flow series above as past-only covariates, and scores it on weekly walk-forward origins over the last 2 years against a random walk and a drift baseline.
+
+```
+python forecast.py               # next 7d and 30d: median and 80% band
+python forecast.py --backtest    # direction hit rate, error, band coverage, long-if-up vs buy and hold
+python forecast.py --smoke       # plumbing test with untrained weights
+```
+
+Weights come from Hugging Face (`google/timesfm-3.0-pytorch`). This environment blocks `huggingface.co`, so either allow it (plus `cdn-lfs.huggingface.co` and `cas-bridge.xethub.hf.co`) or download the repo elsewhere and pass `--checkpoint /path/to/dir`. Until then the script runs the baselines only.
