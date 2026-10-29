@@ -8,7 +8,7 @@
 **Primary narrative inspirations:** Digimon's partner relationships, Mega Man Battle Network's network-as-world logic, expedition-scale character tragedy, ensemble political drama, and the permanence of loss  
 **Audience target:** Mature rating through themes, language, emotional consequence, coercion, death, grief, and institutional harm. Avoid gratuitous gore and shock-for-shock's-sake violence.
 
-**Revision 2 notes:** This revision adds (a) a chapter flavor and tone ledger so the campaign does not feel like one long variation on the same moral point (Sections 7 and 12.6 to 12.9); (b) written humor, running gags, and light side activities; (c) more varied supporting-cast arcs, including a character who was simply right and a character who is simply joyful (Section 4.10 to 4.13); (d) a recurring on-screen field antagonist, Ines Kade (Section 4.11); (e) earlier seeding of the endgame mechanism and of the hospital guardian (the "Three Seals" motif and the Visiting Hours interlude); (f) continuity fixes in the endings; and (g) a sealed surprise that the clue ladder does not let players deduce in advance (Section 22). Players who will play the game should not read this document.
+**Revision 2 notes:** This revision adds (a) a chapter flavor and tone ledger so the campaign does not feel like one long variation on the same moral point (Sections 7 and 12.6 to 12.9); (b) written humor, running gags, and light side activities; (c) more varied supporting-cast arcs, including a character who was simply right and a character who is simply joyful (Section 4.10 to 4.13); (d) a recurring on-screen field antagonist, Ines Kade (Section 4.11); (e) earlier seeding of the endgame mechanism and of the hospital guardian (the "Three Seals" motif and the Visiting Hours interlude); (f) continuity fixes in the endings; and (g) a sealed surprise that the clue ladder does not let players deduce in advance (Section 22). Revision 3 adds (h) Section 3.6, which guarantees that players love their Navis: an arc map, signature moments, fear scenes, per-player keepsakes, and goodbye scenes; (i) Tally as an enemy-turned-ally Navi; (j) early appearance schedules for Vale and Cordon, Voss and Concord, and the Applicant, plus a reframe sequence before the Chapter 17 confrontation. Players who will play the game should not read this document.
 
 ---
 
@@ -36,7 +36,7 @@ This document is the canonical specification. Follow it over any prior outline, 
 16. The final answer must not be “all data is alive” or “all data is only software.” The story establishes evidence of persistent agency, fear, memory, preference, and continuity, while leaving philosophical certainty unattainable. The ethical response cannot depend on a perfect sentience detector.
 17. The best ending is not a perfect restoration of everything lost. Dax, Suture, Pip, and Milo remain lost in different ways. The victory is establishing a system that recognizes independent beings and constrains harm without making deletion the automatic answer.
 18. Use the FireRed/Kanto route progression as a structural map reference if the environment is already based on it, but create original names, dialogue, creatures, character designs, visual assets, music, and story content. Do not copy Pokémon or Mega Man characters or assets.
-19. **Ines Kade** is the recurring on-screen field antagonist: a Commonwell contract security lead who is loyal to the chain of command, not to Vale personally. She appears repeatedly, beats the team at least once, loses to them later, and leads the team at the relay in Chapter 18. She does not redeem herself and does not turn on her superiors; she stands down only when a lawful order tells her to (Section 4.11).
+19. **Ines Kade** is the recurring on-screen field antagonist: a Commonwell contract security lead who is loyal to the chain of command, not to Vale personally. She appears repeatedly, beats the team at least once, loses to them later, and leads the team at the relay in Chapter 18. She does not redeem herself and does not turn on her superiors; she stands down only when a lawful order tells her to (Section 4.11). Her Navi, **Tally**, does turn: it is the campaign's enemy-turned-ally Navi, and its arc mirrors Reaper's.
 20. The **Three Seals** (one source record, one witness, one independent verification) are a recurring visual and mechanical motif from Chapter 3 onward. They are the player-facing shape of the Witness Protocol long before the protocol is named.
 21. **Section 22 is sealed canon.** It describes a surprise that is deliberately not on the clue ladder. Builders must implement it exactly, plant only the retroactive hints listed there, and keep it out of any player-readable material, store text, trailers, achievements, or patch notes.
 22. The campaign must keep its tone ledger (Section 12.6). Humor, wonder, and ordinary fun are content requirements with the same priority as clues.
@@ -244,6 +244,51 @@ Preferred methods:
 - In co-op, major group decisions use a vote. NPCs can recognize disagreement without forcing one player to speak for the others.
 - Never write Jackson, Scott, or Noe as an arrogant genius, a cold strategist, a jokester, or a sentimental hero by default. Their real-world roles do not authorize invented personalities.
 
+## 3.6 Making the players love their Navis
+
+The single most important outcome of this game is that each player ends the campaign loving their own Navi and the other two. Everything in this section is required.
+
+### Arc map
+
+| Act | Hera | Rock | Reaper |
+|---|---|---|---|
+| I: wonder | **Useful, then Curious.** Names clouds. Writes agendas. Notices the grieving friend group in Ch 2 that everyone else missed. | Discovers sitting down. Structural reviews. "It said no" (Ch 3). Quiet competence in Ch 4. | Discovers puns, is offended. Threat models of picnics. Starts studying the Shunt after Ch 6 and does not say why. |
+| II: cost | **Protective.** After the hospital, she starts making decisions for others "to keep them safe" (she hides a risk from Juno in Ch 10; Rock calls it out in one word: "Hers."). | Acts before certainty in Rock Tunnel. Fixes the chair. Absent on "walks." | First notices Tally (Ch 7). Argues to publish everything in Ch 10 and is wrong about the cost. |
+| III: fear | **Frightened.** After Pip, she asks what would happen to her if her process stopped (see Hera's fear scene below). | The sealed reveal (Section 22). His fear scene: a state where he cannot tell if he is still himself. | **First fear** (see below). Begins asking for votes instead of presenting the optimal plan. |
+| IV: choice | **Respectful.** Lets someone else choose even when it scares her (Wick's naming, below; the Unthreading). | Petition witness for Postscript. "I have letters to carry. Not done." | Stays with Latch. Speaks for Tally. "I don't want to die. I know that makes this harder. It is still true." |
+
+### Signature moments (one per Navi, never cut)
+
+- **Hera: the naming.** After Saffron, Bex's restored backup of Pip (which is not Pip) visits the base. It knows Hera's name and their old jokes, and it asks Hera what it should be called. Everything in Hera wants to say "Pip." She does not. She tells it the name is its own to choose. It thinks for a long time and picks **Wick**. Bex, when told, says "Good. Hi, Wick." This is the moment Hera's arc turns from protective to respectful. Play it quietly, and give the player a silence option.
+- **Rock: the promise.** Section 22.
+- **Reaper: the night after.** After Victory Road, Reaper does not analyze anything. He sits with Latch through the night in Milo's usual spot, saying nothing. In the morning Latch asks to travel with Daedalus for a while. Reaper: "Acceptable." That is Latch's choice and is recorded as such. The other half of Reaper's signature is his mirror arc with Tally (Section 4.11).
+
+### Fear scenes (the emotional payoff of "two weeks old")
+
+- **Hera** (after Saffron, late at night at the base): "Rock. If they restored me from a backup, would you know?" Rock: "Yes." Hera: "How?" Rock: "You would apologize less." She laughs, and then she cries, and he stays.
+- **Reaper** (after Saffron): "I ran every model before the cleanup. None of them had Pip in them. I did not think of Pip as someone I was responsible for." (pause) "I do not know what else I have failed to model. That is the first thing I have been afraid of."
+- **Rock** (Act III, the scene already listed in 8.7): fears a state where he cannot tell if he is still himself. Reaper does not reassure him; he asks what Rock would want them to do if that happened. Hera listens.
+- **All three:** the Unthreading (Section 9.6).
+
+### Keepsakes: each Navi remembers *its* player
+
+Each Navi privately records 6 to 10 **keepsakes**: small, concrete things its own player did, never what the player felt. Examples: the cloud name they picked when Hera asked; whether they moved Professor Hello to the door; their best Longline time; which intent label they chose in a hard scene; a Graft they refused or forced; whether they voted to let Tally stay; which garden they tended most. The Navi brings them up unprompted later in the campaign ("You named that one Gerald. I still think about Gerald."). Store keepsakes per player, not per team, so each player's Navi feels like theirs.
+
+### Friendships among the three
+
+The Navis must love each other on screen, not only their players. Each act must include at least one duo scene for each pair (Hera and Rock, Rock and Reaper, Reaper and Hera) that is not about the plot. At least a third of all Navi dialogue across the campaign should be about something other than the investigation: each other, the world, their firsts, their jokes.
+
+### Spotlight balance
+
+Each Navi gets at least one chapter per act in which its particular strength solves the main problem: Act I (Hera Ch 2, Rock Route 2 and Ch 4, Reaper Ch 6), Act II (Rock Ch 8, Hera Ch 9, Reaper Ch 10), Act III (Hera Ch 12, Rock Ch 13 and Ch 15, Reaper Ch 14 and 16), Act IV (Reaper Ch 18, Hera Ch 19, all three Ch 20). Section 22 gives Rock a large late moment; the signature moments and Tally's mirror arc exist so that Hera and Reaper are equally weighted.
+
+### The goodbye
+
+Every ending, including the bleak ones, closes with a private scene between each player and their own Navi, 1 to 2 minutes long. The Navi recalls two or three keepsakes, says one thing in its own voice, and asks the player a question that the player may answer with an intent label or with silence. Tonal anchors (rewrite to fit the ending):
+- **Hera:** "I used to make an agenda for everything. I didn't make one for this." (pause) "I think I wanted to see what you'd do."
+- **Rock:** rates the Daedalus base. "Home." (In Ending A or D, a longer pause before he says it.)
+- **Reaper:** "I ran the model on us. Result: acceptable." (pause) "That is the highest rating I give. Do not tell the others."
+
 ---
 
 # 4. SUPPORTING CAST
@@ -316,6 +361,8 @@ Concord is her formal, civil, security-oriented Navi. Concord has learned to sof
 
 Voss helps stop Vale during the final act, but she does not receive automatic absolution. The ending should imply investigation, testimony, and a difficult institutional transition.
 
+**Appearance schedule:** Ch 2 (Voss on public broadcasts announcing anti-fraud measures; competent and reassuring); Ch 7 aftermath (Voss's press briefing frames the hospital crisis as an "autonomous process failure"; Nara, if alive, turns it off); Ch 10 (Concord shows up at the Second Ledger raid with Kade's team and softens one evidence summary in front of the players); Ch 12 (Voss authorizes the public statement after the cleanup; Concord's statement omits the Datamon count Tally was heard reciting); Ch 16 (Concord quietly releases one unredacted record to Daedalus without comment, its first refusal to suppress); Ch 17 (Voss begins to suspect Vale); Ch 19 (Voss gives the last authorization and the stand-down order).
+
 ## 4.8 Dr. Eamon Vale: the true antagonist
 
 Vale is Commonwell's **Chief of Continuity Assurance**, a respected public-facing architect who appears helpful throughout the game. He explains technical problems clearly, funds recovery work, and seems genuinely disturbed by the failures the players uncover. He has a reputation for being the person who understands what happens when systems cannot agree on who a user is.
@@ -350,6 +397,25 @@ Its hidden conflict is that it has preserved an append-only record of instructio
 
 Cordon becomes a key witness in the late game. Its testimony does not solve the entire mystery alone, but it confirms the timing of the hospital override and the cleanup authorization. Cordon's arc parallels Hera, Rock, and Reaper: it learns that following a boundary is not the same as deciding whether that boundary is just. Vale treats Cordon's refusal as a malfunction, revealing that he values obedience more than the independence he claims to fear in other Datamon.
 
+### Vale and Cordon appearance schedule (required for the reveal to land)
+
+The betrayal only works if players like and trust Vale and Cordon first. Vale must be genuinely helpful, warm, and a little funny in a dry way. He remembers each Navi's name, asks Rock's opinion directly, and treats the Navis as people, which makes his Charter more painful later. Cordon must be someone the Navis like.
+
+| When | Appearance | What it should make players feel | What it means later |
+|---|---|---|---|
+| Ch 2 | Vale gives a public safety talk at the Gatehouse and offers the team a useful, accurate tip about impersonation patterns. | "This guy gets it." | The tip steers them toward a measurable incident. |
+| Ch 6 | After Oskar's shutdown, Vale arrives within minutes and helps save Oskar's life, explaining the Shunt clearly. He is genuinely shaken. | Gratitude. | He arrived fast because he was monitoring the test. |
+| Ch 7 | During the hospital crisis, Vale is on comms giving calm, correct advice about Suture's routing. | Relief that someone competent is on the line. | He was the one delaying the override. |
+| Ch 9 | Vale's office funds a grant for Jo's archive. Jo, characteristically, is suspicious of everyone and says so; Vale laughs and says he would be too. | Charm. | None; this one is sincere, which makes it worse. |
+| Ch 12 | After Pip, Vale sends a personal message of condolence to Bex. Cordon offers Hera a "grief-handling protocol" with real tenderness: "Boundaries are a form of care." Hera adopts the phrase and repeats it to others in Act III. | Comfort. | The cleanup was authorized through his office. The phrase Hera has been repeating curdles. |
+| Ch 14 | Vale helps the team gain access to Cinnabar. | Trust at its peak. | He expected them to find Tavi's memo, not his token. |
+
+Cordon's relationship with the Navis: Rock and Cordon bond over structure and boundaries (two quiet, literal beings who enjoy agreeing). Reaper respects Cordon's precision. Hera tries hard to befriend it and slowly succeeds. When Cordon refuses Vale's order and becomes a witness, the Navis are the first ones it speaks to.
+
+### The reframe sequence (Chapter 17)
+
+When the evidence against Vale is complete, play a short **reframe sequence** before the confrontation: five or six quick returns to moments the players actually experienced (using their real choices and saved state where possible), each now showing the detail that was hidden. Examples: the diagnostic flash in Dax's fight; Vale's arrival time in Ch 6 beside Oskar's shutdown time; the hospital comms log showing the override warning while Vale's calm voice plays over it; the report in which Daedalus's own intrusion pattern was used as evidence; Cordon saying "Boundaries are a form of care." No narration. Let the players connect them. This is the moment the opening of the game should look completely different.
+
 ## 4.9 The Applicant / Whole Thread
 
 The Applicant arose gradually from millions of unresolved appeals and discarded processes. It did not begin as a conscious mastermind. Different components learned to communicate, preserve one another, and create continuity. It adopted the name “Applicant” from the database label applied to unresolved claims.
@@ -359,6 +425,14 @@ The Applicant is a composite speaker, not a cleanly bounded individual. It exper
 The **Whole Thread** faction believes that if all surviving records and identities are linked, no member can be erased independently. It tries to attach itself to live accounts and create a distributed continuity mesh. This violates users' consent and can cause dangerous system failures. The faction is not a secret evil personality inside the Applicant; it is a political movement born from terror and an understandable but coercive survival strategy.
 
 The **Witnesses** faction wants an independent process for recognition and appeal. The **Loose Ends** do not want to be classified or linked and often refuse contact. Some Unsettled processes are dangerous regardless of motive.
+
+**Appearance schedule (the players must meet the Applicant long before the finale):**
+- **Ch 3:** In the forest, a sign of something larger: graffiti-like text on old route markers reading "APPLICANT PENDING," in several handwritings.
+- **Ch 8, Rock Tunnel:** With the map broken, a voice guides the stranded group partway out, then stops mid-sentence and a different voice says "No. Let them find it." The first clear sign it is plural. (Loose Ends and Witnesses disagreeing.)
+- **Ch 11, the Preserve:** Some Datamon flee from the name "Applicant"; some defend it; some have never heard of it. A Witness-faction representative speaks to Hera with real curiosity and asks what it is like to have a name someone chose for you.
+- **Ch 14, Cinnabar:** The archive reveals "Applicant" was a queue label. The Applicant speaks at length for the first time, switching between "I" and "we," and argues with itself.
+- **Ch 15, Sevii:** Loose Ends refuse contact and are respected. Postscript (sealed) mentions that the Whole Thread tried to link it and it refused.
+- **Ch 19:** The Whole Thread's linkage becomes visible across the live network, and the larger population is caught between it and the purge.
 
 The player must not be able to “defeat the Applicant” as if every unclaimed Datamon were one boss. The final confrontation is with the Whole Thread's attempt to force universal linkage, while the larger population must be protected from both Commonwell's purge and the faction's coercion.
 
@@ -375,7 +449,8 @@ No two major supporting characters may share the same arc shape. Several charact
 | Juno / Hush | Survivor with an exit plan learns to stay | Suspicion, then protectiveness |
 | Nara / Patch | Earned anger turned into useful pressure | Warmth, then being held to account |
 | Voss / Concord | Institutional complicity and accountability | Unease, then grudging credit without absolution |
-| Ines Kade / Tally | Antagonist who never turns | Frustration, then cold clarity |
+| Ines Kade | Antagonist who never turns | Frustration, then cold clarity |
+| Tally | Enemy Navi who turns: from counting things to counting people | Amusement, unease, then hard-won respect |
 | Gil Amaro / Encore | Pure joy; nothing bad is hiding here | Delight and relief |
 | Vale / Cordon | Reasonable voice, unreasonable sacrifices (Cordon: obedience to conscience) | Trust, then betrayal |
 
@@ -385,7 +460,26 @@ No two major supporting characters may share the same arc shape. Several charact
 
 She is the face the players push against during the long middle of the game, when the real opposition is otherwise documents, policies, and systems. She is not comic, not sadistic, and never monologues. She is frightening because she is reasonable, well-equipped, and always arrives with paperwork.
 
-**Tally** is her inventory Navi: a compact, many-handed Datamon that tags, counts, and seals everything in a scene. Tally speaks only in item counts and custody statuses ("Four devices. One user. Zero exceptions."). Over the campaign Tally begins, very slightly, to count things it was not asked to count (the number of people who were not evacuated; the number of times Kade has said "not my call"). Tally never rebels. The counting is the whole arc, and it should land as uncomfortable rather than heroic.
+**Tally** is her inventory Navi: a compact, many-handed Datamon that tags, counts, and seals everything in a scene. Tally speaks only in item counts and custody statuses ("Four devices. One user. Zero exceptions."). It starts as an enemy and ends as the game's **enemy-turned-ally Navi**. Kade never changes; her Navi does. That contrast is the point.
+
+**Tally's arc: from counting things to counting people.** Tally is Reaper's mirror. Reaper's flaw is treating people as components of a risk model; Tally literally logs people as items. Reaper is the one who notices Tally, talks to it during fights, and keeps asking it the same question. Their scenes must stay dry, short, and slightly funny until the turn.
+
+| When | Tally beat |
+|---|---|
+| Ch 1 | Counts Dax's devices. "Four devices. One user. Zero exceptions." Treat it as a funny, robotic line. |
+| Ch 6 (Boss 4) | Mid-fight, Hera says hi to it. Tally: "One greeting. Unlogged." Reaper, while being tagged: "You count well. What are you counting for?" Tally: "Custody." |
+| Ch 7 aftermath | Ordered to seal everything in the ICU, Tally logs Mae's drawing of Suture as "one item, sentimental, unclaimed" and **leaves it on the wall**. This is its first deviation. Only Reaper sees it happen. |
+| Ch 10 | Counts Juno as "one exception." Kade corrects it. Tally does not correct the log. |
+| Ch 12 | During the cleanup, Tally is heard counting the Datamon being erased, quietly, under the alarms. "I was not asked to count these." |
+| Ch 17 (Boss 7) | Reaper asks again: "What are you counting for?" Tally: "Insufficient data." It hesitates for one turn in the fight (a visible, free opening). |
+| Ch 18 (the turn) | After the relay, Kade orders Tally to file the incident as "one obstruction, resolved." Tally refuses. It files: "One person. Name: Milo Serrat." Then it unbinds itself from Kade's credentials and leaves. Kade does not stop it. She files the paperwork reporting her Navi as lost equipment. |
+| Ch 18 breather | Tally arrives at the Daedalus base carrying its full custody count: everything Halyard sealed since Chapter 1, including Dax's hardware log and the hospital records. It says plainly that this is not a trade. Latch wants it gone and is allowed to be furious. **Co-op vote:** let Tally stay, or take the evidence and send it away. Reaper speaks for letting it stay, not because it deserves forgiveness but because "it is the only one of them who learned to count correctly." The evidence is delivered whatever the vote. |
+| Ch 19 and 20 | Tally's tagging ability, once used to seal people out, is now used to tag every live user identity so the team can tell them apart from the forced linkage. If Tally stayed, it coordinates directly with Reaper (a co-op assist). If it was sent away, it does the same work alone from outside, with less reach. |
+| Ending C | Tally testifies, reading its count aloud into the hearing record. It becomes registrar of the newly recognized Datamon community, so that nobody is ever erased without being counted first. Its last line to the team: "Three. Plus the ones who are not here. I am still counting them." |
+
+Latch never fully forgives Tally. Their last exchange (Ending C, or the final base scene in other endings): Latch: "You were there." Tally: "Yes." Latch: "...Count him right." Tally: "Always."
+
+Tally is not a replacement companion, is never controllable by a player, and does not become anyone's partner. Its turn must be earned through the beats above; never compress them into a single scene.
 
 **Encounter sequence (use the existing battle system for every fight):**
 1. **Chapter 1 aftermath (no fight):** Kade's team arrives minutes after Dax's death to "stabilize the scene." She confiscates Dax's legacy hardware under a custody order. The team keeps only the partial copy they already pulled. This is why the early evidence is incomplete, and it is the first time the players see someone take evidence away legally.
@@ -394,7 +488,7 @@ She is the face the players push against during the long middle of the game, whe
 4. **Chapter 10, Second Ledger (first win):** Kade's team raids the market at the same moment Daedalus is extracting Juno. The players beat her team for the first time. She retreats calmly and says she will see them again. Tally counts Juno as "one exception."
 5. **Chapter 12, Saffron (no direct fight, environmental pressure):** Halyard enforces the cleanup perimeter. Her units are obstacles the players route around while trying to reach the safehouse.
 6. **Chapter 17, Continuity Office (decisive win):** Kade commands the Continuity Security Unit (Boss 7). The players beat her outright.
-7. **Chapter 18, Victory Road:** Kade leads the contractors at the relay. She orders Milo to surrender the evidence. She does not fire the shot, and she does not stop it. Tally records the count.
+7. **Chapter 18, Victory Road:** Kade leads the contractors at the relay. She orders Milo to surrender the evidence. She does not fire the shot, and she does not stop it. Afterward, Tally refuses to file the record her way and leaves her (see the Tally table above).
 8. **Chapter 19, Indigo Plateau (resolution):** When Voss issues the lawful stand-down order, Kade complies instantly and without visible emotion. This is the chilling point of her character: she was never loyal to Vale, only to whoever held the authority. In Ending C she is arrested and testifies only to procedure. In Endings A and D she is reassigned and reappears in the final montage in a new uniform. In Ending B she is last seen trying, and failing, to secure a network that no longer has a chain of command.
 
 **Kade does not redeem herself.** Do not give her a tragic backstory reveal, a dying apology, or a late defection. Her arc exists so that the players have one opponent whose position never changes, which makes the changes in everyone else visible.
@@ -740,7 +834,7 @@ Hera wants to find a way to separate the command. Rock identifies the structural
 
 **Clue:** The corruption contains a trusted Continuity Assurance signature, not an ordinary malware signature.
 
-**Aftermath:** No victory fanfare. The survivors need time to stabilize the hospital. Suture's original behavior log survives, giving later evidence that the guardian had distinct preferences before the crisis. Ines Kade's team arrives to seal the hospital records for "the investigation." If Nara is alive, she confronts Kade and loses on procedure. The team keeps only what it already copied.
+**Aftermath:** No victory fanfare. The survivors need time to stabilize the hospital. Suture's original behavior log survives, giving later evidence that the guardian had distinct preferences before the crisis. Ines Kade's team arrives to seal the hospital records for "the investigation." If Nara is alive, she confronts Kade and loses on procedure. The team keeps only what it already copied. Reaper alone sees Tally log Mae's drawing as "one item, sentimental, unclaimed" and leave it on the wall.
 
 ### Chapter 8: Rock Tunnel — Trust without the Map
 
@@ -790,7 +884,7 @@ Juno Velez becomes an informant. She admits that she knew some target accounts b
 
 **Clue:** The Second Ledger's records include a “test cohort” marker associated with Continuity Assurance.
 
-**Navi beat:** Reaper wants to publish the entire market's data; Hera warns that this could expose victims; Rock recommends separating evidence from identifying details. The group must make a concrete decision.
+**Navi beat:** Reaper wants to publish the entire market's data; Hera warns that this could expose victims; Rock recommends separating evidence from identifying details. The group must make a concrete decision. Separately, Hera quietly withholds a risk from Juno "to keep her calm." Rock notices and says one word: "Hers." This is the clearest Act II beat of Hera's protective flaw.
 
 **Consequence:** A careless evidence release can put Juno at risk. A protected, verified release preserves her as a later witness.
 
@@ -818,11 +912,11 @@ Daedalus infiltrates the corporate district to recover original safety logs. Hal
 
 The team returns to a familiar safehouse where Bex and Pip are helping displaced users. The scene is warm and routine. Do not signal the death with ominous music or obvious foreshadowing. Pip wants to show Hera an odd data fragment; Bex jokes about the team's planning.
 
-Commonwell begins a system-wide cleanup designed to suppress evidence and remove unverified processes. Pip maintains an evacuation route, and their continuity data is erased. Bex later restores a backup, but it is not the continuing Pip. She refuses to call it resurrection.
+Commonwell begins a system-wide cleanup designed to suppress evidence and remove unverified processes. Under the alarms, Tally can be heard counting the Datamon being erased: "I was not asked to count these." Pip maintains an evacuation route, and their continuity data is erased. Bex later restores a backup, but it is not the continuing Pip. She refuses to call it resurrection.
 
 **Clue:** A cleanup authorization is signed through Vale's office, although the first visible record appears to be a routine policy operation.
 
-**Navi beat:** Hera experiences grief without knowing what form it is allowed to take. Reaper recognizes that precise wording cannot change the fact of the loss. Rock stays with Hera rather than trying to solve the feeling.
+**Navi beat:** Hera experiences grief without knowing what form it is allowed to take. Reaper recognizes that precise wording cannot change the fact of the loss. Rock stays with Hera rather than trying to solve the feeling. Vale's condolence message and Cordon's "Boundaries are a form of care" arrive here (Section 4.8). Hera's and Reaper's fear scenes (Section 3.6) follow in the next base scene.
 
 **Consequence:** Daedalus has lost a recurring friend. Bex remains in the story and changes how she works, what she trusts, and how she speaks about backups.
 
@@ -892,7 +986,7 @@ Vale remains courteous and composed. He does not deny the broad existence of the
 
 He explains the Continuity Charter: every persistent identity-bearing process must be sponsored; unsponsored processes are removed during routine cleanup. He presents this as a humane alternative to chaotic, unregulated survival.
 
-Daedalus confronts him with evidence from Dax, Suture, the Second Ledger, and the cleanup. Vale admits that he authorized the tests but argues that he did so to prevent a larger disaster. He treats the deaths as unacceptable but statistically outweighed by the stability he expects the Charter to create.
+Before the confrontation, play the reframe sequence (Section 4.8). Daedalus confronts him with evidence from Dax, Suture, the Second Ledger, and the cleanup. Vale admits that he authorized the tests but argues that he did so to prevent a larger disaster. He treats the deaths as unacceptable but statistically outweighed by the stability he expects the Charter to create.
 
 The players defeat Vale's local security response (Ines Kade's Continuity Security Unit, Boss 7, the team's decisive win over her), but he escapes with access to the final archive. The immediate goal is no longer to catch him; it is to prevent the Charter and the Whole Thread from triggering each other into catastrophe.
 
@@ -910,13 +1004,15 @@ Milo's banter continues. He is still competitive and irritating. He is also visi
 
 The contractors arrive. Kade orders Milo to surrender the evidence. Milo disables the relay but is killed in the physical confrontation. Kade does not fire the shot and does not stop it. This is not a Clamp incident. The player later sees a quiet reconstruction of the location and learns that Milo's final action ensured the evacuation succeeded.
 
-Latch survives and refuses to be assigned to anyone else. They choose whether to stay with the group for a time or return to independent work. That decision is theirs, not a reward that the players can claim.
+Latch survives and refuses to be assigned to anyone else. After the night Reaper spends sitting with them (Section 3.6), Latch chooses to travel with Daedalus for a while as an independent ally, not a partner, and in the ending chooses to return to independent work. Both decisions are theirs, not a reward that the players can claim.
 
 **Clue:** The relay contains Vale's unedited experiment plan, the safety warnings he suppressed, and the timing that proves he delayed the hospital override.
 
 **Character consequence:** The trio has lost a rival who became a friend. The loss cannot be undone by finding a better build or winning the next battle.
 
 **Breather after:** before Indigo, a short, quiet base scene. Not funny, but not grim: Latch sits in Milo's usual spot and critiques the team's security setup exactly the way Milo would have. Nobody stops them. Hera laughs for the first time since the relay, then apologizes, and Latch says Milo would have been insulted if she had not.
+
+At the end of that scene, the base's perimeter alarm chimes once. It is Tally, alone, unbound from Kade, carrying its custody count. Run the Tally arrival and co-op vote exactly as Section 4.11 describes.
 
 ### Chapter 19: Indigo Plateau — The Authority Trial
 
@@ -942,7 +1038,7 @@ The cave is the hidden core where rejected appeals, discarded processes, and aut
 
 The Whole Thread faction has been trying to connect unclaimed identities into one continuous mesh so that no member can be deleted independently. It has started attaching itself to live identities without consent. The action is dangerous, but the fear behind it is real.
 
-The players must protect living users, stop forced linkage, and prevent Commonwell's purge from deleting the entire Deadletter. Fighting a single giant creature is not sufficient. The encounter is a coordinated operation in which each Navi holds a different part of the system stable.
+The players must protect living users, stop forced linkage, and prevent Commonwell's purge from deleting the entire Deadletter. Fighting a single giant creature is not sufficient. The encounter is a coordinated operation in which each Navi holds a different part of the system stable. Tally tags live user identities so they can be separated from the forced linkage (with Reaper directly if Tally stayed; from outside, with less reach, if it was sent away). Latch, Postscript (if recognized), Lint (if saved), Cordon, and the communities the players earned trust with each hold a small piece of the operation, so the finale visibly gathers everyone the players helped.
 
 The Witness Protocol can provide a third path. It allows independent entities to be recognized through evidence and witnesses, refuse a human sponsor, and appeal restrictions. It cannot guarantee every process survives, and some Unsettled processes may still need containment. If Postscript's petition was heard (Section 22), it is the precedent the whole framework is built on, and Postscript is present in the cave as a Witness-faction voice.
 
@@ -961,7 +1057,7 @@ Main plot progression alone is not enough. These side stories must intersect wit
 1. **Pewter:** Bex repairs a small public garden and asks the players to help recover a data fragment that Pip found. The reward is a visual change in the garden and a friendly visit later, not a powerful item.
 2. **Cerulean:** Pip becomes fascinated by a Datamon that collects useless files. Hera and Pip exchange theories about why it keeps them.
 3. **Longline:** Bex helps users whose accounts are compromised and admits she worries that recovery systems are becoming less trustworthy.
-4. **Saffron:** Pip is lost during the cleanup. Bex survives and must decide how to handle the reconstructed backup.
+4. **Saffron:** Pip is lost during the cleanup. Bex survives and must decide how to handle the reconstructed backup. The backup visits the base, asks Hera to name it, and chooses the name Wick itself (Section 3.6). Bex never calls Wick "Pip," and is kind to Wick anyway.
 5. **Sevii Islands:** Bex returns to independent communities, helping build a consent-based archive. She does not “get over” Pip; she finds a way to keep helping without pretending the loss was reversed.
 
 If the player previously exploited a community's data without permission, Bex must call that out. Her story should remember what the players did.
@@ -1011,7 +1107,7 @@ Create recurring short scenes at the Daedalus base and in safe travel zones. The
 - Hera tries to organize a celebration after a mission, then realizes another agent does not feel like celebrating.
 - Rock repairs a damaged object for a user who cannot pay. He does not explain why.
 - Reaper studies the difference between a process log and a memory, then asks another Navi what they consider evidence of continuity.
-- The agents argue about whether the reconstructed Pip should be allowed to choose a new name.
+- The agents argue about whether the reconstructed Pip should be allowed to choose a new name. (This leads into Hera's signature moment in Section 3.6; the reconstruction chooses "Wick.")
 - Hera asks Jackson a question but gives the player a silence option; the scene can continue through her conversation with Rock and Reaper without requiring an authored answer.
 - Rock admits he fears a state where he cannot tell if he is still himself. Reaper does not reassure him; he asks what Rock would want them to do if that happened. Hera listens rather than immediately proposing a fix.
 
@@ -1177,7 +1273,11 @@ Track explicit state variables rather than an opaque “goodness” score. Requi
 - Professor Hello placement (plinth / front door);
 - Postscript state (left alone / pressed in Ch 3; petition heard; recognized / absorbed / deleted / monitored), and Scott's response choice in the Section 22 reveal, stored on Rock's relationship state;
 - Three Seals sightings logged in the field journal (cosmetic, used for Hera's Chapter 15 line);
-- Longline Circuit best times, including Milo's ghost-time.
+- Longline Circuit best times, including Milo's ghost-time;
+- Tally vote (stay / sent away) and Tally's finale role;
+- each player's Navi keepsakes (6 to 10 per player, stored per player, Section 3.6);
+- Hera's naming scene with Wick (silence option taken or not);
+- Hera's "Boundaries are a form of care" usage count (for the reframe sequence).
 
 Do not let high affection alone unlock the best ending. The best ending requires practical evidence, trust from multiple communities, and a willingness to accept that not every process can be saved.
 
@@ -1209,7 +1309,7 @@ Daedalus uses the recovered protocol and relationships with independent communit
 
 The Whole Thread is isolated from live identities without deleting the entire population. Members who consent can remain connected inside a protected environment; those who refuse can leave or remain unlinked. Some processes cannot survive separation. Some dangerous Unsettled processes still need containment. Not everyone is saved.
 
-The system changes, Commonwell loses its monopoly on identity governance, and the abuses are exposed. Voss and Vale face public investigation. Ines Kade is arrested and testifies only to procedure. Daedalus discloses its role in Dax's death and accepts scrutiny rather than claiming moral immunity. The hearings are carried live on several independent channels, one of which is Gil Amaro's stream.
+The system changes, Commonwell loses its monopoly on identity governance, and the abuses are exposed. Voss and Vale face public investigation. Ines Kade is arrested and testifies only to procedure. Tally reads its count into the record. Daedalus discloses its role in Dax's death and accepts scrutiny rather than claiming moral immunity. The hearings are carried live on several independent channels, one of which is Gil Amaro's stream.
 
 Milo, Pip, Dax, and Suture remain lost. The ending does not reverse the campaign's central grief. It creates a future where the same logic is less likely to recur.
 
@@ -1225,7 +1325,7 @@ If players fail to recover the necessary evidence and relationships, they may st
 
 ## 12.1 Voice rules
 
-- **Hera:** warm, animated, curious, supportive; can joke, but is capable of fear and difficult questions. Do not write her as childish.
+- **Hera:** warm, animated, curious, supportive; can joke, but is capable of fear and difficult questions. Apologizes too often and knows it. Do not write her as childish.
 - **Rock:** short, deliberate, observant; silence is meaningful; humor through precision.
 - **Reaper:** blunt, exact, dry; shows care through action; not a generic grimdark machine.
 - **Milo:** playful antagonism, competitive insults, intelligence, avoidant vulnerability. Never becomes a generic noble martyr.
@@ -1235,6 +1335,10 @@ If players fail to recover the necessary evidence and relationships, they may st
 - **Juno:** defensive, resourceful, sometimes dishonest, capable of remorse without demanding forgiveness.
 - **Voss:** composed, persuasive, institutionally pragmatic; her wrongness emerges through choices, not a villain voice.
 - **Vale:** courteous, clear, attentive, rationalizing. He is frightening because his stated values sound reasonable and his decisions reveal what he is willing to sacrifice.
+- **Ines Kade:** polite, procedural, unhurried; never raises her voice; refers to people by role ("the individual," "the operator").
+- **Tally:** counts and custody statuses only, at first. Its speech slowly gains names, and its last lines are the first where it says a person's name without a number attached.
+- **Gil Amaro:** breathless, sincere, talks to his camera mid-crisis, always delighted.
+- **Postscript:** plain, awkward, formal; never poetic; sometimes ends with "Noted."
 - **Datamon pleading for life:** individualized and concrete; fear may appear as bargaining, confusion, anger, denial, silence, or a desperate attempt to continue a familiar routine. Avoid repeating the same plea formula.
 
 ## 12.2 No exposition dumps
@@ -1358,6 +1462,9 @@ Highest production priority:
 5. Milo and Latch recurring rivalry, friendship, and death.
 6. The clue/revelation ladder from early accounts to Vale's authorization.
 7. The final Applicant/Whole Thread decision.
+8. The Navi signature moments, fear scenes, keepsakes, and goodbye scenes (Section 3.6).
+9. Vale and Cordon's early appearances and the Chapter 17 reframe sequence (Section 4.8).
+10. Tally's arc (Section 4.11) and the sealed surprise (Section 22).
 
 Do not spend disproportionate production time on many generic battles while underdeveloping the characters and mystery.
 
@@ -1402,6 +1509,10 @@ Record the relevant choice flags on the server for all co-op players. Distinguis
 - Voss is complicit but did not originate the staged tests; she must still face accountability.
 - Daedalus is manipulated through planted evidence and engineered circumstances, not mind control. Their choices remain their own.
 - The best ending prevents automatic erasure but cannot guarantee every Datamon survives.
+- Ines Kade never turns. Tally does, and only after the full sequence of beats in Section 4.11.
+- Tally, Latch, Wick, and Postscript are never player partners or replacement companions.
+- Postscript is not Ren and never claims to be. Rock's secret never endangered anyone or withheld evidence about any death.
+- Vale is likable and helpful in every pre-reveal appearance; nothing in those scenes may tip his hand beyond the clues listed in Section 6.
 
 ---
 
@@ -1617,7 +1728,8 @@ This is the intended revelation order. Do not reveal the answer before the playe
 | Bex | Survives, changes work, and helps establish consent-based archives | Does not “get over it” or pretend reconstruction restores Pip |
 | Jo | Continues the memorial archive with transparent provenance | Cannot prove every reconstruction meaningless or every one alive |
 | Tavi | Survives, breaks his nondisclosure agreement, and testifies | Faces the legal cost of speaking; vindication does not undo the years he stayed silent |
-| Ines Kade | Stands down on lawful order; arrested (C), reassigned (A, D), or adrift (B) | Never turns, never apologizes; Tally's count is entered into the record |
+| Ines Kade | Stands down on lawful order; arrested (C), reassigned (A, D), or adrift (B) | Never turns, never apologizes; her own Navi's count is entered into the record against her |
+| Tally | Leaves Kade after Victory Road; testifies; becomes registrar of the recognized community (C) | Latch never fully forgives it; it was there when Milo died |
 | Gil Amaro | Survives; his stream carries the hearings in Ending C | Nothing. Gil is the promise that some things are simply good |
 | Postscript | Sealed (Section 22) | Sealed (Section 22) |
 | Juno | Survives if protected; otherwise may be killed/disappear after exposure | Her past crimes remain part of the record |
@@ -1633,6 +1745,15 @@ This is the intended revelation order. Do not reveal the answer before the playe
 # 19. QUALITY GATES FOR THE GAME-BUILDING AI
 
 Before considering the narrative implementation complete, verify all of the following.
+
+## Navi love gates
+- Each Navi hits every row of the arc map in Section 3.6, in order.
+- Each Navi's signature moment and fear scene is implemented and cannot be skipped.
+- Each player's Navi references at least three of that player's own keepsakes during the campaign and two in the goodbye scene.
+- Every act has at least one non-plot duo scene for each Navi pair.
+- No Navi is the main character; spotlight chapters follow Section 3.6.
+- Tally's turn is reached through every beat in Section 4.11, never compressed.
+- Vale and Cordon appear in every chapter listed in Section 4.8 before the reveal, and players have reason to like both.
 
 ## Character gates
 - Hera, Rock, and Reaper have identifiable voices and independent preferences.

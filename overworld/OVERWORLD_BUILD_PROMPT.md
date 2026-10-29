@@ -21,6 +21,8 @@ Treat the master spec as hard canon for character identities, plot causality, de
 - All important clues must have multiple sources. Main-story comprehension cannot depend on one obscure optional object.
 - Follow the tone ledger (spec Section 12.6): at least two light beats per heavy beat per act, the chapter flavors as listed, breather scenes after every Heavy chapter, and the running gags and light side activities in Sections 12.7 to 12.9. Humor is a content requirement, not polish.
 - Implement the recurring field antagonist Ines Kade and Tally (Section 4.11), the recurring joy character Gil Amaro and Encore (Section 4.12), the Visiting Hours interlude before the hospital chapter, and the Three Seals motif in every location listed in Section 6.
+- The players must end the game loving their Navis. Implement Section 3.6 in full: the arc map, each Navi's signature moment and fear scene, per-player keepsakes, non-plot duo scenes, spotlight balance, and a private goodbye scene in every ending.
+- Implement Tally's enemy-to-ally arc beat by beat (Section 4.11), and the early appearance schedules for Vale and Cordon (with the Chapter 17 reframe sequence), Voss and Concord, and the Applicant, so no late-game character arrives as a stranger.
 - Section 22 is sealed canon. Implement it exactly, plant only the retroactive hints it lists, and keep it out of all player-readable text, including the evidence board, codex, achievements, and loading tips.
 
 ## Existing systems
