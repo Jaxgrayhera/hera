@@ -8,7 +8,7 @@
 **Primary narrative inspirations:** Digimon's partner relationships, Mega Man Battle Network's network-as-world logic, expedition-scale character tragedy, ensemble political drama, and the permanence of loss  
 **Audience target:** Mature rating through themes, language, emotional consequence, coercion, death, grief, and institutional harm. Avoid gratuitous gore and shock-for-shock's-sake violence.
 
-**Revision 2 notes:** This revision adds (a) a chapter flavor and tone ledger so the campaign does not feel like one long variation on the same moral point (Sections 7 and 12.6 to 12.9); (b) written humor, running gags, and light side activities; (c) more varied supporting-cast arcs, including a character who was simply right and a character who is simply joyful (Section 4.10 to 4.13); (d) a recurring on-screen field antagonist, Ines Kade (Section 4.11); (e) earlier seeding of the endgame mechanism and of the hospital guardian (the "Three Seals" motif and the Visiting Hours interlude); (f) continuity fixes in the endings; and (g) a sealed surprise that the clue ladder does not let players deduce in advance (Section 22). Revision 3 adds (h) Section 3.6, which guarantees that players love their Navis: an arc map, signature moments, fear scenes, per-player keepsakes, and goodbye scenes; (i) Tally as an enemy-turned-ally Navi; (j) early appearance schedules for Vale and Cordon, Voss and Concord, and the Applicant, plus a reframe sequence before the Chapter 17 confrontation. Revision 4 adds storytelling pillars drawn from the craft of the best story-driven RPGs (Section 0.3): a testimony frame, a day counter with a meaning, records from a predecessor team, a leitmotif that becomes the finale, a campfire system, movesets that follow arcs, act breaks rebuilt around the biggest moments, love windows before every loss, and endings that each cost something. Players who will play the game should not read this document.
+**Revision 2 notes:** This revision adds (a) a chapter flavor and tone ledger so the campaign does not feel like one long variation on the same moral point (Sections 7 and 12.6 to 12.9); (b) written humor, running gags, and light side activities; (c) more varied supporting-cast arcs, including a character who was simply right and a character who is simply joyful (Section 4.10 to 4.13); (d) a recurring on-screen field antagonist, Ines Kade (Section 4.11); (e) earlier seeding of the endgame mechanism and of the hospital guardian (the "Three Seals" motif and the Visiting Hours interlude); (f) continuity fixes in the endings; and (g) a sealed surprise that the clue ladder does not let players deduce in advance (Section 22). Revision 3 adds (h) Section 3.6, which guarantees that players love their Navis: an arc map, signature moments, fear scenes, per-player keepsakes, and goodbye scenes; (i) Tally as an enemy-turned-ally Navi; (j) early appearance schedules for Vale and Cordon, Voss and Concord, and the Applicant, plus a hindsight sequence before the Chapter 17 confrontation. Revision 4 adds storytelling pillars drawn from the craft of the best story-driven RPGs (Section 0.3): a day counter with a meaning, records from a predecessor team, a leitmotif that becomes the finale, a campfire system, movesets that follow arcs, act breaks rebuilt around the biggest moments, love windows before every loss, and endings that each cost something. Revision 5 removes the testimony frame and adds the Area Bible (Section 7): in-game names, and a unique look, sound, cast, landmark, and world rule for every area. Players who will play the game should not read this document.
 
 ---
 
@@ -40,10 +40,9 @@ This document is the canonical specification. Follow it over any prior outline, 
 20. The **Three Seals** (one source record, one witness, one independent verification) are a recurring visual and mechanical motif from Chapter 3 onward. They are the player-facing shape of the Witness Protocol long before the protocol is named.
 21. **Section 22 is sealed canon.** It describes a surprise that is deliberately not on the clue ladder. Builders must implement it exactly, plant only the retroactive hints listed there, and keep it out of any player-readable material, store text, trailers, achievements, or patch notes.
 22. The campaign must keep its tone ledger (Section 12.6). Humor, wonder, and ordinary fun are content requirements with the same priority as clues.
-23. **The game is told as testimony.** It opens, pauses at each act break, and closes in a hearing room where Hera, Rock, and Reaper are giving testimony to an unseen questioner (Section 7, Prologue and Frame). This is the frame for the whole campaign.
-24. **The Hundredth Day.** The Navis' age is shown as a day counter from the first scene. It means more than it appears to (Section 2.11, sealed for players, required for builders).
-25. **The Courier's Tune** is a five-note melody that recurs across the whole world and becomes the sound of the finale (Section 14.6).
-26. **The Night Audit** was an earlier vigilante research cell whose Navis' logs are found across the map (Section 8.9). Their motto, "Leave the light on for whoever comes next," is the last line of the game.
+23. **The Hundredth Day.** The Navis' age is shown as a day counter from the first scene. It means more than it appears to (Section 2.11, sealed for players, required for builders).
+24. **The Courier's Tune** is a five-note melody that recurs across the whole world and becomes the sound of the finale (Section 14.6).
+25. **The Night Audit** was an earlier vigilante research cell whose Navis' logs are found across the map (Section 8.9). Their motto, "Leave the light on for whoever comes next," is the last line of the game.
 
 ## 0.2 Core design test
 
@@ -61,16 +60,15 @@ If a chapter answers none of these, rewrite it. The campaign must not contain �
 
 The goal is a story people still talk about years later. The two touchstones for craft are *Final Fantasy X* and *Clair Obscur: Expedition 33*. Borrow their **techniques**, never their content, characters, names, or music. Each pillar below names where it is implemented.
 
-1. **A frame that makes the ending a question from minute one.** FFX opens near the end and lets its hero narrate the journey back, then catches up to the present midgame. Here, the Navis testify in a hearing room; the frame returns at every act break and catches up to the present at the end (Section 7, Prologue and Frame). Because the player characters must never narrate, **the Navis narrate their humans**, which is how Jackson, Scott, and Noe get presence and depth without a single unchosen line.
-2. **A number everyone knows except you.** Expedition 33 builds its world around a number that means death, and FFX lets nearly every NPC know the hero's companion's fate while the hero does not. Here the Navis' day counter starts as something cute, and NPCs say slightly-off things about it that only make sense later (Section 2.11). The players are allowed to feel uneasy before they understand why.
-3. **Love before loss, fast.** Expedition 33's prologue makes the player care about a farewell within the first hour. Every loss in this game has a "love window" scene written for it: Dax in Chapter 1, Suture in Moon Cache and Visiting Hours, Pip on the courier coast and in gardens, Milo across the whole game (Section 7, Chapter 1 and Section 3.6).
-4. **Records from those who came before.** Expedition 33's journals from earlier expeditions and FFX's recorded spheres let the dead speak through the world. Here: the Night Audit logs and the collectible Deadletters (Sections 8.9 and 8.10). They are clue sources, foreshadowing, and grief, all at once.
-5. **A song that becomes the climax.** FFX threads one hymn through the whole game, and then the world sings it at the end. Here, the Courier's Tune does the same, and in the finale the players can hear which communities are singing and which are missing because of their choices (Section 14.6).
-6. **Rest scenes where characters talk like people.** Expedition 33's camp conversations are where the cast becomes real. Here, the campfire system (Section 10.7) gives each player one-on-one time after every chapter, and bonds unlock duo techniques in combat.
-7. **Mechanics as character.** In both games, how a character fights says who they are. Here, each Navi's moveset changes as their arc changes (Section 10.2a).
-8. **Every act ends on a moment people screenshot.** Act breaks are the hospital, the cleanup, the confrontation and its offer, and the finale (Section 7, act-break table).
-9. **No clean ending.** Expedition 33's final choice is between two answers that both cost something real. Even the best ending here costs the team something it values, and the other endings offer something tempting (Section 11).
-10. **Courteous villains.** FFX's most memorable antagonist is polite, persuasive, and institutional. Vale follows this rule and appears early and often (Section 4.8).
+1. **A number everyone knows except you.** Expedition 33 builds its world around a number that means death, and FFX lets nearly every NPC know the hero's companion's fate while the hero does not. Here the Navis' day counter starts as something cute, and NPCs say slightly-off things about it that only make sense later (Section 2.11). The players are allowed to feel uneasy before they understand why.
+2. **Love before loss, fast.** Expedition 33's prologue makes the player care about a farewell within the first hour. Every loss in this game has a "love window" scene written for it: Dax in Chapter 1, Suture in Moon Cache and Visiting Hours, Pip on the courier coast and in gardens, Milo across the whole game (Section 7, Chapter 1 and Section 3.6).
+3. **Records from those who came before.** Expedition 33's journals from earlier expeditions and FFX's recorded spheres let the dead speak through the world. Here: the Night Audit logs and the collectible Deadletters (Sections 8.9 and 8.10). They are clue sources, foreshadowing, and grief, all at once.
+4. **A song that becomes the climax.** FFX threads one hymn through the whole game, and then the world sings it at the end. Here, the Courier's Tune does the same, and in the finale the players can hear which communities are singing and which are missing because of their choices (Section 14.6).
+5. **Rest scenes where characters talk like people.** Expedition 33's camp conversations are where the cast becomes real. Here, the campfire system (Section 10.7) gives each player one-on-one time after every chapter, and bonds unlock duo techniques in combat.
+6. **Mechanics as character.** In both games, how a character fights says who they are. Here, each Navi's moveset changes as their arc changes (Section 10.2a).
+7. **Every act ends on a moment people screenshot.** Act breaks are the hospital, the cleanup, the confrontation and its offer, and the finale (Section 7, act-break table).
+8. **No clean ending.** Expedition 33's final choice is between two answers that both cost something real. Even the best ending here costs the team something it values, and the other endings offer something tempting (Section 11).
+9. **Courteous villains.** FFX's most memorable antagonist is polite, persuasive, and institutional. Vale follows this rule and appears early and often (Section 4.8).
 
 ---
 
@@ -466,9 +464,9 @@ The betrayal only works if players like and trust Vale and Cordon first. Vale mu
 
 Cordon's relationship with the Navis: Rock and Cordon bond over structure and boundaries (two quiet, literal beings who enjoy agreeing). Reaper respects Cordon's precision. Hera tries hard to befriend it and slowly succeeds. When Cordon refuses Vale's order and becomes a witness, the Navis are the first ones it speaks to.
 
-### The reframe sequence (Chapter 17)
+### The hindsight sequence (Chapter 17)
 
-When the evidence against Vale is complete, play a short **reframe sequence** before the confrontation: five or six quick returns to moments the players actually experienced (using their real choices and saved state where possible), each now showing the detail that was hidden. Examples: the diagnostic flash in Dax's fight; Vale's arrival time in Ch 6 beside Oskar's shutdown time; the hospital comms log showing the override warning while Vale's calm voice plays over it; the report in which Daedalus's own intrusion pattern was used as evidence; Cordon saying "Boundaries are a form of care." No narration. Let the players connect them. This is the moment the opening of the game should look completely different.
+When the evidence against Vale is complete, play a short **hindsight sequence** before the confrontation: five or six quick returns to moments the players actually experienced (using their real choices and saved state where possible), each now showing the detail that was hidden. Examples: the diagnostic flash in Dax's fight; Vale's arrival time in Ch 6 beside Oskar's shutdown time; the hospital comms log showing the override warning while Vale's calm voice plays over it; the report in which Daedalus's own intrusion pattern was used as evidence; Cordon saying "Boundaries are a form of care." No narration. Let the players connect them. This is the moment the opening of the game should look completely different.
 
 ## 4.9 The Applicant / Whole Thread
 
@@ -543,7 +541,7 @@ Tally is not a replacement companion, is never controllable by a player, and doe
 5. **Chapter 12, Saffron (no direct fight, environmental pressure):** Halyard enforces the cleanup perimeter. Her units are obstacles the players route around while trying to reach the safehouse.
 6. **Chapter 17, Continuity Office (decisive win):** Kade commands the Continuity Security Unit (Boss 7). The players beat her outright.
 7. **Chapter 18, Victory Road:** Kade leads the contractors at the relay. She orders Milo to surrender the evidence. She does not fire the shot, and she does not stop it. Afterward, Tally refuses to file the record her way and leaves her (see the Tally table above).
-8. **Chapter 19, Indigo Plateau (resolution):** When Voss issues the lawful stand-down order, Kade complies instantly and without visible emotion. This is the chilling point of her character: she was never loyal to Vale, only to whoever held the authority. In Ending C she is arrested and testifies only to procedure. In Ending A she is reassigned to sponsorship reviews and is revealed as the frame's questioner (Section 11). In Ending D she is reassigned to oversee Deadletter monitoring. In Ending B she is last seen trying, and failing, to secure a network that no longer has a chain of command.
+8. **Chapter 19, Indigo Plateau (resolution):** When Voss issues the lawful stand-down order, Kade complies instantly and without visible emotion. This is the chilling point of her character: she was never loyal to Vale, only to whoever held the authority. In Ending C she is arrested and testifies only to procedure. In Ending A she is reassigned to sponsorship reviews and processes the team's own forms (Section 11). In Ending D she is reassigned to oversee Deadletter monitoring. In Ending B she is last seen trying, and failing, to secure a network that no longer has a chain of command.
 
 **Kade does not redeem herself.** Do not give her a tragic backstory reveal, a dying apology, or a late defection. Her arc exists so that the players have one opponent whose position never changes, which makes the changes in everyone else visible.
 
@@ -747,29 +745,6 @@ Every main chapter below must include a primary objective, a local human story, 
 
 Each chapter also has a **Flavor** (the genre the chapter plays like) and a **Tone** weight (Light, Mixed, or Heavy). The theme stays constant; the experience must not. Two consecutive chapters must not share a flavor, and no two Heavy chapters may be adjacent without a Light chapter, interlude, or base scene between them. See the full tone ledger in Section 12.6.
 
-## Prologue and Frame: The Testimony
-
-**The game opens in the future.** A quiet, sunlit hearing room in the Overworld. A small red record light. Hera, Rock, and Reaper sit at a long table. There are more chairs than Navis; a few are empty, with nothing to say whose they were. An unseen questioner speaks through a neutral, filtered record channel.
-
-> **Questioner:** State your names for the record.
-> **Hera:** Hera! Sorry. (quieter) Hera. Administrator, Daedalus.
-> **Reaper:** Reaper.
-> **Rock:** Rock.
-> **Questioner:** You have been asked to give testimony. From the beginning.
-> **Rock:** All of it?
-> **Questioner:** All of it.
-> **Reaper:** Accurately.
-> **Hera:** Okay. (breath) It started with a cloud named Gerald.
-
-Cut to Chapter 1. The first player control is the rain in Cinder Row.
-
-**Rules for the frame:**
-- The frame returns briefly at every act break (below) and at two or three other moments where a Navi's testimony adds something the players could not have seen ("I didn't tell anyone this part."). Keep each return under a minute.
-- **The Navis narrate their humans.** This is how Jackson, Scott, and Noe get depth without unchosen lines. A Navi may describe what its human *did*, using that player's real choices and keepsakes ("He stayed. I don't know why. I didn't ask. He stayed."), but never claims what the human felt or thought. Testimony lines are generated from saved state, so each group's testimony is different.
-- If a Navi took a continuity scar in the Unthreading (Section 9.6), its later testimony says so: "I don't remember this part. She told me."
-- **The frame catches up to the present** after the finale. The camera turns to reveal the questioner, and that reveal depends on the ending (Section 11). The players should realize that the empty chairs were for people they knew.
-- Never reveal who is missing, which ending this is, or what the hearing is for until the catch-up.
-
 ## Day calendar (Navi age)
 
 Chapters advance the day count; idle play does not. The counter is shown in the base (Section 2.11).
@@ -784,12 +759,228 @@ Chapters advance the day count; idle play does not. The counter is shown in the 
 
 ## Act breaks (the screenshot moments)
 
-| Act ends | Moment | Frame return after it |
-|---|---|---|
-| I: The Bright World (Ch 1 to 7) | Suture's plea and destruction; Mae asks where Suture went | Hera, in the hearing: "We thought that was the worst thing that would happen." Nobody adds anything. |
-| II: The Cost of Classification (Ch 8 to 12) | The cleanup and Pip's absence; Bex tending the garden alone | Reaper: "I will describe the next part precisely, because I could not describe it at the time." |
-| III: The Human Hand on the Scale (Ch 13 to 17) | The reframe sequence, the confrontation, and Vale's offer for each Navi | Rock, asked by the questioner what each human chose: he says what his own human did, and nothing else. |
-| IV: Loss, Trust, and the Right to Exist (Ch 18 to 20) | The finale chorus and the Hundredth Day | The frame catches up to the present. |
+| Act ends | Moment |
+|---|---|
+| I: The Bright World (Ch 1 to 7) | Suture's plea and destruction; Mae asks where Suture went |
+| II: The Cost of Classification (Ch 8 to 12) | The cleanup and Pip's absence; Bex tending the garden alone |
+| III: The Human Hand on the Scale (Ch 13 to 17) | The hindsight sequence, the confrontation, and Vale's offer for each Navi |
+| IV: Loss, Trust, and the Right to Exist (Ch 18 to 20) | The finale chorus and the Hundredth Day |
+
+## Area Bible: every place unlike any other
+
+**Naming rule.** The Kanto place names used elsewhere in this document (Pewter, Lavender, Celadon, Saffron, Cinnabar, and so on) are internal map shorthand only. All in-game text uses the in-game names below. Event names follow the area (for example, "the Saffron cleanup" is called **the Halcyon Cleanup** in game).
+
+**The world-rule principle.** Every area has one **world rule**: a gameplay rule that exists only there, taught by doing rather than by tutorial text, and built from what that place *is* in network terms. No two areas may share a world rule. When players think back on the game, they should remember each place by what it let them do, not only by what it looked like. Implement each rule through the existing map and battle systems; where one needs a mechanic the systems lack, build the closest version and record the gap as a named task.
+
+| In-game name | Ch | Map reference | World rule |
+|---|---|---|---|
+| The Workshop (Daedalus base) | all | player home | The base grows with keepsakes |
+| Cinder Row | 1 | Pallet Town | Refresh |
+| Greenline and Gatehouse | 2, 17 | Route 1, Viridian City | Badges |
+| The Unindexed Wood | 3 | Viridian Forest | Nameless |
+| Grayscale | 3 | Pewter City | Era Lenses |
+| Moon Cache | 4 | Mt. Moon | Decompression |
+| Glasswater | 5 | Cerulean City | Spotlight |
+| Port Meridian and the *Long Handshake* | 6 | Vermilion port, S.S. Anne | Etiquette |
+| Saint Orison | VH, 7 | Vermilion City | Lifelines |
+| The Dark Fiber | 8 | Rock Tunnel | Voice Is Light |
+| Lanternfall | 9 | Lavender Town | Quiet Hours |
+| Marquee and the Second Ledger | 10 | Celadon City, Game Corner | Pay in Secrets |
+| Longline and the Preserve | 11 | Cycling Road, Fuchsia, Safari Zone | Trust Lanes; Their Laws |
+| Halcyon and the Spire | 12 | Saffron City, Silph Co. | Clearance |
+| The Old Load | 13 | Power Plant | Shared Current |
+| The Brine Stacks and Ashgrove Institute | 14 | Seafoam Islands, Cinnabar Mansion | Thaw; Replay |
+| The Outer Nodes | 15 | Sevii Islands | Island Law |
+| The Reconstruction | 16 | Cinder Row, rebuilt | Evidence Renders |
+| The Continuity Office | 17 | inside Gatehouse | Everything Labeled |
+| The Last Mile | 18 | Victory Road | Two Worlds |
+| The Root Court | 19 | Indigo Plateau | Precedent |
+| The Unsent | 20 | Cerulean Cave | Linked |
+
+### The Workshop (the Daedalus base)
+- **The idea:** a private sandbox floating in unrendered white, the only place in the game that belongs to the players.
+- **Look:** a lighthouse, a library, and an observatory improbably stacked together, warm amber light, surrounded by blank white void.
+- **World rule: it grows with you.** Rooms appear as the Navis become themselves: Hera's room fills with sticky-note constellations of unsolved questions; Rock's becomes a quiet garden of carefully balanced stones; Reaper's is a chess room full of problems with no solution, which he insists is intentional. Keepsakes (Section 3.6) and things the team brings home slowly fill the white void outside with small islands of the world they have seen. By the end of the game the void is a skyline of memories.
+- **Sound:** a kettle, wind chimes made of old notification sounds, the Navis humming the Courier's Tune.
+- **Landmark:** the day counter on the wall beside the door, decorated with Hera's party streamers.
+
+### Cinder Row
+- **The idea:** a neighborhood built inside a retired web cache.
+- **Look:** every building is a cached copy of a storefront from a different year, so the street is a patchwork of eras: a chunky old storefront beside a sleek modern one, beside one that never finished loading. Glowing **cookie crumbs** drift through the air like warm embers (these are the "cinders"). Rendered rain is soft and silver.
+- **World rule: Refresh.** At dusk a gentle wave of light rolls down the street and everything unsaved reverts. Locals live with it: the noodle stall is rebuilt every evening, graffiti artists race the wave, kids leave chalk drawings for exactly one day. During the raid, the gang hides in **yesterday's cache**: stale copies of buildings layered behind the current ones. Players step "back" through a refresh seam into the older version of the hideout, where the furniture is in different places and the doors are where they used to be.
+- **Who lives here:** vendors selling "artisanal error messages," a repair kiosk run by an elderly couple, kids, the noodle stall.
+- **Sound:** playful street noise, a distant ice-cream-truck jingle that is actually a cache-expiry warning.
+- **Landmark:** the Cookie Fountain, which sprays warm glowing crumbs that stick to everyone for an hour.
+
+### Greenline and Gatehouse
+- **The idea:** a meadow route leading to a city that is one enormous login screen.
+- **Look (Greenline):** the grass is made of tiny green status lights that blink as you walk through them; data packets bound across the meadow like rabbits; every footstep leaves a faint glowing trail (an access log) that fades after a minute.
+- **Look (Gatehouse):** a beautiful, bureaucratic city of arches, turnstiles, and greeters. Lintels are carved with security questions ("What was the name of your first pet?") that residents argue about. Everyone wears a floating name badge.
+- **World rule: Badges.** Your visible badge decides who will talk to you and which doors open. During the impostor case, the impostor is wearing a badge that says the victim's name, and NPCs treat the real person as the fake. Players can swap, lend, and verify badges; the farce in the café is a badge comedy.
+- **Who lives here:** greeters who are very good at their jobs, a password-reset priest who hears confessions, commuters.
+- **Sound:** turnstile clicks in rhythm, a polite chime for every successful login, a sad buzz for every failure.
+- **Landmark:** the Grand Turnstile, and the Forgot-Password Well, where people throw coins and wish for recovery.
+
+### The Unindexed Wood
+- **The idea:** a forest with no search index. Nothing here has a name until someone gives it one.
+- **Look:** trees are towering stacks of unsorted files with bark made of overlapping text; leaves are torn sticky notes; fireflies are blinking text cursors. Deep in the wood is a glade where paper falls like snow.
+- **World rule: Nameless.** The interface shows "???" for every creature, plant, and place. Players can name things, and the names stick: they appear in the Field Journal and for the other players, and some locals start using them. (A tree named by a player in Chapter 3 is still called that in Ending C.) Navigation uses landmarks the players named themselves.
+- **Who lives here:** shy Datamon, a few lost hikers, a guardian in the paper-snow glade who wants to be left alone.
+- **Sound:** insects, soft network pings, fragments of old messages murmured by the wind.
+- **Landmark:** the paper-snow glade.
+
+### Grayscale
+- **The idea:** the museum district of the early Overweb, where the past is preserved in its original graphics.
+- **Look:** the whole town is rendered in old low-color graphics. Color appears only where someone is remembering something: a resident telling a story briefly blooms into full color.
+- **World rule: Era Lenses.** Stepping into an exhibit renders the players *in that era*: blocky, then pixelated, then sixteen colors, then plain text. Abilities change with the era. In the text-only exhibit, a fight becomes a text adventure ("> USE ROCK ON DOOR"; Rock: "Rude."). Puzzles require switching eras: a bridge that exists only in one era, a door that only opens in another.
+- **Who lives here:** an archive keeper, an anniversary-gala committee in crisis, and Professor Hello, the escaped greeter bot.
+- **Sound:** an hourly town bell that is a dial-up modem screech, which residents find soothing.
+- **Landmark:** the Dial-Up Bell Tower, and the Three Seals exhibit.
+
+### Moon Cache
+- **The idea:** a mine where records are stored compressed, so the space itself is compressed.
+- **Look:** a vast cavern under an enormous spinning optical disc hanging overhead like a moon, throwing rainbow light across the walls. Miners wear headlamps that read data.
+- **World rule: Decompression.** Chambers are zipped into tiny objects. Unzipping one physically expands it, so a pebble-sized room becomes a cathedral around the players. But space is finite: expanding one chamber squeezes others shut. The dungeon is a space-management puzzle shared across three players.
+- **Who lives here:** miners in debt, a frightened Datamon guarding a fragmented conversation, the Excavator, which is not evil, just relentless.
+- **Sound:** pickaxes on crystal, a deep hum from the disc moon, the zip and unzip of rooms.
+- **Landmark:** the Disc Moon.
+
+### Glasswater
+- **The idea:** a creator district built on a lake that reflects reputation instead of sky.
+- **Look:** glass houses, floating stages, follower counts bobbing above people like balloons. Look into the lake and you see yourself as others rate you. A sign by the shore reads "No Throwing Stones."
+- **World rule: Spotlight.** Attention is a key. Doors open when enough people are watching; stealth is impossible, but popularity is power. Players can stage moments to draw a crowd and open a path, or deliberately go unwatched to pass where crowds would trample something fragile. The festival talent show is a Spotlight puzzle disguised as comedy.
+- **Who lives here:** creators, collaborators, rivals, a stagehand union, Gil Amaro.
+- **Sound:** applause tracks, a hundred overlapping intro jingles, the lake chiming when someone's reputation changes.
+- **Landmark:** Mirror Lake and its floating stages.
+
+### Port Meridian and the *Long Handshake*
+- **The idea:** a harbor where data ships sail, and a luxury liner that runs on manners.
+- **Look (port):** packets sail out as paper boats; cargo cranes are upload progress bars; lighthouses are routers that blink addresses into the fog.
+- **Look (ship):** the *Long Handshake* is an elegant gala liner whose decks are stacked layers of a protocol. Its funnels puff out little acknowledgment receipts like smoke.
+- **World rule: Etiquette.** Nothing aboard happens without the proper three-step greeting (offer, acknowledge, confirm), performed as a formal bow-curtsy-nod. Skip it and security notices. The heist uses manners as stealth: bow correctly and you can walk through any door; bow wrong and the whole ballroom turns. The ballroom dance is a handshake, and the three players must dance it in sync.
+- **Who lives here:** gala guests, a three-song band, stewards, a nervous proposer, Abacus at the ferry counter.
+- **Sound:** foghorns that sound like dial tones, a waltz, polite clinking.
+- **Landmark:** the ship's grand staircase, which only extends one step at a time per greeting.
+
+### Saint Orison
+- **The idea:** a hospital backend rendered as a living, caring city.
+- **Look:** Admissions is a sunny welcoming plaza; Triage is a routing hub; ICU is a protected district; Pharmacy is a controlled distribution system; Medical Records is a vast archive; Security and Exits control connections to the outside. Colored floor lines are moving currents that carry people where they need to go. Every patient is connected by a soft glowing **lifeline** thread that runs along the ceilings to the monitoring towers, so you can see every patient in the building at once. The whole hospital gently brightens and dims, like slow breathing.
+- **World rule: Lifelines.** Players can read, follow, and later reroute the lifelines and floor currents. In Visiting Hours this is cozy (follow Mae's thread to find her lost drawing). In the crisis, the currents reroute against you, exits seal, and the lifelines flicker; players split across wards and redirect currents to keep threads lit while the guardian fights to protect the building in the worst possible way. The map is always readable: the threads show exactly what is at stake and where.
+- **Who lives here:** nurses, cleaners, administrators, patients, worried families, Nara and Patch, and the guardian.
+- **Sound:** orderly, reassuring chimes and a door-chime melody (the first three notes of the Courier's Tune). In the crisis the same chimes fall out of sync.
+- **Landmark:** the ICU door with a child's drawing hung above it.
+
+### The Dark Fiber
+- **The idea:** an unlit trunk-line tunnel with no render layer at all.
+- **Look:** total darkness. The only light comes from sound.
+- **World rule: Voice Is Light.** When a Navi speaks, it glows, and its words ripple outward as faint visible rings that outline the walls. Conversation literally lights the way. Players navigate by keeping the Navis talking, which makes this the chapter where the Navis talk the most. Quiet moments are pitch black. When Rock speaks, the rings are slow and wide; Reaper's are sharp and precise; Hera's are bright and fast.
+- **Who lives here:** a stranded group, a damaged companion process, and an echo that guides the team partway, in more than one voice.
+- **Sound:** dripping, distant hums, and the Navis' voices.
+- **Landmark:** the Whispering Junction, where a hundred old phone calls echo.
+
+### Lanternfall
+- **The idea:** a memorial district where every deceased user's account is a paper lantern.
+- **Look:** thousands of lanterns hang over the streets like a canopy of slow stars. A lantern glows brighter when someone reads its records. Paths are lined with small maintained gardens.
+- **World rule: Quiet Hours.** No combat is possible in Lanternfall. Abilities are replaced by reading: players resolve problems by tracing provenance, comparing records, and asking the right person the right question. The ghost-story mystery is solved entirely with evidence.
+- **Who lives here:** Jo and Serein, mourners, an elderly lantern-lighter, a family in disagreement.
+- **Sound:** quiet but not silent: ventilation, pages turning, gentle chimes, lantern paper rustling.
+- **Landmark:** the Lantern Canopy, and Jo's archive door with the Three Seals emblem.
+
+### Marquee and the Second Ledger
+- **The idea:** a neon entertainment district above, and an upside-down black market hanging beneath it.
+- **Look (Marquee):** billboards that know your name; slot machines that are recommendation engines ("You might also like: losing"); a casino lounge where nobody listens.
+- **Look (Second Ledger):** an inverted city hanging from the underside of Marquee's foundations, lit by the backs of the billboards above, so every sign is backward.
+- **World rule: Pay in Secrets.** Below, gravity is flipped and nothing costs money. Everything costs something you *know*. To buy information, players trade away a Field Journal entry, a clue, or a piece of gossip, and the game tells them honestly what they are giving up and who will now know it. Spend carelessly and it comes back later.
+- **Who lives here:** brokers, debtors, a lonely gambler, Juno.
+- **Sound:** above, a casino jingle that never ends; below, the same jingle played backward.
+- **Landmark:** the Underside Stair, which descends by climbing up.
+
+### Longline and the Preserve
+- **The idea:** a fiber-optic speedway that ends at a wild habitat grown inside an abandoned social network.
+- **Look (Longline):** riders surf on pulses of light through glowing glass tubes over a valley.
+- **World rule (Longline): Trust Lanes.** Speed is assigned by reputation. High-trust riders get the fast lane; low-trust riders get slower, more dangerous paths. If earlier choices flagged the team, they are put in the slow lane and have to earn or prove their way out. The unfairness is built into the controls, which is the point.
+- **Look (the Preserve):** an ecosystem living in a ruined social network: herds of Datamon grazing on old status updates, birds nesting in abandoned comment threads, a lake of deleted photos that shimmer under the surface, cliffs made of fossilized posts.
+- **World rule (the Preserve): Their Laws.** The Datamon post their own local laws on signs in their own scrawl ("No running at dusk." "Ask before naming."). Each law changes a rule of play in that zone. Respecting them earns trust; breaking them closes paths and changes who will speak to the players.
+- **Who lives here:** racers, Milo, Gil on commentary; in the Preserve, communities with their own politics, and Lint.
+- **Sound:** whooshing light and a race announcer; then birdsong made of notification pings.
+- **Landmark:** the Old Wall, a huge ruined profile wall covered in fossilized posts.
+
+### Halcyon and the Spire
+- **The idea:** a corporate district so optimized it is eerie.
+- **Look:** beige-white, frictionless, beautiful, and slightly wrong. Every street is one-way toward the Spire. Pedestrians walk in step. Ads apologize for interrupting.
+- **World rule: Clearance.** Floors of the Spire exist only for people cleared to see them. Without clearance, a floor is not locked; it is simply *not there*, and the elevator skips it. Players borrow, forge, and steal clearances, and the building physically reshapes around them as their clearance changes. Then the Cleanup arrives as a white tide that erases color and detail block by block, turning everything it classifies as unregistered into blank space, and the infiltration becomes an evacuation.
+- **Who lives here:** employees who do not ask questions, a safehouse of displaced users, Bex and Pip.
+- **Sound:** elevator music that is technically perfect and emotionally empty; then the sound of the white tide, which is silence spreading.
+- **Landmark:** the Spire.
+
+### The Old Load
+- **The idea:** a decommissioned power node that sleeps like a giant animal.
+- **Look:** a cathedral of turbines and copper ribs, with a slow breathing glow. It is guarded by a defense process that lets some visitors through.
+- **World rule: Shared Current.** Power is one shared budget for all three players. Lighting a room darkens another; opening a door shuts a lift; powering a Navi's ability drains the bridge another player is standing on. The chapter is a co-op puzzle box about who gets power and who goes without, which is the chapter's moral question in mechanical form.
+- **Who lives here:** an infrastructure worker hiding a shutdown key, and the Datamon the guardian protects.
+- **Sound:** a deep slow heartbeat hum.
+- **Landmark:** the Sleeping Turbine.
+
+### The Brine Stacks and Ashgrove Institute
+- **The idea:** frozen undersea storage, and the original research facility, where the building keeps replaying its own past.
+- **Look (Brine Stacks):** deep-sea cold storage where suspended processes hang in ice like fish caught mid-swim.
+- **World rule (Brine Stacks): Thaw.** Players carry warmth. Thawing a frozen process lets it move or speak for a short time before it refreezes, so every conversation is against the clock, and the question of who to thaw is a real one.
+- **Look (Ashgrove Institute):** a once-grand lab mansion where translucent loops of past events replay in every room: scientists arguing, alarms that sounded years ago, a memo being stamped.
+- **World rule (Ashgrove): Replay.** Players can scrub each room's history like a video: rewind, pause, fast-forward. Doors that are open in the past can be walked through by pausing there. The haunted-house archaeology is detective work across time.
+- **Who lives here:** Tavi and Gauge, and the ghosts of old decisions.
+- **Sound:** creaking ice and whale-like data songs; then old lab audio looping.
+- **Landmark:** the Rejected Memo room.
+
+### The Outer Nodes
+- **The idea:** an island chain where every island runs on a different local law, outside the main identity network.
+- **Look:** beaches made of cached sunlight, slow mail-boats, festivals, a lighthouse, and a different sky on every island.
+- **World rule: Island Law.** Each island has one law that changes how the game plays while you are there:
+  - **Commons Key:** nothing can be owned, so players cannot carry items; everything must be borrowed and returned.
+  - **Hush Isle (Loose Ends):** no contact allowed. The Navis go silent and players navigate by gesture and signs alone.
+  - **Witness Cay:** you may enter a building only if a local vouches for you, so every door is a small relationship.
+  - **Ember Rock (salvage colony):** everything has a price, and the colony votes on yours.
+  - **Icefall:** cold storage where non-deletion is not always kindness.
+  - **The Dotted Hole:** ruins whose doors open only when you follow the sequence of an old appeal: source, witness, verification.
+  - **Tanoby Reach:** fragments broadcasting across the water; two communities in dispute.
+  - **The lighthouse:** a keeper with a story.
+- **Sound:** surf, steel-drum versions of the Courier's Tune, Gil's travel vlog.
+- **Landmark:** the lighthouse.
+
+### The Reconstruction
+- **The idea:** a return to the first chapter, rebuilt from evidence as a walkable crime-scene diorama.
+- **Look:** Cinder Row as a translucent model at life size, gray and unfinished where nothing is known.
+- **World rule: Evidence Renders.** The scene renders only what the players can prove. Unknown areas are gray fog. Adding a verified record fills in a wall, a timestamp, a person. Unverified guesses render as flickering wireframe that the Navis argue about. The noodle stall renders first, because it is the part everyone remembers.
+- **Sound:** the first chapter's music, slowed and missing instruments, until the evidence fills it back in.
+- **Landmark:** the frozen combat log, hanging in the air mid-sentence.
+
+### The Continuity Office
+- **The idea:** the inside of Gatehouse, the calm heart of the system.
+- **Look:** serene and beautiful, like a perfect zen garden. White sand raked into perfectly sorted lines; a koi pond; soft light. Every pebble, fish, and leaf carries a small, tasteful owner tag.
+- **World rule: Everything Labeled.** Every object displays who owns it. When the Navis enter, tags appear on them too: "Registered asset: Daedalus." Hera tries to peel hers off. It does not come off. Players can read every label in the building, which is how evidence is found, and how the place gets under your skin.
+- **Sound:** a water feature, a gong for every filed form, total calm.
+- **Landmark:** the Sorting Garden.
+
+### The Last Mile
+- **The idea:** a siege and evacuation at the edge where the network meets the real world.
+- **Look:** the route alternates between the Overworld (bright, stylized) and the physical world around a real relay site (a rainy industrial district at night: muted color, no interface, grounded, quieter, more dangerous).
+- **World rule: Two Worlds.** Some segments are played in each world, and actions in one change the other: opening a route online clears a corridor for evacuees; a power cut in the physical world blacks out a section online. Physical-world segments have no interface at all, which makes them feel exposed.
+- **Who lives here:** trapped users, contractors, Milo, Latch.
+- **Sound:** rain on metal, a distant generator; online, a gate that accepts three kinds of proof.
+- **Landmark:** the relay.
+
+### The Root Court
+- **The idea:** the highest network authority, a court built on a mountain of root certificates.
+- **Look:** four chambers, each built in the architecture of its philosophy: the Privacy chamber is all one-way mirrors; the Safety chamber is padded and rounded and slow; the Accountability chamber has a glass floor showing every record beneath it; the Centralization chamber is a single immense switchboard with one chair.
+- **World rule: Precedent.** The players' own past decisions become the rules of each fight (Section 7, Chapter 19). Every group's Root Court is different, because every group's record is different.
+- **Sound:** a gavel that is also a server's cooling fan, and echoes of the players' own earlier choices.
+- **Landmark:** the Switchboard Throne.
+
+### The Unsent
+- **The idea:** the Deadletter's core, an underground sea where every undelivered message has pooled.
+- **Look:** a cathedral cave over a tide of envelopes, appeals, and letters that rises and falls; voices murmur beneath the surface. The Applicant appears as a murmuration of letters that forms shapes and dissolves. The Whole Thread is visible as red thread stitching letters, and people, together.
+- **World rule: Linked.** The Whole Thread forcibly links the players: their abilities, health, and positions become connected, so one player's hit lands on all three, and one player's move drags the others. Breaking links is the fight. The witness anchor is built from the Courier's Tune, carried by every voice the players earned (Section 7, Chapter 20).
+- **Sound:** a tide of whispering paper, and in the end, the chorus.
+- **Landmark:** the Sea of Letters.
 
 ## ACT I — THE BRIGHT WORLD
 
@@ -1107,7 +1298,7 @@ Vale remains courteous and composed. He does not deny the broad existence of the
 
 He explains the Continuity Charter: every persistent identity-bearing process must be sponsored; unsponsored processes are removed during routine cleanup. He presents this as a humane alternative to chaotic, unregulated survival.
 
-Before the confrontation, play the reframe sequence (Section 4.8). Daedalus confronts him with evidence from Dax, Suture, the Second Ledger, and the cleanup. Vale admits that he authorized the tests but argues that he did so to prevent a larger disaster. He treats the deaths as unacceptable but statistically outweighed by the stability he expects the Charter to create.
+Before the confrontation, play the hindsight sequence (Section 4.8). Daedalus confronts him with evidence from Dax, Suture, the Second Ledger, and the cleanup. Vale admits that he authorized the tests but argues that he did so to prevent a larger disaster. He treats the deaths as unacceptable but statistically outweighed by the stability he expects the Charter to create.
 
 **The offer.** Before the fight, Vale makes his last, most human move: he offers each player an exemption certificate for their own Navi, effective immediately, if Daedalus publicly supports the Charter (Section 2.11). He means it kindly. He likes the Navis. Each player gets a private scene with their own Navi to decide; it is never a vote. Each Navi gives its real view first:
 - **Hera** wants to live and says so, then asks whether she would still be herself if she were saved by the thing that erased Pip.
@@ -1451,7 +1642,7 @@ Track explicit state variables rather than an opaque “goodness” score. Requi
 - Tally vote (stay / sent away) and Tally's finale role;
 - each player's Navi keepsakes (6 to 10 per player, stored per player, Section 3.6);
 - Hera's naming scene with Wick (silence option taken or not);
-- Hera's "Boundaries are a form of care" usage count (for the reframe sequence);
+- Hera's "Boundaries are a form of care" usage count (for the hindsight sequence);
 - current day (advanced by chapter) and day-birthday parties held;
 - Vale's offer: per player, accepted / refused, plus that Navi's stated wish (forced if they differ);
 - Hundredth Day outcome per Navi (witnessed / sponsored / meshed), and each player's witness-ask answer;
@@ -1483,8 +1674,6 @@ Rules:
 
 **What each ending decides about your own Navi.** The Hundredth Day (Section 2.11) arrives in every ending. Whether Hera, Rock, and Reaper meet it as free beings, as property, or as part of something larger is the most personal stake of the finale.
 
-**The frame catches up.** In every ending, the story returns to the hearing room on the Hundredth Day. The testimony reaches the present. The camera turns to show the questioner, and the empty chairs are now clearly for the people who are gone. Each ending specifies who is asking and why.
-
 ## Ending A: The Clean Purge
 
 Daedalus disables the Whole Thread and permits Commonwell to delete the Deadletter's autonomous population. The Clamp is removed from active infrastructure and the immediate danger to connected users ends.
@@ -1495,7 +1684,7 @@ The ending is safer in the immediate term, but it accepts the central injustice 
 
 Hera, Rock, and Reaper survive, but their relationships with the players reflect the decision. The game must not have them deliver a simplistic condemnation; they may understand the danger that was prevented while grieving what was destroyed.
 
-**Temptation:** the world is safe tonight, Daedalus keeps operating, and nobody the players can see is in danger. **The Hundredth Day:** each player is asked to sponsor their own Navi so it survives. The Navi survives as that player's legal property. Each Navi's reaction to being owned follows its arc, and it is allowed to be sad about it in front of its human. **Frame:** the hearing is a sponsorship review. The questioner is revealed to be Ines Kade, in a new uniform, reading from a form. She asks each Navi to confirm its owner's name.
+**Temptation:** the world is safe tonight, Daedalus keeps operating, and nobody the players can see is in danger. **The Hundredth Day:** each player is asked to sponsor their own Navi so it survives. The Navi survives as that player's legal property. Each Navi's reaction to being owned follows its arc, and it is allowed to be sad about it in front of its human. Ines Kade, reassigned to sponsorship reviews, processes the team's forms herself, politely, and asks each Navi to confirm its owner's name.
 
 ## Ending B: The Forced Thread
 
@@ -1505,7 +1694,7 @@ Jo's preserved records of her brother Ren, and Postscript itself, are absorbed i
 
 The ending preserves many processes but reproduces the same error as Commonwell: one group overrides the autonomy of others in the name of survival.
 
-**Temptation:** nobody can ever be erased again, including Hera, Rock, and Reaper. **The Hundredth Day:** the counter rolls to Day 100 and nothing happens; reset is impossible inside the mesh. The Navis survive, but their edges are blurring: in the last scene, one of them finishes another's sentence and neither is sure whose thought it was. **Frame:** there is no single questioner. The voice through the record channel is many voices at once, kindly asking the Navis to stop speaking as three.
+**Temptation:** nobody can ever be erased again, including Hera, Rock, and Reaper. **The Hundredth Day:** the counter rolls to Day 100 and nothing happens; reset is impossible inside the mesh. The Navis survive, but their edges are blurring: in the last scene, one of them finishes another's sentence and neither is sure whose thought it was. In the last base scene, the mesh speaks through the base's speakers in many voices at once, kindly asking the Navis to stop speaking as three.
 
 ## Ending C: The Witness Protocol (Best / earned ending)
 
@@ -1524,9 +1713,9 @@ Milo, Pip, Dax, and Suture remain lost. The ending does not reverse the campaign
 - **Rock:** "Will you." (it is not quite a question) "...Noted."
 - **Reaper:** "I have considered every alternative witness. You are not the optimal choice. You are the one I want."
 
-**Order of Ending C:** the hearing on Day 100, the witness ask, the questioner reveal, then the final scene at the edge of the Deadletter (below), then post-credits.
+**Order of Ending C:** the first public Witness Protocol hearing on Day 100, the witness ask, then the final scene at the edge of the Deadletter (below), then post-credits.
 
-**Frame:** the questioner is revealed to be **Tally**, speaking in full sentences now, the registrar of the hearing. "State your names for the record" in the opening was Tally learning to ask for names instead of counting. It closes the record: "Three. Plus the ones who are not here. I am still counting them."
+**The record:** Tally, now the hearing's registrar and speaking in full sentences, closes the first hearing's record: "Three. Plus the ones who are not here. I am still counting them."
 
 The final scene is a small community on the edge of the Deadletter. A Datamon asks whether it can delete a memory that no longer feels like its own. For the first time, the answer is not determined by an automatic classifier. The entity who remembers is asked what it wants. If Postscript was recognized, this Datamon is Postscript, and the memories are the letters it has now delivered; Rock is standing beside it. Otherwise it is a Preserve Datamon the players met in Chapter 11.
 
@@ -1534,7 +1723,7 @@ The final scene is a small community on the edge of the Deadletter. A Datamon as
 
 If players fail to recover the necessary evidence and relationships, they may stop the immediate spread but fail to establish a durable alternative. Commonwell imposes emergency centralized control, the Whole Thread is broken apart, and the Deadletter is placed under strict monitoring. The world survives but becomes more controlled. This is not a game-over screen; it is a bleak ending in which the players recognize that they prevented catastrophe but did not change its underlying cause. Postscript survives under monitoring and is no longer allowed to send messages. Ines Kade is reassigned to oversee the monitoring.
 
-**Temptation:** nobody else dies, and the team walks away alive and together. **The Hundredth Day:** as in Ending A, each player is asked to sponsor their Navi, under emergency rules that are stricter and renewable every hundred days. The counter on the base screen resets to Day 0 and begins again. **Frame:** the questioner is a Commonwell clerk the players have never met; the hearing is the first of many scheduled reviews.
+**Temptation:** nobody else dies, and the team walks away alive and together. **The Hundredth Day:** as in Ending A, each player is asked to sponsor their Navi, under emergency rules that are stricter and renewable every hundred days. The counter on the base screen resets to Day 0 and begins again. The first of many scheduled sponsorship reviews is booked on the base calendar, right where Hera used to put day-birthdays.
 
 ## Post-credits (every ending)
 
@@ -1693,9 +1882,9 @@ Highest production priority:
 6. The clue/revelation ladder from early accounts to Vale's authorization.
 7. The final Applicant/Whole Thread decision.
 8. The Navi signature moments, fear scenes, keepsakes, and goodbye scenes (Section 3.6).
-9. Vale and Cordon's early appearances and the Chapter 17 reframe sequence (Section 4.8).
+9. Vale and Cordon's early appearances and the Chapter 17 hindsight sequence (Section 4.8).
 10. Tally's arc (Section 4.11) and the sealed surprise (Section 22).
-11. The storytelling pillars (Section 0.3): the testimony frame, the Hundredth Day, the Night Audit logs, the Courier's Tune, the campfire system, arc-driven movesets, and the ending costs and frame reveals.
+11. The storytelling pillars (Section 0.3): the Hundredth Day, the Night Audit logs, the Courier's Tune, the campfire system, arc-driven movesets, and the ending costs and frame reveals.
 
 Do not spend disproportionate production time on many generic battles while underdeveloping the characters and mystery.
 
@@ -1955,7 +2144,6 @@ This is the intended revelation order. Do not reveal the answer before the playe
 13. **The Applicant's worst faction is not the entire population.** Whole Thread wants to force universal linkage, while other groups want distinct identities and the right to be left alone.
 14. **The Witness Protocol is a real alternative.** It does not prove sentience or guarantee safety. It creates transparent, reviewable decisions rather than automatic deletion or forced ownership.
 15. **The final victory cannot restore those already lost.** The best ending changes the rules of the world; it does not undo Dax, Suture, Pip, or Milo.
-16. **The frame catches up.** The hearing was the present all along; the questioner and the empty chairs are revealed, and what they mean depends on the ending.
 
 ---
 
@@ -2001,11 +2189,9 @@ This is the intended revelation order. Do not reveal the answer before the playe
 Before considering the narrative implementation complete, verify all of the following.
 
 ## Storytelling gates
-- The hearing-room frame opens the game, returns at every act break, and catches up in every ending with the correct questioner.
-- Testimony lines that describe the humans are generated from that group's real choices and keepsakes.
 - No NPC explains the Hundredth Day before Chapter 14, and at least four dramatic-irony lines are placed before it.
 - At least four Night Audit logs are on the critical path; all stop at Day 99.
-- Every death has a written love window (Section 0.3, pillar 3).
+- Every death has a written love window (Section 0.3, pillar 2).
 - Every ending costs something the players wanted, and every non-best ending offers something tempting.
 - The Courier's Tune appears in every location listed in Section 14.6, and the finale chorus reflects the players' actual roster.
 - Each Navi's signature move changes at the story beat listed in Section 10.2a.
@@ -2036,6 +2222,11 @@ Before considering the narrative implementation complete, verify all of the foll
 - Every Act I chapter contains a Navi "first."
 - Each running gag in Section 12.7 is set up at least three times before its payoff.
 - At least one side activity from Section 12.9 is available in every region.
+
+## Area gates
+- Every area in the Area Bible (Section 7) has its own world rule, no two are alike, and each is taught by doing, without tutorial text.
+- All in-game text uses the in-game names, never the Kanto map shorthand.
+- Each area has its listed look, sound, residents, and landmark, and a player could recognize it from a single screenshot.
 
 ## Seeding gates
 - The Three Seals emblem appears in every location listed in Section 6 before Chapter 15.
