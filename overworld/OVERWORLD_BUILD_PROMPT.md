@@ -25,6 +25,7 @@ Treat the master spec as hard canon for character identities, plot causality, de
 - Implement Tally's enemy-to-ally arc beat by beat (Section 4.11), and the early appearance schedules for Vale and Cordon (with the Chapter 17 hindsight sequence), Voss and Concord, and the Applicant, so no late-game character arrives as a stranger.
 - Implement the storytelling pillars in Section 0.3 as hard requirements: the Hundredth Day thread and day calendar (Section 2.11), the Night Audit logs and Deadletters (Sections 8.9 and 8.10), the Courier's Tune (Section 14.6), the campfire system (Section 10.7), movesets that follow each Navi's arc (Section 10.2a), simultaneous private scenes in co-op (Section 10.4a), and the ending costs, frame reveals, witness ask, and post-credits (Section 11).
 - Build every area from the Area Bible (spec Section 7): use the in-game names in all player-facing text, and implement each area's unique world rule, look, sound, residents, and landmark. No two areas may play alike.
+- The project uses existing Pokémon Red/FireRed assets. Follow the Asset Plan (spec Section 7) to place each area, hospital system, and story location on the existing Kanto maps, and carry world rules with existing mechanics before requesting any custom art.
 - Section 22 is sealed canon. Implement it exactly, plant only the retroactive hints it lists, and keep it out of all player-readable text, including the evidence board, codex, achievements, and loading tips.
 
 ## Existing systems

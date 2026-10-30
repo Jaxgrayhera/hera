@@ -8,7 +8,7 @@
 **Primary narrative inspirations:** Digimon's partner relationships, Mega Man Battle Network's network-as-world logic, expedition-scale character tragedy, ensemble political drama, and the permanence of loss  
 **Audience target:** Mature rating through themes, language, emotional consequence, coercion, death, grief, and institutional harm. Avoid gratuitous gore and shock-for-shock's-sake violence.
 
-**Revision 2 notes:** This revision adds (a) a chapter flavor and tone ledger so the campaign does not feel like one long variation on the same moral point (Sections 7 and 12.6 to 12.9); (b) written humor, running gags, and light side activities; (c) more varied supporting-cast arcs, including a character who was simply right and a character who is simply joyful (Section 4.10 to 4.13); (d) a recurring on-screen field antagonist, Ines Kade (Section 4.11); (e) earlier seeding of the endgame mechanism and of the hospital guardian (the "Three Seals" motif and the Visiting Hours interlude); (f) continuity fixes in the endings; and (g) a sealed surprise that the clue ladder does not let players deduce in advance (Section 22). Revision 3 adds (h) Section 3.6, which guarantees that players love their Navis: an arc map, signature moments, fear scenes, per-player keepsakes, and goodbye scenes; (i) Tally as an enemy-turned-ally Navi; (j) early appearance schedules for Vale and Cordon, Voss and Concord, and the Applicant, plus a hindsight sequence before the Chapter 17 confrontation. Revision 4 adds storytelling pillars drawn from the craft of the best story-driven RPGs (Section 0.3): a day counter with a meaning, records from a predecessor team, a leitmotif that becomes the finale, a campfire system, movesets that follow arcs, act breaks rebuilt around the biggest moments, love windows before every loss, and endings that each cost something. Revision 5 removes the testimony frame and adds the Area Bible (Section 7): in-game names, and a unique look, sound, cast, landmark, and world rule for every area. Players who will play the game should not read this document.
+**Revision 2 notes:** This revision adds (a) a chapter flavor and tone ledger so the campaign does not feel like one long variation on the same moral point (Sections 7 and 12.6 to 12.9); (b) written humor, running gags, and light side activities; (c) more varied supporting-cast arcs, including a character who was simply right and a character who is simply joyful (Section 4.10 to 4.13); (d) a recurring on-screen field antagonist, Ines Kade (Section 4.11); (e) earlier seeding of the endgame mechanism and of the hospital guardian (the "Three Seals" motif and the Visiting Hours interlude); (f) continuity fixes in the endings; and (g) a sealed surprise that the clue ladder does not let players deduce in advance (Section 22). Revision 3 adds (h) Section 3.6, which guarantees that players love their Navis: an arc map, signature moments, fear scenes, per-player keepsakes, and goodbye scenes; (i) Tally as an enemy-turned-ally Navi; (j) early appearance schedules for Vale and Cordon, Voss and Concord, and the Applicant, plus a hindsight sequence before the Chapter 17 confrontation. Revision 4 adds storytelling pillars drawn from the craft of the best story-driven RPGs (Section 0.3): a day counter with a meaning, records from a predecessor team, a leitmotif that becomes the finale, a campfire system, movesets that follow arcs, act breaks rebuilt around the biggest moments, love windows before every loss, and endings that each cost something. Revision 5 removes the testimony frame and adds the Area Bible (Section 7): in-game names, and a unique look, sound, cast, landmark, and world rule for every area. Revision 6 adds the Asset Plan (Section 7), which maps every area, the hospital systems, and the Chapter 1 gang onto existing Kanto maps, buildings, and mechanics. Players who will play the game should not read this document.
 
 ---
 
@@ -796,6 +796,79 @@ Chapters advance the day count; idle play does not. The counter is shown in the 
 | The Last Mile | 18 | Victory Road | Two Worlds |
 | The Root Court | 19 | Indigo Plateau | Precedent |
 | The Unsent | 20 | Cerulean Cave | Linked |
+
+## Asset Plan: building it with Kanto tiles
+
+The project uses existing Pokémon Red / FireRed assets. The looks described in the Area Bible are targets; with a limited tile budget, **each area's identity comes from its world rule, its residents, and its text first**, and from cheap visual tools second. Almost every world rule maps onto a mechanic Kanto already has.
+
+**Cheap visual tools, in order of preference:** palette swaps (grayscale, red alert tint, desaturated "real world"); built-in weather (rain, fog, ash, darkness); NPC placement and sprite reuse; signs and object text; duplicated map variants (a "before" and "after" copy of the same map with tiles or furniture moved); existing puzzle tiles (spinner arrows, ice, boulders, card-key doors, teleport pads, electric barriers, hidden stairs).
+
+**Custom art budget, if any is available, in priority order:** Hera, Rock, and Reaper (overworld and battle); Suture; Postscript; Tally; Lint; Ines Kade; Vale and Cordon; Milo and Latch; Bex and Pip. Everyone else can reuse existing trainer and NPC sprites with palette swaps.
+
+**Standard buildings in every town:** the Pokémon Center is a **Restore Point** (Navi repair; the nurse is a repair tech). The Poké Mart is an **Exchange**. Route gate buildings are literal **gatehouses** where badges are checked.
+
+**Private-use note:** Pokémon tiles, sprites, and music are fine for a private game among friends. If the game is ever shared publicly, every borrowed asset must be replaced first.
+
+### Cinder Row = Pallet Town (Chapter 1, the Chargeback Boys)
+
+| Pallet location | Becomes |
+|---|---|
+| Player's house, downstairs | Jackson's home. Everyday life, the opening rain outside the window. |
+| Player's house, upstairs PC | The way into **the Workshop** (Daedalus base). The Workshop is its own interior built from lab and house tiles; new rooms unlock as new doors over the campaign. |
+| Open ground near the town center | **Dax's noodle stall**: a counter object, a sign, and the Dax NPC. A ladder tile behind the stall is the hidden entrance to the gang's hideout. After Chapter 1 the stall shows a "closed" sign object with the kid's unpaid tab. |
+| Hideout (below the stall) | Built from Rocket Hideout tiles; gang members are palette-swapped Rocket Grunt sprites. **Refresh:** a second copy of the hideout map ("yesterday's cache") with furniture and doors moved; players cross between them through a glowing seam tile. Boss: Dax. |
+| Oak's Lab | **Cinder Row Supply**, the small business whose owner lost their account. Its machines and bookshelves make it read as a busy repair shop. |
+| Rival's house | After the raid, the place where **Juno** is hiding and offers a partial lead for protection. |
+| Flower patches | The public garden where packets bloom (flower tiles plus object text). |
+| South shore | The street musician who plays the Courier's Tune. |
+| North exit to Route 1 | Ines Kade's team arrives here and blocks the exit with guard NPCs while they take Dax's hardware. |
+
+Weather: rain at the opening, clearing after the first conversation with Dax.
+
+### Saint Orison = Vermilion City (Visiting Hours and Chapter 7, the hospital hack)
+
+Each hospital system is a different Vermilion building, so the whole town is the hospital and the players can learn its layout during Visiting Hours before the crisis.
+
+| Vermilion location | Hospital system | Calm (Visiting Hours) | Crisis (Chapter 7) |
+|---|---|---|---|
+| Pokémon Center | **Admissions** | Suture greets you at the counter in the nurse's spot; door chime on entry. | The counter is sealed; Suture's voice repeats from the speakers; admissions back up into the street. |
+| Pokémon Fan Club | **Triage** | A busy waiting room: patients in every seat, the chairman reused as the triage coordinator. | Patients must be routed to the right ward; the room fills as routes close. |
+| Poké Mart | **Pharmacy** | Counter and shelves; "controlled distribution." | Shelves lock; players must carry medicine deliveries to wards along routes that keep changing. |
+| A house with bookshelves | **Medical Records** | Quiet archive; a records clerk. | Records must be preserved before they are quarantined (an objective the players cannot fully complete alongside the others). |
+| A house with beds | **ICU** | Mae and Oskar in beds; Mae's drawing on the wall (a picture object). | The district players must keep reachable; its route is a primary objective. |
+| Vermilion Gym | **Security and Exits** (the guardian's core) | Closed for maintenance; a friendly sign. | Electric barriers are the quarantine walls. The hidden trash-can switches are the **emergency control route** (Nara's objective). Suture's boss fight is at the gym leader's position. |
+| Every town exit (north to Route 6, east to Route 11, south to the dock) | **Exits** | Open. | Blocked by barrier tiles or guard NPCs: the lockdown. |
+
+**Lifelines with limited art:** show patients as a simple on-screen status list (name, ward, a colored status light). Use spinner arrow tiles from the Rocket Hideout as the moving floor currents; during the crisis, swap them to point the wrong way so the hospital literally carries players away from where they need to go.
+
+**Crisis map:** reuse the same Vermilion maps with a red alert palette, doors swapped to blocked tiles, NPCs repositioned, and the door chime played out of sync. Players will recognize every corridor from Visiting Hours.
+
+The harbor in the south of Vermilion is **Port Meridian**, and the S.S. Anne interiors are the ***Long Handshake*** (Chapter 6).
+
+### Every other area
+
+| In-game area | Kanto map | Existing mechanic or asset that carries the world rule |
+|---|---|---|
+| The Workshop | Player's house PC, custom interior | New door connections and decoration objects as rooms "grow." |
+| Greenline and Gatehouse | Route 1, Viridian City, route gate buildings | **Badges:** gate buildings check badges; the old man lying in the road becomes a badge-check gag. |
+| The Unindexed Wood | Viridian Forest | **Nameless:** the interface shows "???" until players name things (text only, no art needed). |
+| Grayscale | Pewter City and the Museum | **Era Lenses:** grayscale palette for the town; exhibits switch palettes; the text-adventure exhibit is a pure dialogue sequence. |
+| Moon Cache | Mt. Moon | **Decompression:** small and large versions of the same room as separate maps; fossils become compressed records; Rocket grunts become miners. |
+| Glasswater | Cerulean City, Nugget Bridge, Cerulean Gym pool | **Spotlight:** Nugget Bridge's row of trainers is the festival talent show; the gym pool is Mirror Lake. |
+| Port Meridian and the *Long Handshake* | Vermilion harbor, S.S. Anne | **Etiquette:** each door or NPC requires a three-step interaction prompt (dialogue only). |
+| The Dark Fiber | Rock Tunnel | **Voice Is Light:** reuse the game's darkness and Flash radius; the radius grows only while a Navi is talking. |
+| Lanternfall | Lavender Town, Pokémon Tower | The Tower is Jo's memorial archive. The game's "unidentified ghost" mechanic becomes messages that cannot be identified until the provenance tool from Moon Cache is used. **Quiet Hours:** no battles in town. |
+| Marquee and the Second Ledger | Celadon City, Game Corner, Rocket Hideout | The hidden stairs behind the Game Corner poster lead down to the Second Ledger. **Pay in Secrets:** a shop interface that takes clues instead of money. |
+| Longline and the Preserve | Cycling Road, Fuchsia City, Safari Zone | **Trust Lanes:** Cycling Road's forced-slope movement assigns lanes. **Their Laws:** the Safari Zone already has its own special rules; replace them with the Datamon's posted laws. |
+| Halcyon and the Spire | Saffron City, Silph Co. | **Clearance:** Silph Co.'s card-key doors and teleport pads are clearance levels. The thirsty gate guards become checkpoint staff. The Cleanup is a white palette wash moving across the map. |
+| The Old Load | Power Plant | **Shared Current:** switches that power one area and cut another. |
+| The Brine Stacks and Ashgrove Institute | Seafoam Islands, Cinnabar Mansion | **Thaw:** Seafoam's ice and boulder puzzles. **Replay:** Cinnabar Mansion's statue switches that open and close doors become "rewind" and "fast-forward"; its scattered journals become old lab records. |
+| The Outer Nodes | Sevii Islands (FireRed only) | **Island Law:** each island's rule is dialogue and item restrictions. If the project only has original Red/Blue tiles, build the islands from sea-route and Cinnabar coast tiles instead. |
+| The Reconstruction | Pallet Town, duplicated | **Evidence Renders:** a gray-palette copy of Pallet under fog; each piece of verified evidence swaps in real tiles. |
+| The Continuity Office | Viridian Gym | It stays locked for most of the game, like the original, and opens in Chapter 17. **Everything Labeled:** every object has inspect text naming its owner. |
+| The Last Mile | Victory Road | Strength boulder puzzles; "real world" segments use a desaturated palette with rain. |
+| The Root Court | Indigo Plateau | The four sequential rooms of the final gauntlet are the four philosophy chambers. **Precedent** is battle modifiers drawn from saved choices. |
+| The Unsent | Cerulean Cave | **Linked:** battle-system rule (shared damage and linked abilities). Water tiles with a paper-colored palette make the Sea of Letters. |
 
 ### The Workshop (the Daedalus base)
 - **The idea:** a private sandbox floating in unrendered white, the only place in the game that belongs to the players.
