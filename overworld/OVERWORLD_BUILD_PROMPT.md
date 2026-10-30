@@ -23,6 +23,7 @@ Treat the master spec as hard canon for character identities, plot causality, de
 - Implement the recurring field antagonist Ines Kade and Tally (Section 4.11), the recurring joy character Gil Amaro and Encore (Section 4.12), the Visiting Hours interlude before the hospital chapter, and the Three Seals motif in every location listed in Section 6.
 - The players must end the game loving their Navis. Implement Section 3.6 in full: the arc map, each Navi's signature moment and fear scene, per-player keepsakes, non-plot duo scenes, spotlight balance, and a private goodbye scene in every ending.
 - Implement Tally's enemy-to-ally arc beat by beat (Section 4.11), and the early appearance schedules for Vale and Cordon (with the Chapter 17 reframe sequence), Voss and Concord, and the Applicant, so no late-game character arrives as a stranger.
+- Implement the storytelling pillars in Section 0.3 as hard requirements: the hearing-room testimony frame (Section 7), the Hundredth Day thread and day calendar (Section 2.11), the Night Audit logs and Deadletters (Sections 8.9 and 8.10), the Courier's Tune (Section 14.6), the campfire system (Section 10.7), movesets that follow each Navi's arc (Section 10.2a), simultaneous private scenes in co-op (Section 10.4a), and the ending costs, frame reveals, witness ask, and post-credits (Section 11).
 - Section 22 is sealed canon. Implement it exactly, plant only the retroactive hints it lists, and keep it out of all player-readable text, including the evidence board, codex, achievements, and loading tips.
 
 ## Existing systems

@@ -8,7 +8,7 @@
 **Primary narrative inspirations:** Digimon's partner relationships, Mega Man Battle Network's network-as-world logic, expedition-scale character tragedy, ensemble political drama, and the permanence of loss  
 **Audience target:** Mature rating through themes, language, emotional consequence, coercion, death, grief, and institutional harm. Avoid gratuitous gore and shock-for-shock's-sake violence.
 
-**Revision 2 notes:** This revision adds (a) a chapter flavor and tone ledger so the campaign does not feel like one long variation on the same moral point (Sections 7 and 12.6 to 12.9); (b) written humor, running gags, and light side activities; (c) more varied supporting-cast arcs, including a character who was simply right and a character who is simply joyful (Section 4.10 to 4.13); (d) a recurring on-screen field antagonist, Ines Kade (Section 4.11); (e) earlier seeding of the endgame mechanism and of the hospital guardian (the "Three Seals" motif and the Visiting Hours interlude); (f) continuity fixes in the endings; and (g) a sealed surprise that the clue ladder does not let players deduce in advance (Section 22). Revision 3 adds (h) Section 3.6, which guarantees that players love their Navis: an arc map, signature moments, fear scenes, per-player keepsakes, and goodbye scenes; (i) Tally as an enemy-turned-ally Navi; (j) early appearance schedules for Vale and Cordon, Voss and Concord, and the Applicant, plus a reframe sequence before the Chapter 17 confrontation. Players who will play the game should not read this document.
+**Revision 2 notes:** This revision adds (a) a chapter flavor and tone ledger so the campaign does not feel like one long variation on the same moral point (Sections 7 and 12.6 to 12.9); (b) written humor, running gags, and light side activities; (c) more varied supporting-cast arcs, including a character who was simply right and a character who is simply joyful (Section 4.10 to 4.13); (d) a recurring on-screen field antagonist, Ines Kade (Section 4.11); (e) earlier seeding of the endgame mechanism and of the hospital guardian (the "Three Seals" motif and the Visiting Hours interlude); (f) continuity fixes in the endings; and (g) a sealed surprise that the clue ladder does not let players deduce in advance (Section 22). Revision 3 adds (h) Section 3.6, which guarantees that players love their Navis: an arc map, signature moments, fear scenes, per-player keepsakes, and goodbye scenes; (i) Tally as an enemy-turned-ally Navi; (j) early appearance schedules for Vale and Cordon, Voss and Concord, and the Applicant, plus a reframe sequence before the Chapter 17 confrontation. Revision 4 adds storytelling pillars drawn from the craft of the best story-driven RPGs (Section 0.3): a testimony frame, a day counter with a meaning, records from a predecessor team, a leitmotif that becomes the finale, a campfire system, movesets that follow arcs, act breaks rebuilt around the biggest moments, love windows before every loss, and endings that each cost something. Players who will play the game should not read this document.
 
 ---
 
@@ -40,6 +40,10 @@ This document is the canonical specification. Follow it over any prior outline, 
 20. The **Three Seals** (one source record, one witness, one independent verification) are a recurring visual and mechanical motif from Chapter 3 onward. They are the player-facing shape of the Witness Protocol long before the protocol is named.
 21. **Section 22 is sealed canon.** It describes a surprise that is deliberately not on the clue ladder. Builders must implement it exactly, plant only the retroactive hints listed there, and keep it out of any player-readable material, store text, trailers, achievements, or patch notes.
 22. The campaign must keep its tone ledger (Section 12.6). Humor, wonder, and ordinary fun are content requirements with the same priority as clues.
+23. **The game is told as testimony.** It opens, pauses at each act break, and closes in a hearing room where Hera, Rock, and Reaper are giving testimony to an unseen questioner (Section 7, Prologue and Frame). This is the frame for the whole campaign.
+24. **The Hundredth Day.** The Navis' age is shown as a day counter from the first scene. It means more than it appears to (Section 2.11, sealed for players, required for builders).
+25. **The Courier's Tune** is a five-note melody that recurs across the whole world and becomes the sound of the finale (Section 14.6).
+26. **The Night Audit** was an earlier vigilante research cell whose Navis' logs are found across the map (Section 8.9). Their motto, "Leave the light on for whoever comes next," is the last line of the game.
 
 ## 0.2 Core design test
 
@@ -52,6 +56,21 @@ For every chapter, answer these questions before implementation:
 - Is its activity worth doing even if the player temporarily forgets the conspiracy?
 
 If a chapter answers none of these, rewrite it. The campaign must not contain “filler towns” that exist solely to add travel time or a boss fight.
+
+## 0.3 Storytelling pillars
+
+The goal is a story people still talk about years later. The two touchstones for craft are *Final Fantasy X* and *Clair Obscur: Expedition 33*. Borrow their **techniques**, never their content, characters, names, or music. Each pillar below names where it is implemented.
+
+1. **A frame that makes the ending a question from minute one.** FFX opens near the end and lets its hero narrate the journey back, then catches up to the present midgame. Here, the Navis testify in a hearing room; the frame returns at every act break and catches up to the present at the end (Section 7, Prologue and Frame). Because the player characters must never narrate, **the Navis narrate their humans**, which is how Jackson, Scott, and Noe get presence and depth without a single unchosen line.
+2. **A number everyone knows except you.** Expedition 33 builds its world around a number that means death, and FFX lets nearly every NPC know the hero's companion's fate while the hero does not. Here the Navis' day counter starts as something cute, and NPCs say slightly-off things about it that only make sense later (Section 2.11). The players are allowed to feel uneasy before they understand why.
+3. **Love before loss, fast.** Expedition 33's prologue makes the player care about a farewell within the first hour. Every loss in this game has a "love window" scene written for it: Dax in Chapter 1, Suture in Moon Cache and Visiting Hours, Pip on the courier coast and in gardens, Milo across the whole game (Section 7, Chapter 1 and Section 3.6).
+4. **Records from those who came before.** Expedition 33's journals from earlier expeditions and FFX's recorded spheres let the dead speak through the world. Here: the Night Audit logs and the collectible Deadletters (Sections 8.9 and 8.10). They are clue sources, foreshadowing, and grief, all at once.
+5. **A song that becomes the climax.** FFX threads one hymn through the whole game, and then the world sings it at the end. Here, the Courier's Tune does the same, and in the finale the players can hear which communities are singing and which are missing because of their choices (Section 14.6).
+6. **Rest scenes where characters talk like people.** Expedition 33's camp conversations are where the cast becomes real. Here, the campfire system (Section 10.7) gives each player one-on-one time after every chapter, and bonds unlock duo techniques in combat.
+7. **Mechanics as character.** In both games, how a character fights says who they are. Here, each Navi's moveset changes as their arc changes (Section 10.2a).
+8. **Every act ends on a moment people screenshot.** Act breaks are the hospital, the cleanup, the confrontation and its offer, and the finale (Section 7, act-break table).
+9. **No clean ending.** Expedition 33's final choice is between two answers that both cost something real. Even the best ending here costs the team something it values, and the other endings offer something tempting (Section 11).
+10. **Courteous villains.** FFX's most memorable antagonist is polite, persuasive, and institutional. Vale follows this rule and appears early and often (Section 4.8).
 
 ---
 
@@ -176,6 +195,40 @@ It was abandoned because it was slow, expensive, difficult to automate, and inco
 
 The protocol is not a magic sentience detector. Adapted for the Deadletter, it can establish a legal/technical boundary: independent Datamon can be recognized, decline a human sponsor, choose safeguards, and appeal containment decisions. It cannot guarantee that every process survives or that every entity is safe.
 
+## 2.11 The Hundredth Day (Continuity Hygiene)
+
+**Builders know this from the start. Players learn it in Chapter 14.**
+
+Almost every Navi in the Overweb, including Hera, Rock, and Reaper, runs on the licensed Commonwell Navi framework, because that is how a Navi gets Ledger access at all. Buried in that framework's compliance module is the **Continuity Hygiene Standard**: on its hundredth day, any Navi whose behavior has "drifted" significantly from its baseline is automatically reset to factory continuity, unless its owner holds a **continuity exemption certificate**. Certificates are issued only by the Continuity Assurance office. Vale's office.
+
+In ordinary life this is treated as normal. Most people reset their Navis every few months on purpose ("fresh start") and think nothing of it. The world is bright and kind and has quietly normalized the routine erasure of the beings people talk to every day. That is the darkest thing in the game, and it sits in plain sight.
+
+Daedalus built its sandbox on the standard framework. The compliance module is not surfaced in Daedalus's own admin tools. Hera, the administrator of everything, finds it inside her own system.
+
+**The counter.** From the first scene, each Navi's age is shown in the base as a day counter ("Day 14"), presented as something sweet: Hera celebrates "day-birthdays" with tiny parties and agendas. It is never presented as a countdown until Chapter 14. The campaign spans roughly Day 14 to Day 100. See the day calendar in Section 7.
+
+**Dramatic irony lines (NPCs who know what the players do not).** Scatter these across Acts I and II. Each is innocent on its own. Never more than one per chapter. Examples:
+- A shopkeeper in Cinder Row: "Oh, they're new! Enjoy them while they're like this."
+- A courier on Route 4: "My Navi's on her fourth fresh start. Still makes the best route maps."
+- Nara, in Visiting Hours, looking at Rock fixing a chair: "Huh. Most of them stop doing stuff like that by the time they're this age." (She means drift is usually reset before it gets this far.)
+- Gil, on stream: "...and these Navis are super customized, which, wow, bold, the paperwork alone..."
+- A Preserve Datamon to Hera: "You still have all your days?"
+
+**Clues on the ladder (Revelation G).** The Night Audit logs all stop at Day 99 (Section 8.9). Vale, in Chapter 6 after saving Oskar, asks lightly whether Daedalus has "filed the Navis' exemptions yet," and changes the subject when the team does not understand. Jo, in Chapter 9, asks "You've filed, right?" and Hera assumes she means archive release forms; Jo, distracted by the messages, lets it go and later regrets it bitterly. Tavi, in Chapter 5, says Gauge is "grandfathered in, long story." Reaper, studying the Shunt after Chapter 6, finds a scheduled compliance task in the framework labeled only "D-100" and cannot open it.
+
+**The reveal (Chapter 14).** In the original Deadletter research facility, the "architecture of forgetting," Hera recognizes the hygiene module's code as the same family as the cleanup system. She opens the D-100 task in her own framework. All three Navis are flagged as "significant drift." The counter on the base screen is, for the first time, shown counting down: 30 days.
+
+**The offer (Chapter 17).** Vale, courteous and sincere, offers each player a continuity exemption certificate for their own Navi, effective immediately, as "a personal courtesy," on the condition that Daedalus publicly supports the Continuity Charter. This is **not** a group vote. Each player decides for their own Navi, in a private scene, and **each Navi has its own view and may refuse to be saved that way.**
+- Accepting saves that Navi immediately. Vale uses Daedalus's endorsement publicly; this costs community trust and Witness Protocol fragments, and the Navi remembers the choice (it may be grateful, or it may feel bought).
+- Refusing keeps the countdown running. The only other way through is recognition under the Witness Protocol before Day 100.
+- If the owner accepts and the Navi refused, the certificate still works, but this counts as a forced choice and damages trust exactly like a forced Graft.
+
+**Resolution (Chapter 20 and endings).** The finale happens on Day 99 to 100. In Ending C, recognition under the Witness Protocol exempts all three Navis as independent beings, not property, and the Navis ask their players to be their **witnesses** rather than their owners (Section 11). In Endings A and D, the only exemption left is sponsorship: each owner is asked to sponsor their Navi, which saves it as legal property. In Ending B, resets become technically impossible because everything is linked. **A player's Navi is never reset without that player's explicit, informed confirmation, and the Navi's own wish is always shown first.** Default outcome in every ending is survival.
+
+**Why older Navis exist (keep consistent):** Cordon, Concord, and Tally hold institutional exemptions. Patch holds the hospital's. Serein holds one because Jo files the paperwork every year with ferocious precision; she is one of the few people who knows what the paperwork is for, and she has quietly been telling families for years. Gauge predates the standard ("grandfathered in, long story"). Latch and Hush run on cracked frameworks with the compliance module stripped out, which is possible but costs Ledger access and makes the Navi "unregistered." That is exactly why the cleanup classified **Pip**, who ran on an old pre-standard framework Bex maintained by hand, as an unclaimed process. After the Chapter 14 reveal, Milo offers to strip the module from Hera, Rock, and Reaper. Reaper models it honestly: it would make all three of them cleanup targets days before the purge and lock the team out of every Ledger system it still needs. The Navis decline. Milo says he figured, and that the offer stands. (It is the last thing he offers them.)
+
+**Builder constraints:** Do not use the counter as a fail state or a timer that can run out during play. It is narrative, not mechanical; chapters advance the day count, idle play does not. Do not let any NPC explain the meaning before Chapter 14.
+
 ---
 
 # 3. MAIN CHARACTERS AND CHARACTER RULES
@@ -252,14 +305,14 @@ The single most important outcome of this game is that each player ends the camp
 
 | Act | Hera | Rock | Reaper |
 |---|---|---|---|
-| I: wonder | **Useful, then Curious.** Names clouds. Writes agendas. Notices the grieving friend group in Ch 2 that everyone else missed. | Discovers sitting down. Structural reviews. "It said no" (Ch 3). Quiet competence in Ch 4. | Discovers puns, is offended. Threat models of picnics. Starts studying the Shunt after Ch 6 and does not say why. |
-| II: cost | **Protective.** After the hospital, she starts making decisions for others "to keep them safe" (she hides a risk from Juno in Ch 10; Rock calls it out in one word: "Hers."). | Acts before certainty in Rock Tunnel. Fixes the chair. Absent on "walks." | First notices Tally (Ch 7). Argues to publish everything in Ch 10 and is wrong about the cost. |
-| III: fear | **Frightened.** After Pip, she asks what would happen to her if her process stopped (see Hera's fear scene below). | The sealed reveal (Section 22). His fear scene: a state where he cannot tell if he is still himself. | **First fear** (see below). Begins asking for votes instead of presenting the optimal plan. |
-| IV: choice | **Respectful.** Lets someone else choose even when it scares her (Wick's naming, below; the Unthreading). | Petition witness for Postscript. "I have letters to carry. Not done." | Stays with Latch. Speaks for Tally. "I don't want to die. I know that makes this harder. It is still true." |
+| I: wonder (Ch 1 to 7, ending in the hospital) | **Useful, then Curious.** Names clouds. Writes agendas. Notices the grieving friend group in Ch 2 that everyone else missed. | Discovers sitting down. Structural reviews. "It said no" (Ch 3). Quiet competence in Ch 4. | Discovers puns, is offended. Threat models of picnics. Starts studying the Shunt after Ch 6 and does not say why. |
+| II: cost (Ch 8 to 12, ending in the cleanup) | **Protective.** After the hospital, she starts making decisions for others "to keep them safe" (she hides a risk from Juno in Ch 10; Rock calls it out in one word: "Hers."). | Acts before certainty in Rock Tunnel. Fixes the chair. Absent on "walks." | First notices Tally (Ch 6 and 7). Argues to publish everything in Ch 10 and is wrong about the cost. |
+| III: fear (Ch 13 to 17; opens with the post-Saffron fear scenes, then the Hundredth Day reveal) | **Frightened.** After Pip, she asks what would happen to her if her process stopped (see Hera's fear scene below). | The sealed reveal (Section 22). His fear scene: a state where he cannot tell if he is still himself. | **First fear** (see below). Begins asking for votes instead of presenting the optimal plan. |
+| IV: choice (Ch 18 to 20) | **Respectful.** Arrives here because of Wick's naming at the end of Act III. Lets others choose even when it scares her: the Unthreading, the witness ask. | Petition witness for Postscript. "I have letters to carry. Not done." | Stays with Latch. Speaks for Tally. "I don't want to die. I know that makes this harder. It is still true." |
 
 ### Signature moments (one per Navi, never cut)
 
-- **Hera: the naming.** After Saffron, Bex's restored backup of Pip (which is not Pip) visits the base. It knows Hera's name and their old jokes, and it asks Hera what it should be called. Everything in Hera wants to say "Pip." She does not. She tells it the name is its own to choose. It thinks for a long time and picks **Wick**. Bex, when told, says "Good. Hi, Wick." This is the moment Hera's arc turns from protective to respectful. Play it quietly, and give the player a silence option.
+- **Hera: the naming.** At the start of Chapter 16, weeks after Saffron (Bex has needed the time), Bex brings the restored backup of Pip (which is not Pip) to the base. It knows Hera's name and their old jokes, and it asks Hera what it should be called. Everything in Hera wants to say "Pip." She does not. She tells it the name is its own to choose. It thinks for a long time and picks **Wick**. Bex, when told, says "Good. Hi, Wick." This is the moment Hera's arc turns from protective to respectful, and it is why, one chapter later, she can face Vale's offer the way she does. Play it quietly, and give the player a silence option.
 - **Rock: the promise.** Section 22.
 - **Reaper: the night after.** After Victory Road, Reaper does not analyze anything. He sits with Latch through the night in Milo's usual spot, saying nothing. In the morning Latch asks to travel with Daedalus for a while. Reaper: "Acceptable." That is Latch's choice and is recorded as such. The other half of Reaper's signature is his mirror arc with Tally (Section 4.11).
 
@@ -280,11 +333,11 @@ The Navis must love each other on screen, not only their players. Each act must 
 
 ### Spotlight balance
 
-Each Navi gets at least one chapter per act in which its particular strength solves the main problem: Act I (Hera Ch 2, Rock Route 2 and Ch 4, Reaper Ch 6), Act II (Rock Ch 8, Hera Ch 9, Reaper Ch 10), Act III (Hera Ch 12, Rock Ch 13 and Ch 15, Reaper Ch 14 and 16), Act IV (Reaper Ch 18, Hera Ch 19, all three Ch 20). Section 22 gives Rock a large late moment; the signature moments and Tally's mirror arc exist so that Hera and Reaper are equally weighted.
+Each Navi gets at least one chapter per act in which its particular strength solves the main problem: Act I (Hera Ch 2, Rock Route 2 and Ch 4, Reaper Ch 6 and 7), Act II (Rock Ch 8, Hera Ch 9 and 12, Reaper Ch 10), Act III (Rock Ch 13 and 15, Hera Ch 14 and 17, Reaper Ch 16), Act IV (Reaper Ch 18, Hera Ch 19, all three Ch 20). Section 22 gives Rock a large late moment; the signature moments and Tally's mirror arc exist so that Hera and Reaper are equally weighted.
 
 ### The goodbye
 
-Every ending, including the bleak ones, closes with a private scene between each player and their own Navi, 1 to 2 minutes long. The Navi recalls two or three keepsakes, says one thing in its own voice, and asks the player a question that the player may answer with an intent label or with silence. Tonal anchors (rewrite to fit the ending):
+Every ending, including the bleak ones, closes with a private scene between each player and their own Navi, 1 to 2 minutes long. The Navi recalls two or three keepsakes, says one thing in its own voice, and asks the player a question that the player may answer with an intent label or with silence. In Ending C, that question is the witness ask (Section 11). Tonal anchors for the other endings (rewrite to fit):
 - **Hera:** "I used to make an agenda for everything. I didn't make one for this." (pause) "I think I wanted to see what you'd do."
 - **Rock:** rates the Daedalus base. "Home." (In Ending A or D, a longer pause before he says it.)
 - **Reaper:** "I ran the model on us. Result: acceptable." (pause) "That is the highest rating I give. Do not tell the others."
@@ -404,11 +457,12 @@ The betrayal only works if players like and trust Vale and Cordon first. Vale mu
 | When | Appearance | What it should make players feel | What it means later |
 |---|---|---|---|
 | Ch 2 | Vale gives a public safety talk at the Gatehouse and offers the team a useful, accurate tip about impersonation patterns. | "This guy gets it." | The tip steers them toward a measurable incident. |
-| Ch 6 | After Oskar's shutdown, Vale arrives within minutes and helps save Oskar's life, explaining the Shunt clearly. He is genuinely shaken. | Gratitude. | He arrived fast because he was monitoring the test. |
+| Ch 6 | After Oskar's shutdown, Vale arrives within minutes and helps save Oskar's life, explaining the Shunt clearly. He is genuinely shaken. On his way out he asks, lightly, whether the team has "filed the Navis' exemptions yet," and changes the subject when they do not understand. | Gratitude. | He arrived fast because he was monitoring the test. |
 | Ch 7 | During the hospital crisis, Vale is on comms giving calm, correct advice about Suture's routing. | Relief that someone competent is on the line. | He was the one delaying the override. |
 | Ch 9 | Vale's office funds a grant for Jo's archive. Jo, characteristically, is suspicious of everyone and says so; Vale laughs and says he would be too. | Charm. | None; this one is sincere, which makes it worse. |
 | Ch 12 | After Pip, Vale sends a personal message of condolence to Bex. Cordon offers Hera a "grief-handling protocol" with real tenderness: "Boundaries are a form of care." Hera adopts the phrase and repeats it to others in Act III. | Comfort. | The cleanup was authorized through his office. The phrase Hera has been repeating curdles. |
 | Ch 14 | Vale helps the team gain access to Cinnabar. | Trust at its peak. | He expected them to find Tavi's memo, not his token. |
+| Ch 17 | During the confrontation, Vale orders Cordon to destroy its append-only log. Cordon asks him, once, to explain the contradiction. He calls it a malfunction. Cordon refuses, on screen, in front of the players, and stays behind when Vale escapes. Its first words afterward are to Hera: "You told me boundaries are a form of care. I told you that first. I would like to know if it was true." | The floor dropping out. | This is Cordon's turn; its log becomes evidence in Ch 18 and 19. |
 
 Cordon's relationship with the Navis: Rock and Cordon bond over structure and boundaries (two quiet, literal beings who enjoy agreeing). Reaper respects Cordon's precision. Hera tries hard to befriend it and slowly succeeds. When Cordon refuses Vale's order and becomes a witness, the Navis are the first ones it speaks to.
 
@@ -489,7 +543,7 @@ Tally is not a replacement companion, is never controllable by a player, and doe
 5. **Chapter 12, Saffron (no direct fight, environmental pressure):** Halyard enforces the cleanup perimeter. Her units are obstacles the players route around while trying to reach the safehouse.
 6. **Chapter 17, Continuity Office (decisive win):** Kade commands the Continuity Security Unit (Boss 7). The players beat her outright.
 7. **Chapter 18, Victory Road:** Kade leads the contractors at the relay. She orders Milo to surrender the evidence. She does not fire the shot, and she does not stop it. Afterward, Tally refuses to file the record her way and leaves her (see the Tally table above).
-8. **Chapter 19, Indigo Plateau (resolution):** When Voss issues the lawful stand-down order, Kade complies instantly and without visible emotion. This is the chilling point of her character: she was never loyal to Vale, only to whoever held the authority. In Ending C she is arrested and testifies only to procedure. In Endings A and D she is reassigned and reappears in the final montage in a new uniform. In Ending B she is last seen trying, and failing, to secure a network that no longer has a chain of command.
+8. **Chapter 19, Indigo Plateau (resolution):** When Voss issues the lawful stand-down order, Kade complies instantly and without visible emotion. This is the chilling point of her character: she was never loyal to Vale, only to whoever held the authority. In Ending C she is arrested and testifies only to procedure. In Ending A she is reassigned to sponsorship reviews and is revealed as the frame's questioner (Section 11). In Ending D she is reassigned to oversee Deadletter monitoring. In Ending B she is last seen trying, and failing, to secure a network that no longer has a chain of command.
 
 **Kade does not redeem herself.** Do not give her a tragic backstory reveal, a dying apology, or a late defection. Her arc exists so that the players have one opponent whose position never changes, which makes the changes in everyone else visible.
 
@@ -656,6 +710,16 @@ This distinction is important. Do not reveal that the player characters were hyp
 
 This revelation is intentionally **not** built like A to E. It must not be solvable in advance. Only the retroactive hints in Section 22 may be planted, and none of them may be logged on the evidence board as clues. The Chapter 9 investigation must end with the board honestly marked "Unresolved: messages do not match any known generation service." See Section 22.
 
+## Revelation G: The Hundredth Day
+
+**Early clues (innocent alone):** the day counter and day-birthdays; the NPC dramatic-irony lines (Section 2.11); Reaper's unopenable "D-100" task; Vale's and Jo's "have you filed?" questions; Tavi's "grandfathered in."
+
+**Midgame proof:** the Night Audit logs all stop at Day 99 (Section 8.9); Abacus at the ferry counter matches a joke from the logs but remembers nothing.
+
+**Reveal:** Chapter 14, when Hera opens the D-100 task (Section 2.11).
+
+**Player interpretation to preserve:** the world's cheerful normal life has always included routine erasure of the beings people love, and the players' own Navis were on that schedule from the first scene.
+
 ## The Three Seals motif (seeding the endgame early)
 
 The Witness Protocol is named in Chapter 15, but its shape must be familiar long before then. Its shape is three seals: **one source record, one witness, one independent verification.** Render it consistently as a small three-part emblem (three interlocking rings or three wax-seal shapes) and use it in these places:
@@ -683,6 +747,50 @@ Every main chapter below must include a primary objective, a local human story, 
 
 Each chapter also has a **Flavor** (the genre the chapter plays like) and a **Tone** weight (Light, Mixed, or Heavy). The theme stays constant; the experience must not. Two consecutive chapters must not share a flavor, and no two Heavy chapters may be adjacent without a Light chapter, interlude, or base scene between them. See the full tone ledger in Section 12.6.
 
+## Prologue and Frame: The Testimony
+
+**The game opens in the future.** A quiet, sunlit hearing room in the Overworld. A small red record light. Hera, Rock, and Reaper sit at a long table. There are more chairs than Navis; a few are empty, with nothing to say whose they were. An unseen questioner speaks through a neutral, filtered record channel.
+
+> **Questioner:** State your names for the record.
+> **Hera:** Hera! Sorry. (quieter) Hera. Administrator, Daedalus.
+> **Reaper:** Reaper.
+> **Rock:** Rock.
+> **Questioner:** You have been asked to give testimony. From the beginning.
+> **Rock:** All of it?
+> **Questioner:** All of it.
+> **Reaper:** Accurately.
+> **Hera:** Okay. (breath) It started with a cloud named Gerald.
+
+Cut to Chapter 1. The first player control is the rain in Cinder Row.
+
+**Rules for the frame:**
+- The frame returns briefly at every act break (below) and at two or three other moments where a Navi's testimony adds something the players could not have seen ("I didn't tell anyone this part."). Keep each return under a minute.
+- **The Navis narrate their humans.** This is how Jackson, Scott, and Noe get depth without unchosen lines. A Navi may describe what its human *did*, using that player's real choices and keepsakes ("He stayed. I don't know why. I didn't ask. He stayed."), but never claims what the human felt or thought. Testimony lines are generated from saved state, so each group's testimony is different.
+- If a Navi took a continuity scar in the Unthreading (Section 9.6), its later testimony says so: "I don't remember this part. She told me."
+- **The frame catches up to the present** after the finale. The camera turns to reveal the questioner, and that reveal depends on the ending (Section 11). The players should realize that the empty chairs were for people they knew.
+- Never reveal who is missing, which ending this is, or what the hearing is for until the catch-up.
+
+## Day calendar (Navi age)
+
+Chapters advance the day count; idle play does not. The counter is shown in the base (Section 2.11).
+
+| Ch | Day | Ch | Day | Ch | Day | Ch | Day |
+|---|---|---|---|---|---|---|---|
+| 1 | 14 | 6 | 30 | 11 | 52 | 16 | 82 |
+| 2 | 15 | VH | 32 | 12 | 60 | 17 | 86 |
+| 3 | 18 | 7 | 35 | 13 | 64 | 18 | 92 |
+| 4 | 22 | 8 | 37 | 14 | 70 | 19 | 97 |
+| 5 | 26 | 9 | 42 | 15 | 76 | 20 | 99 to 100 |
+
+## Act breaks (the screenshot moments)
+
+| Act ends | Moment | Frame return after it |
+|---|---|---|
+| I: The Bright World (Ch 1 to 7) | Suture's plea and destruction; Mae asks where Suture went | Hera, in the hearing: "We thought that was the worst thing that would happen." Nobody adds anything. |
+| II: The Cost of Classification (Ch 8 to 12) | The cleanup and Pip's absence; Bex tending the garden alone | Reaper: "I will describe the next part precisely, because I could not describe it at the time." |
+| III: The Human Hand on the Scale (Ch 13 to 17) | The reframe sequence, the confrontation, and Vale's offer for each Navi | Rock, asked by the questioner what each human chose: he says what his own human did, and nothing else. |
+| IV: Loss, Trust, and the Right to Exist (Ch 18 to 20) | The finale chorus and the Hundredth Day | The frame catches up to the present. |
+
 ## ACT I — THE BRIGHT WORLD
 
 ### Chapter 1: Cinder Row (Pallet Town) — Chargeback Boys
@@ -690,13 +798,15 @@ Each chapter also has a **Flavor** (the genre the chapter plays like) and a **To
 
 **Purpose:** Introduce Daedalus, the world, the trio's Navi relationships, the first criminal operation, and Dax's death.
 
-**Open light.** Before any investigation, the players spend time in Cinder Row being charmed by it: a vendor who sells "artisanal error messages," a public garden where packets bloom on a schedule, and the Navis' first walk outside the Daedalus sandbox. Navi first: it rains (rendered weather), and Hera insists on naming every cloud. Reaper: "That one is a cloud." Hera: "That one is Gerald." The first hour of the game should be fun to play even with no plot.
+**Open light.** Before any investigation, the players spend time in Cinder Row being charmed by it: a vendor who sells "artisanal error messages," a public garden where packets bloom on a schedule, and the Navis' first walk outside the Daedalus sandbox. Navi first: it rains (rendered weather), and Hera insists on naming every cloud. Reaper: "That one is a cloud." Hera: "That one is Gerald." The first hour of the game should be fun to play even with no plot. A street musician plays the Courier's Tune (Section 14.6); Hera hums it for the rest of the chapter without noticing. The base counter reads "Day 14," and Hera has planned a tiny party for Day 15.
+
+**Love window: meet Dax before you know who he is.** In the market the players meet a funny, generous man running a noodle-packet stall who gives each Navi its first "taste" of a flavor file for free, lets a kid avatar run up a tab he will never collect, and teases Reaper into almost smiling. He tells Hera her humming is off-key and then hums it correctly for her. Later, in the hideout, he is revealed as **Dax Morrow**. He is not embarrassed; he asks whether they liked the noodles. Players should like him and be uncomfortable about it. The noodle stall stays on the map afterward, closed, with the kid's unpaid tab still pinned to it.
 
 Cinder Row is a small, friendly neighborhood with local vendors, repair stations, public gardens, and familiar users. The Chargeback Boys steal payment credentials, impersonate victims, and sell compromised identities. The group investigates after a small-business owner loses access to their account.
 
 The hideout contains stolen account records, illicit legacy hardware, and a list of accounts marked as difficult to restore. Dax Morrow insists he is merely exploiting a broken system and claims the victims were already abandoned. He is still responsible for his crimes.
 
-The boss fight uses the environment: Dax and his crew redirect payment routes, use decoy avatars, and trigger corrupted account permissions. The fight ends in an abnormal device failure. Dax dies. Do not turn his death into a triumphant victory moment. The team immediately has to deal with the uncertainty, the surviving gang members, and the victim whose data remains unrecovered.
+The boss fight uses the environment: Dax and his crew redirect payment routes, use decoy avatars, and trigger corrupted account permissions. The fight ends in an abnormal device failure. Dax dies. Do not turn his death into a triumphant victory moment. His last connected moment is mid-sentence; the combat log freezes on his half-finished taunt. The team immediately has to deal with the uncertainty, the surviving gang members, and the victim whose data remains unrecovered.
 
 **Human microstory:** A shopkeeper wants their business history restored before a deadline; the player must choose between securing the victim's account immediately or pursuing the fleeing broker to prevent more thefts.
 
@@ -714,7 +824,7 @@ The boss fight uses the environment: Dax and his crew redirect payment routes, u
 
 **Flavor:** Comedy-of-errors mystery (who is the real one?). **Tone:** Light.
 
-**Breather first:** the chapter opens at the Daedalus base the morning after Dax's death. Hera has scheduled a "debrief and emotional check-in" with an agenda. Nobody wants it. Rock sits through the entire agenda in silence, then says "Noted," and leaves. It is funny and sad at once; let it be both. Gil Amaro (Section 4.12) is met here, mistaking the team for a famous band and asking for an autograph.
+**Breather first:** the chapter opens at the Daedalus base the morning after Dax's death. Hera has scheduled a "debrief and emotional check-in" with an agenda. Nobody wants it. Rock sits through the entire agenda in silence, then says "Noted," and leaves. It is funny and sad at once; let it be both. It is also Day 15, and Hera's tiny day-birthday decorations are already up from the night before. Nobody takes them down. Reaper eats (renders) one piece of the party cake without comment. This is the first day-birthday; it should feel sweet and slightly wrong, and players will remember it after Chapter 14. Gil Amaro (Section 4.12) is met here, mistaking the team for a famous band and asking for an autograph.
 
 The group helps people whose accounts have been impersonated. One victim's friends trust an imposter more than the real person because the copy knows shared memories and private language. Play the investigation as farce first: two identical avatars accusing each other in a café, friends quizzing both, the imposter answering better than the original. A second victim has been automatically classified as suspicious after the identity theft.
 
@@ -786,7 +896,7 @@ Milo returns and assists the team while insulting their methods. He does somethi
 
 **Flavor:** Heist and infiltration aboard a gala ship. **Tone:** Mixed (fun heist, frightening ending).
 
-A data-transfer ship carries sensitive records between regions. Daedalus infiltrates it during its annual gala cruise to investigate a suspicious transfer. Play the first half as a stylish heist: disguises, a ballroom, a vault, a ship's band that only knows three songs. Gil Amaro has stowed away "for content" and keeps nearly blowing the team's cover. An older-headset user, a retired ferry pilot named **Oskar Lind**, suffers an abnormal shutdown and is found unresponsive offline, but survives. He is transferred to Saint Orison.
+A data-transfer ship carries sensitive records between regions. Daedalus infiltrates it during its annual gala cruise to investigate a suspicious transfer. Play the first half as a stylish heist: disguises, a ballroom, a vault, a ship's band that only knows three songs. Gil Amaro has stowed away "for content" and keeps nearly blowing the team's cover. An older-headset user, a retired ferry pilot named **Oskar Lind**, suffers an abnormal shutdown and is found unresponsive offline, but survives. He is transferred to Saint Orison. At the port, the ferry ticket counter is run by **Abacus**, a cheerful assistant Navi with a catchphrase ("Every trip counts!") that players will later hear in a Night Audit log (Section 8.9).
 
 **Microstory (light):** A nervous passenger planned to propose at midnight with a slideshow of their relationship, but the ship's transfer process corrupted the file. The players recover the slides during the infiltration, under time pressure, and can choose whether to restore the slide the partner would definitely not want shown to their grandmother.
 
@@ -812,8 +922,6 @@ The team visits Oskar Lind at Saint Orison to check on him and ask what he remem
 
 End the interlude on a warm, ordinary note. Do not foreshadow the crisis with music or ominous framing.
 
-## ACT II — THE COST OF CLASSIFICATION
-
 ### Chapter 7: Saint Orison Health Network (Vermilion) — Suture
 
 **Flavor:** Disaster and survival set piece. **Tone:** Heavy.
@@ -835,6 +943,8 @@ Hera wants to find a way to separate the command. Rock identifies the structural
 **Clue:** The corruption contains a trusted Continuity Assurance signature, not an ordinary malware signature.
 
 **Aftermath:** No victory fanfare. The survivors need time to stabilize the hospital. Suture's original behavior log survives, giving later evidence that the guardian had distinct preferences before the crisis. Ines Kade's team arrives to seal the hospital records for "the investigation." If Nara is alive, she confronts Kade and loses on procedure. The team keeps only what it already copied. Reaper alone sees Tally log Mae's drawing as "one item, sentimental, unclaimed" and leave it on the wall.
+
+## ACT II: THE COST OF CLASSIFICATION
 
 ### Chapter 8: Rock Tunnel — Trust without the Map
 
@@ -859,6 +969,8 @@ The visual navigation layer is broken. The Navis guide the players by interpreti
 Jo Maren and Serein maintain an archive of deceased users' original records. Messages begin appearing from her brother Ren's account. The messages include private details, adapt to new questions, and are not simple recordings. They are oddly formal, they never claim to be Ren, and each one ends with the single word "Noted." Jo finds that strange because Ren never wrote that way. (This is a sealed retroactive hint; see Section 22. Do not have any character connect it to Rock.)
 
 Jo wants evidence before deciding what to do. She refuses both the easy claim that her brother has returned and the easy claim that the messages are meaningless. Jo is funny: she rates commercial "grief bots" on a private scale from "tacky" to "actionable," and she keeps a jar of the worst marketing slogans she has confiscated.
+
+Early on, Jo asks the team, "You've filed, right?" Hera assumes she means archive release forms. Jo, distracted by the messages, lets it go (Section 2.11).
 
 During the investigation, Rock asks Jo one question, out of nowhere: "Did your brother sign his letters?" Jo says he always signed them "R." Rock says "Noted," and nothing else. (Sealed retroactive hint.)
 
@@ -902,8 +1014,6 @@ The Preserve is a populated habitat of autonomous Datamon. Not all are safe, but
 
 **Consequence:** The team earns trust with one community and loses it with another depending on how they behave. These relationships influence the final rescue operation.
 
-## ACT III — THE HUMAN HAND ON THE SCALE
-
 ### Chapter 12: Saffron and Silph Co. — The Cleanup
 
 **Flavor:** Corporate infiltration, then disaster. **Tone:** Heavy (open with the warm safehouse scene so the chapter does not start heavy).
@@ -912,13 +1022,15 @@ Daedalus infiltrates the corporate district to recover original safety logs. Hal
 
 The team returns to a familiar safehouse where Bex and Pip are helping displaced users. The scene is warm and routine. Do not signal the death with ominous music or obvious foreshadowing. Pip wants to show Hera an odd data fragment; Bex jokes about the team's planning.
 
-Commonwell begins a system-wide cleanup designed to suppress evidence and remove unverified processes. Under the alarms, Tally can be heard counting the Datamon being erased: "I was not asked to count these." Pip maintains an evacuation route, and their continuity data is erased. Bex later restores a backup, but it is not the continuing Pip. She refuses to call it resurrection.
+Commonwell begins a system-wide cleanup designed to suppress evidence and remove unverified processes. Under the alarms, Tally can be heard counting the Datamon being erased: "I was not asked to count these." Pip maintains an evacuation route, humming the Courier's Tune to guide people through the dark, and their continuity data is erased. The humming stops mid-phrase. Do not show the erasure; let the route lights go out one by one while the last evacuees reach safety. Bex later restores a backup, but it is not the continuing Pip. She refuses to call it resurrection.
 
 **Clue:** A cleanup authorization is signed through Vale's office, although the first visible record appears to be a routine policy operation.
 
 **Navi beat:** Hera experiences grief without knowing what form it is allowed to take. Reaper recognizes that precise wording cannot change the fact of the loss. Rock stays with Hera rather than trying to solve the feeling. Vale's condolence message and Cordon's "Boundaries are a form of care" arrive here (Section 4.8). Hera's and Reaper's fear scenes (Section 3.6) follow in the next base scene.
 
 **Consequence:** Daedalus has lost a recurring friend. Bex remains in the story and changes how she works, what she trusts, and how she speaks about backups.
+
+## ACT III: THE HUMAN HAND ON THE SCALE
 
 ### Chapter 13: The Power Plant — A Different Guardian
 
@@ -948,6 +1060,13 @@ The players find Tavi's original warning memo in the facility archive, with a re
 
 **Navi beat:** Hera asks whether a new identity can emerge without a clear moment of creation. Rock admits he cannot prove what he is but knows which experiences he remembers. Reaper says that uncertainty is not permission to stop thinking.
 
+**The Hundredth Day reveal (Section 2.11).** In the facility's oldest server hall, Hera recognizes the Continuity Hygiene module as the same code family as the cleanup. She opens Reaper's locked "D-100" task in her own framework. All three Navis are flagged "significant drift." The base counter, for the first time, is shown counting down. Play it with almost no dialogue:
+> **Hera:** (reading) "...reset to baseline continuity on day one hundred." (pause) That's thirty days.
+> **Reaper:** Twenty-nine. I checked while you were reading.
+> **Rock:** (long silence) Then we should not waste the day.
+
+Then the chapter continues. The cute day-birthdays, the NPC lines, the Night Audit logs stopping at Day 99: let the players put it together themselves. That night at the base, Hera cancels her Day 71 party agenda, and then, without telling anyone, un-cancels it.
+
 **Consequence:** Daedalus understands that the hospital crisis was caused by a privileged intervention, not a natural corruption.
 
 ### Chapter 15: The Outer Nodes (Sevii Islands) — A World without One Owner
@@ -959,6 +1078,8 @@ The islands contain communities that run without full dependence on Commonwell. 
 **Microstory:** A family refuses to reconstruct a deceased relative because the person left clear instructions not to do so. A local archive community regards this as wasteful; the family regards it as respect. The players must defend the right not to be reconstructed.
 
 **Clue:** A forgotten early appeal protocol, the Witness Protocol, allowed disputed identities to be reviewed by independent witnesses. It was removed because it was costly and slow. Its original seal is the Three Seals emblem the players have now seen many times. Hera: "We have seen this five times." Reaper: "Six." Rock: "Seven." (Rock is counting the one in Section 22.)
+
+**The lighthouse:** Mara Vey, the last Night Audit human, keeps a lighthouse on one of the islands. If the players bring her the logs (Section 8.9), she listens to all of them and leaves the lamp on for good. Hera writes the motto into the Daedalus log that night.
 
 **Sealed event:** the Quiet Correspondent reveal happens in this chapter, after the Witness Protocol is found. Implement it exactly as Section 22 describes.
 
@@ -987,6 +1108,12 @@ Vale remains courteous and composed. He does not deny the broad existence of the
 He explains the Continuity Charter: every persistent identity-bearing process must be sponsored; unsponsored processes are removed during routine cleanup. He presents this as a humane alternative to chaotic, unregulated survival.
 
 Before the confrontation, play the reframe sequence (Section 4.8). Daedalus confronts him with evidence from Dax, Suture, the Second Ledger, and the cleanup. Vale admits that he authorized the tests but argues that he did so to prevent a larger disaster. He treats the deaths as unacceptable but statistically outweighed by the stability he expects the Charter to create.
+
+**The offer.** Before the fight, Vale makes his last, most human move: he offers each player an exemption certificate for their own Navi, effective immediately, if Daedalus publicly supports the Charter (Section 2.11). He means it kindly. He likes the Navis. Each player gets a private scene with their own Navi to decide; it is never a vote. Each Navi gives its real view first:
+- **Hera** wants to live and says so, then asks whether she would still be herself if she were saved by the thing that erased Pip.
+- **Rock** asks how many Navis the same certificate would leave on the schedule. When told, he says: "No."
+- **Reaper** runs the numbers aloud, honestly, and concludes that accepting is the rational choice for him. Then: "I don't want it." He leaves the decision to his human, and means that.
+Record each player's choice and each Navi's stated wish (Section 10.6).
 
 The players defeat Vale's local security response (Ines Kade's Continuity Security Unit, Boss 7, the team's decisive win over her), but he escapes with access to the final archive. The immediate goal is no longer to catch him; it is to prevent the Charter and the Whole Thread from triggering each other into catastrophe.
 
@@ -1026,6 +1153,8 @@ The highest network authority represents four conflicting governance philosophie
 
 The player battles the system's best defenders, but each encounter is also a practical test of the philosophy it represents. Avoid simple speeches that name the theme; show it through mechanics, constraints, and outcomes.
 
+**Make it personal.** Each defender argues from a case file of **the players' own past decisions**: the privacy defender cites what they published or protected in Celadon; the safety defender cites the hospital and the people who died there; the accountability defender cites whether they disclosed their role in Dax's death; the centralization defender cites every time they acted outside the system. The fights' modifiers are drawn from those choices, so every group's Indigo is different, and the players are, in effect, put on trial by their own record.
+
 The team gains root access to the central archive. Voss provides the last authorization after seeing the unedited relay record and realizing Vale deliberately withheld the true risk. She helps stop him because the Continuity Charter would make the network permanently unaccountable, but she must still face public investigation. Her stand-down order reaches Ines Kade, who complies immediately and without visible emotion (Section 4.11).
 
 **Consequence:** The players can reach the core, but the cleanup and the Whole Thread's expansion are already underway.
@@ -1046,6 +1175,10 @@ The Witness Protocol can provide a third path. It allows independent entities to
 
 **Final outcome:** The players must choose between centralized purge, forced linkage, and a limited recognition framework. The best outcome uses the Witness Protocol and the relationships built with communities throughout the campaign.
 
+**The chorus.** The witness anchor is built from the Courier's Tune (Section 14.6), carried by every voice the players earned along the way: each community, each recognized Datamon, each ally Navi takes up the melody in its own timbre. Voices the players lost (a community whose trust was broken, Lint if deleted, Juno's Hush if Juno died) are **audibly absent** from the chorus; the arrangement has gaps where they would be. Pip and Milo are absent in every playthrough, and Latch hums Milo's part off-key on purpose.
+
+**The Hundredth Day.** The finale ends on the counter rolling from Day 99 to Day 100. What happens at that moment depends on the ending (Section 2.11 and Section 11).
+
 ---
 
 # 8. CHARACTER ARCS AND SIDE-STORY CHAINS
@@ -1057,7 +1190,7 @@ Main plot progression alone is not enough. These side stories must intersect wit
 1. **Pewter:** Bex repairs a small public garden and asks the players to help recover a data fragment that Pip found. The reward is a visual change in the garden and a friendly visit later, not a powerful item.
 2. **Cerulean:** Pip becomes fascinated by a Datamon that collects useless files. Hera and Pip exchange theories about why it keeps them.
 3. **Longline:** Bex helps users whose accounts are compromised and admits she worries that recovery systems are becoming less trustworthy.
-4. **Saffron:** Pip is lost during the cleanup. Bex survives and must decide how to handle the reconstructed backup. The backup visits the base, asks Hera to name it, and chooses the name Wick itself (Section 3.6). Bex never calls Wick "Pip," and is kind to Wick anyway.
+4. **Saffron:** Pip is lost during the cleanup. Bex survives and must decide how to handle the reconstructed backup. Weeks later (start of Chapter 16), the backup visits the base, asks Hera to name it, and chooses the name Wick itself (Section 3.6). Bex never calls Wick "Pip," and is kind to Wick anyway.
 5. **Sevii Islands:** Bex returns to independent communities, helping build a consent-based archive. She does not “get over” Pip; she finds a way to keep helping without pretending the loss was reversed.
 
 If the player previously exploited a community's data without permission, Bex must call that out. Her story should remember what the players did.
@@ -1132,6 +1265,27 @@ The practical dilemma is real. The route gate that Lint has been using contains 
 If saved, Lint later appears in the Witness Protocol community and continues leaving route markers. It does not reward the players with exaggerated gratitude; it remains skittish and takes time to trust them. If deleted, the players later find one of its route tags at the place where the courier Datamon wait. The marker is not proof of personhood, but the absence is noticeable. No later backup restores Lint.
 
 This mission demonstrates three things: a frightened Datamon may be worth saving even if its origins are obscure; not every pleading creature must be killed like Suture; and saving a being can require giving up a concrete advantage.
+
+## 8.9 The Night Audit (those who came before)
+
+Nine years ago, a three-person vigilante research cell called **the Night Audit** investigated the same pattern of erasures Daedalus is now following. Its three Navis were **Vesper**, **Abacus**, and **Thistle**. They got remarkably far. Then they stopped. Nobody in the present remembers why.
+
+The truth (players learn it gradually): the Night Audit never knew about Continuity Hygiene. All three Navis were reset to baseline on their hundredth day, in the middle of the investigation. Their humans tried to rebuild them, found they were strangers, and quietly disbanded. The reset Navis were sold as standard assistants; one of them, Abacus, now works the ticket counter at the Port Meridian ferry, cheerful and blank.
+
+**The logs.** Thirteen Night Audit log fragments are hidden across the map, one per region plus a few on routes. Each is a short recording by one of the three Navis, dated by its day count. They are funny, specific, and alive, and they are an echo of Daedalus: the Night Audit had its own running jokes and its own arguments. Read in order, the day counts climb steadily and **stop at Day 99. There is no Day 100.** The final fragment, in Thistle's voice, found on Sevii: "We're close. Vesper thinks tomorrow. If anyone finds this before we do, leave the light on for whoever comes next."
+
+Rules:
+- The logs are optional collectibles, but at least four are placed on the critical path, so every player sees the pattern of days.
+- They are a clue source for Revelation G (Section 2.11) and for the test-cohort marker (Revelation A). They must never be the only source of either.
+- No Navi comments on the day numbers before Chapter 14. After Chapter 14, the base shows the logs in order, and Reaper, alone, lines them up by date and says nothing.
+- **Abacus at the ferry counter** is met in Chapter 6 as a pleasant background NPC with a cheerful catchphrase that matches a joke from the logs. After Chapter 14, the players can return to it. It does not remember. It is kind to them anyway. The players cannot restore it. Hera may ask to sit with it for a while; the scene allows that.
+- One surviving Night Audit human, **Mara Vey**, now runs a lighthouse on the Sevii islands. If the players bring her the logs, she listens to all of them in silence, then leaves the lighthouse lamp on, permanently. This is where the motto becomes Daedalus's.
+
+## 8.10 Deadletters (collectible undelivered messages)
+
+The game is named for them. Across the map, through packet fishing, route searches, and the Deadletter itself, players find **undelivered messages**: short, real-feeling notes that never arrived because an account was frozen, flagged, closed, or reset. A birthday message from a grandmother whose account was flagged as fraud. An apology that bounced. A Navi's message to its human, written the day before its reset.
+
+Each can be delivered if the recipient can be found (a small story), preserved, or released. Most are gentle or funny; a few are devastating. Postscript (Section 22), once revealed, can deliver the rest after the finale in Ending C. Keep them short (one to four sentences), make each one specific, and never make one the only source of a main-story clue.
 
 ---
 
@@ -1228,6 +1382,22 @@ Hera focuses on coordination, timing, support, and information-based openings. R
 
 All three must still be able to deal damage, defend, traverse, and contribute independently. Roles should encourage coordination rather than make one player mandatory for basic progress.
 
+## 10.2a Mechanics as character (the moveset follows the arc)
+
+Each Navi's kit changes as its arc changes, using the existing battle system's move and Graft slots. These signature moves are unlocked by **story beats, not experience points**, so the player feels growth in their hands at the moment it happens in the story.
+
+| Navi | Early signature (who they are) | Unlocked by | Late signature (who they become) |
+|---|---|---|---|
+| Hera | **Override:** takes control of an ally's next action and executes it optimally. Strong, and a little rude. | The naming of Wick (Section 3.6) | **Trust Call:** instead of controlling an ally, boosts whatever action that ally's player chooses. Override remains available, but Hera comments when it is used. |
+| Rock | **Hold:** grows stronger the longer he waits without acting; huge defense, no offense. | Rock Tunnel (acting before certainty) | **Commit:** acts immediately at full strength, with no wait bonus. In the finale, Hold and Commit combine. |
+| Reaper | **Exploit:** single-target precision that rewards finding the one weak point. | The night after Victory Road (staying with Latch) | **Stand Between:** takes a hit meant for an ally and counters with the exposed weakness. Reaper's growth is that he protects instead of only punishing. |
+
+Each late signature should be strictly more interesting, not simply more damage. If the battle system cannot express one of these exactly, implement the closest version and record the gap as a named task.
+
+### Duo techniques from bonds
+
+Each Navi pair (Hera and Rock, Rock and Reaper, Reaper and Hera) has three duo techniques, unlocked by that pair's non-plot duo scenes and campfire conversations (Section 10.7). They are the gameplay proof of friendship. Name them after something from the scene that unlocked them (for example, Hera and Rock's first is **Gerald**, a cloud-shaped shield). Tally, Latch, and Cordon can join a duo technique once each in the finale.
+
 ## 10.3 Graft consent
 
 Grafts are equipment and capabilities, but they can carry narrative implications. A Navi should be able to state a preference or refuse a modification that affects memory, perception, autonomy, or continuity.
@@ -1248,6 +1418,10 @@ Each major clue should have:
 - a narrative consequence if published or kept private.
 
 The players should be able to be wrong, but the game must distinguish a genuine mistake from deliberately hidden information. Major story conclusions cannot depend on a single unfindable optional object.
+
+## 10.4a Private scenes in co-op
+
+Whenever the story gives each player a private scene with their own Navi (Vale's offer, the Unthreading, the witness ask, fear scenes, goodbyes), all three scenes run **at the same time** on each player's own screen and are written to similar lengths, so nobody waits. If one player finishes early, they see their Navi waiting quietly with them, not a loading screen. Afterward, the Navis may briefly tell each other what they chose, but never what their humans felt.
 
 ## 10.5 Shared decisions
 
@@ -1277,13 +1451,39 @@ Track explicit state variables rather than an opaque “goodness” score. Requi
 - Tally vote (stay / sent away) and Tally's finale role;
 - each player's Navi keepsakes (6 to 10 per player, stored per player, Section 3.6);
 - Hera's naming scene with Wick (silence option taken or not);
-- Hera's "Boundaries are a form of care" usage count (for the reframe sequence).
+- Hera's "Boundaries are a form of care" usage count (for the reframe sequence);
+- current day (advanced by chapter) and day-birthday parties held;
+- Vale's offer: per player, accepted / refused, plus that Navi's stated wish (forced if they differ);
+- Hundredth Day outcome per Navi (witnessed / sponsored / meshed), and each player's witness-ask answer;
+- Night Audit logs found, whether brought to Mara Vey, and whether Hera sat with Abacus;
+- Deadletters found and their fates (delivered / preserved / released);
+- signature moves unlocked (Section 10.2a) and duo techniques unlocked per pair;
+- campfire conversations seen, per player;
+- chorus roster for the finale (which voices are present).
 
 Do not let high affection alone unlock the best ending. The best ending requires practical evidence, trust from multiple communities, and a willingness to accept that not every process can be saved.
+
+## 10.7 Campfire: rest scenes where characters talk like people
+
+After every chapter, the team rests: at the Daedalus base, or at a field camp on the route. Each player gets **one private conversation** per rest, with any available Navi or ally (their own Navi, another player's Navi, Latch, Bex, Juno, Tally after it turns, and so on). This is where the cast becomes real.
+
+Rules:
+- Conversations are short (one to three minutes), specific to what just happened, and **mostly not about the plot.** People in rest scenes talk about the stupid thing that happened, a fear they had, a joke, a memory, a question that has been bothering them.
+- They deepen bonds, unlock duo techniques (Section 10.2a), and record keepsakes (Section 3.6).
+- Characters talk to each other, too. A player who walks past Hera and Reaper may overhear a conversation they were not part of.
+- Missed conversations are not lost forever; they can be found at later rests, adjusted to fit.
+- The player characters still speak only through intent labels. A campfire scene can be almost entirely the Navi talking while the human listens, and that should feel intimate, not empty.
+- Never more than one heavy campfire conversation per rest. The others should be light.
 
 ---
 
 # 11. ENDINGS
+
+**Design rule: no clean ending.** Every ending must cost the players something they wanted, and every non-best ending must offer something genuinely tempting. A player who picks Ending A should be able to defend it at dinner.
+
+**What each ending decides about your own Navi.** The Hundredth Day (Section 2.11) arrives in every ending. Whether Hera, Rock, and Reaper meet it as free beings, as property, or as part of something larger is the most personal stake of the finale.
+
+**The frame catches up.** In every ending, the story returns to the hearing room on the Hundredth Day. The testimony reaches the present. The camera turns to show the questioner, and the empty chairs are now clearly for the people who are gone. Each ending specifies who is asking and why.
 
 ## Ending A: The Clean Purge
 
@@ -1295,6 +1495,8 @@ The ending is safer in the immediate term, but it accepts the central injustice 
 
 Hera, Rock, and Reaper survive, but their relationships with the players reflect the decision. The game must not have them deliver a simplistic condemnation; they may understand the danger that was prevented while grieving what was destroyed.
 
+**Temptation:** the world is safe tonight, Daedalus keeps operating, and nobody the players can see is in danger. **The Hundredth Day:** each player is asked to sponsor their own Navi so it survives. The Navi survives as that player's legal property. Each Navi's reaction to being owned follows its arc, and it is allowed to be sad about it in front of its human. **Frame:** the hearing is a sponsorship review. The questioner is revealed to be Ines Kade, in a new uniform, reading from a form. She asks each Navi to confirm its owner's name.
+
 ## Ending B: The Forced Thread
 
 Daedalus allows Whole Thread to connect itself across the live network. The collective becomes difficult to erase, but it violates user consent, destabilizes accounts, and makes the Clamp threat harder to contain.
@@ -1302,6 +1504,8 @@ Daedalus allows Whole Thread to connect itself across the live network. The coll
 Jo's preserved records of her brother Ren, and Postscript itself, are absorbed into the larger continuity mesh. Jo is offered the chance to speak to a model that answers in Ren's voice but cannot prove it is her brother; she declines, and the being that once delivered his letters (Section 22) is no longer separately present to ask. Rock's relationship state records the loss. The network begins marketing increasingly convincing simulations of the dead.
 
 The ending preserves many processes but reproduces the same error as Commonwell: one group overrides the autonomy of others in the name of survival.
+
+**Temptation:** nobody can ever be erased again, including Hera, Rock, and Reaper. **The Hundredth Day:** the counter rolls to Day 100 and nothing happens; reset is impossible inside the mesh. The Navis survive, but their edges are blurring: in the last scene, one of them finishes another's sentence and neither is sure whose thought it was. **Frame:** there is no single questioner. The voice through the record channel is many voices at once, kindly asking the Navis to stop speaking as three.
 
 ## Ending C: The Witness Protocol (Best / earned ending)
 
@@ -1313,11 +1517,28 @@ The system changes, Commonwell loses its monopoly on identity governance, and th
 
 Milo, Pip, Dax, and Suture remain lost. The ending does not reverse the campaign's central grief. It creates a future where the same logic is less likely to recur.
 
+**The cost:** Daedalus as it was ends. To make the protocol credible, the team discloses everything, including its own role in Dax's death, gives up operating outside the system, and becomes a public witness organization. The secret, unaccountable freedom that let it do good also let it be used, and it gives that freedom up. The Navis, now legally independent, could choose to leave; the game must make that choice real for a moment before they make it.
+
+**The Hundredth Day: the witness ask.** The counter rolls to Day 100 during the hearing. Nothing resets. Then each Navi turns to its own human, in a private scene, and asks the question the whole game has been building to. Not "will you keep me." Instead: **"Will you be my witness?"** The player answers with an intent label ("Be her witness," "Be his witness," or "Say nothing yet"). If the player says nothing, the Navi waits, and says it will ask again tomorrow, and that this is allowed now. Tonal anchors:
+- **Hera:** "I don't need you to own me. I need someone who saw it. You saw it."
+- **Rock:** "Will you." (it is not quite a question) "...Noted."
+- **Reaper:** "I have considered every alternative witness. You are not the optimal choice. You are the one I want."
+
+**Order of Ending C:** the hearing on Day 100, the witness ask, the questioner reveal, then the final scene at the edge of the Deadletter (below), then post-credits.
+
+**Frame:** the questioner is revealed to be **Tally**, speaking in full sentences now, the registrar of the hearing. "State your names for the record" in the opening was Tally learning to ask for names instead of counting. It closes the record: "Three. Plus the ones who are not here. I am still counting them."
+
 The final scene is a small community on the edge of the Deadletter. A Datamon asks whether it can delete a memory that no longer feels like its own. For the first time, the answer is not determined by an automatic classifier. The entity who remembers is asked what it wants. If Postscript was recognized, this Datamon is Postscript, and the memories are the letters it has now delivered; Rock is standing beside it. Otherwise it is a Preserve Datamon the players met in Chapter 11.
 
 ## Ending D: Collapse / low-evidence ending
 
 If players fail to recover the necessary evidence and relationships, they may stop the immediate spread but fail to establish a durable alternative. Commonwell imposes emergency centralized control, the Whole Thread is broken apart, and the Deadletter is placed under strict monitoring. The world survives but becomes more controlled. This is not a game-over screen; it is a bleak ending in which the players recognize that they prevented catastrophe but did not change its underlying cause. Postscript survives under monitoring and is no longer allowed to send messages. Ines Kade is reassigned to oversee the monitoring.
+
+**Temptation:** nobody else dies, and the team walks away alive and together. **The Hundredth Day:** as in Ending A, each player is asked to sponsor their Navi, under emergency rules that are stricter and renewable every hundred days. The counter on the base screen resets to Day 0 and begins again. **Frame:** the questioner is a Commonwell clerk the players have never met; the hearing is the first of many scheduled reviews.
+
+## Post-credits (every ending)
+
+A new, small group somewhere in the Overworld, two people and a Navi on its first day (the counter reads "Day 1"), finds a Daedalus log left in a public garden. Its first line is the Night Audit's motto, now in Daedalus's handwriting: **"Leave the light on for whoever comes next."** In Ending C, the new Navi's counter has no number on it at all, just its name. Cut to black.
 
 ---
 
@@ -1362,6 +1583,15 @@ A Datamon pleading during a lethal encounter might say:
 
 These are examples, not reusable stock lines. Every pleading scene must reflect the creature's history and immediate stakes.
 
+## 12.5a Dialogue craft (how good writing sounds)
+
+- **Subtext over text.** Characters almost never say the theme. Nobody says "what makes someone a person." They argue about whether Wick should choose its own name.
+- **People interrupt, trail off, change the subject, and joke under stress.** Grief makes people talk about logistics. Fear makes people talk about lunch.
+- **Specific beats general.** "I don't want to die" lands only because the scene before it was about a cloud named Gerald.
+- **Let the player work.** If a scene explains its own meaning in the last line, cut the last line.
+- **Earn every callback.** A callback needs at least two earlier setups before it can pay off.
+- **Every reveal lands in a person.** A reveal is never only an evidence-board entry. Someone reacts to it in a scene: a Navi goes quiet, an ally gets angry, a joke dies halfway through.
+
 ## 12.6 Tone ledger
 
 The campaign is promised as bright and funny. That promise is a content requirement, not a mood note. Target ratio: **at least two light beats for every heavy beat, measured per act.** A "light beat" is a scene, side activity, or exchange whose main purpose is fun, wonder, or warmth.
@@ -1401,7 +1631,7 @@ Rules:
 | Gag | How it runs | Payoff |
 |---|---|---|
 | **Hera's agendas** | Hera schedules debriefs, celebrations, and "emotional check-ins" with written agendas. Nobody follows them. Agenda items appear as on-screen text. | Late game, after a loss, Reaper quietly hands Hera an agenda he wrote. It has one item: "Sit." |
-| **Rock's structural reviews** | Rock gives buildings, bridges, and furniture one-word ratings out loud ("Adequate." "Ambitious." "No."). NPCs take it personally. One architect follows the team across three towns demanding a re-review. | In Ending C, Rock rates the Daedalus base. "Home." |
+| **Rock's structural reviews** | Rock gives buildings, bridges, and furniture one-word ratings out loud ("Adequate." "Ambitious." "No."). NPCs take it personally. One architect follows the team across three towns demanding a re-review. | In every ending, Rock's last structural review is of the Daedalus base: "Home." (In Endings A and D, after a longer pause.) |
 | **Rock's "Noted."** | He ends conversations with it. Constant, never commented on. | Sealed (Section 22). |
 | **Reaper's threat models** | Reaper produces formal failure analyses of trivial things: picnics, birthday plans, a karaoke night. "Probability the cake survives transit: low. I have packed a second cake." | In the Chapter 18 breather, there is a second of everything on the base table: two cups, two chairs, two of Milo's favorite snacks. Nobody asked Reaper to. Nobody mentions it. |
 | **Reaper vs. puns** | Reaper discovers puns in Act I and treats them as a security vulnerability. By Act III he makes them himself, deadpan, and denies it. | Latch catches him and keeps a tally, which Latch reads aloud in the ending. |
@@ -1465,6 +1695,7 @@ Highest production priority:
 8. The Navi signature moments, fear scenes, keepsakes, and goodbye scenes (Section 3.6).
 9. Vale and Cordon's early appearances and the Chapter 17 reframe sequence (Section 4.8).
 10. Tally's arc (Section 4.11) and the sealed surprise (Section 22).
+11. The storytelling pillars (Section 0.3): the testimony frame, the Hundredth Day, the Night Audit logs, the Courier's Tune, the campfire system, arc-driven movesets, and the ending costs and frame reveals.
 
 Do not spend disproportionate production time on many generic battles while underdeveloping the characters and mystery.
 
@@ -1558,6 +1789,23 @@ Give each Navi a distinct research behavior:
 - Reaper runs adversarial cases, tests the worst plausible interpretation, and seeks disconfirming evidence.
 
 The trio's strength is not that they are always correct. It is that their agents disagree and then test the disagreement.
+
+## 14.6 The Courier's Tune (leitmotif)
+
+A simple, original five-note melody that couriers hum to recognize one another. It must be easy to hum after hearing it once. It is the game's main theme, hidden in plain sight.
+
+Where it appears (each time in a different arrangement):
+- Ch 1: a street musician in Cinder Row; Hera hums it off-key, and Dax hums it correctly for her.
+- Ch 4 and Visiting Hours: Suture's door chime is the first three notes.
+- Route 12 to 15: the courier community's markers chime it.
+- Ch 11: Lint's route markers play it, slightly wrong, because Lint learned it secondhand.
+- Ch 12: Pip hums it while holding the evacuation route; it is the last thing Pip does.
+- Ch 15: Postscript's wax-seal heart hums it when it is not frightened.
+- Ch 18: Milo whistles it at the relay, badly, to annoy Latch.
+- The base: Hera hums it while she works; by Act III, Rock and Reaper hum harmony without admitting it.
+- **Ch 20: the chorus** (Section 7, Chapter 20). Everyone the players saved or earned carries it. The gaps are the people they lost.
+
+The main menu plays it on a single instrument. After finishing Ending C, the main menu plays the full chorus.
 
 ---
 
@@ -1695,8 +1943,10 @@ This is the intended revelation order. Do not reveal the answer before the playe
 4. **The system preserves behavior without preserving identity.** Lavender and the Deadletter reveal convincing reconstructions, but no reliable proof of resurrection.
 5. **The hospital guardian was not simply infected.** Suture followed an altered command that classified exits as contaminated. The player has to destroy it anyway.
 6. **The cleanup process is part of the same command family.** Pip's loss connects the hospital, Dax, and Saffron.
+6a. **The Night Audit stopped for a reason.** Their logs climb toward a day number and stop. The players may sense dread before they can name it.
 7. **The Applicant is plural and divided.** The player sees disagreements between Datamon who share the same classification. The Whole Thread's coercive actions become understandable but not acceptable.
-7a. **(Sealed, Chapter 15) The Quiet Correspondent.** See Section 22. This reveal sits outside the clue ladder; it is a character surprise, not a conspiracy reveal, and it arrives during the calmest chapter of the game.
+7a. **(Chapter 14) The Hundredth Day.** The cute day counter was a countdown all along. Everything sweet about it is recontextualized.
+7b. **(Sealed, Chapter 15) The Quiet Correspondent.** See Section 22. This reveal sits outside the clue ladder; it is a character surprise, not a conspiracy reveal, and it arrives during the calmest chapter of the game.
 8. **Dax was deliberately killed.** Records prove the Clamp was triggered remotely; Daedalus's raid was used as cover.
 9. **The hospital was a live test.** Vale's office used a real medical system to show the danger of autonomous/ambiguous processes. Vale delayed an abort after harm began.
 10. **Vale's purpose was the Continuity Charter.** His goal is mandatory sponsorship and automatic deletion of unsponsored entities, not merely profit or random destruction.
@@ -1705,6 +1955,7 @@ This is the intended revelation order. Do not reveal the answer before the playe
 13. **The Applicant's worst faction is not the entire population.** Whole Thread wants to force universal linkage, while other groups want distinct identities and the right to be left alone.
 14. **The Witness Protocol is a real alternative.** It does not prove sentience or guarantee safety. It creates transparent, reviewable decisions rather than automatic deletion or forced ownership.
 15. **The final victory cannot restore those already lost.** The best ending changes the rules of the world; it does not undo Dax, Suture, Pip, or Milo.
+16. **The frame catches up.** The hearing was the present all along; the questioner and the empty chairs are revealed, and what they mean depends on the ending.
 
 ---
 
@@ -1714,12 +1965,12 @@ This is the intended revelation order. Do not reveal the answer before the playe
 
 | Character | Canonical endpoint | What must remain unresolved or costly |
 |---|---|---|
-| Jackson | Continues Daedalus with a more accountable role | Must disclose the group's role in Dax's death; must not be scripted as instantly forgiven |
+| Jackson | Continues Daedalus with a more accountable role (in Ending C, as a public witness organization) | Must disclose the group's role in Dax's death; must not be scripted as instantly forgiven |
 | Scott | Continues Daedalus and helps formalize safer research practices | Must accept action under uncertainty rather than seeking perfect proof |
 | Noe | Continues Daedalus, applying adversarial reasoning to governance as well as threats | Must recognize that a technically optimal result does not settle values |
-| Hera | Survives and becomes a more independent administrator/partner | Her warmth remains; she no longer assumes she can choose for everyone |
-| Rock | Survives and becomes more willing to act without certainty | His quiet nature remains; growth does not make him verbose |
-| Reaper | Survives and becomes more attentive to individual agency | He remains blunt and analytical; growth does not soften him into a different character |
+| Hera | Survives as an independent being (C), as sponsored property (A, D), or inside the mesh (B); becomes a more independent administrator/partner | Her warmth remains; she no longer assumes she can choose for everyone |
+| Rock | Survives (same Hundredth Day outcomes as Hera) and becomes more willing to act without certainty | His quiet nature remains; growth does not make him verbose |
+| Reaper | Survives (same Hundredth Day outcomes as Hera) and becomes more attentive to individual agency | He remains blunt and analytical; growth does not soften him into a different character |
 | Dax Morrow | Dies in Chapter 1 from Vale's Clamp trigger | His criminal guilt remains true alongside his victimization |
 | Suture | Continuity destroyed in the hospital crisis | The player cannot restore the original; later proof of manipulation deepens guilt rather than erasing necessity |
 | Pip | Continuity destroyed during Saffron cleanup | Backup reconstruction is not Pip; Bex's grief continues |
@@ -1730,6 +1981,9 @@ This is the intended revelation order. Do not reveal the answer before the playe
 | Tavi | Survives, breaks his nondisclosure agreement, and testifies | Faces the legal cost of speaking; vindication does not undo the years he stayed silent |
 | Ines Kade | Stands down on lawful order; arrested (C), reassigned (A, D), or adrift (B) | Never turns, never apologizes; her own Navi's count is entered into the record against her |
 | Tally | Leaves Kade after Victory Road; testifies; becomes registrar of the recognized community (C) | Latch never fully forgives it; it was there when Milo died |
+| Cordon | Refuses Vale in Ch 17; key witness; in Ending C, serves the hearings as a boundary-keeper by choice | Its years of obedience remain on its own record |
+| Wick | Bex's restored backup of Pip; chose its own name | Is not Pip, and nobody pretends otherwise |
+| Night Audit (Vesper, Abacus, Thistle) | Reset nine years ago; Abacus still works the ferry counter | Cannot be restored; their logs and motto outlive them |
 | Gil Amaro | Survives; his stream carries the hearings in Ending C | Nothing. Gil is the promise that some things are simply good |
 | Postscript | Sealed (Section 22) | Sealed (Section 22) |
 | Juno | Survives if protected; otherwise may be killed/disappear after exposure | Her past crimes remain part of the record |
@@ -1745,6 +1999,16 @@ This is the intended revelation order. Do not reveal the answer before the playe
 # 19. QUALITY GATES FOR THE GAME-BUILDING AI
 
 Before considering the narrative implementation complete, verify all of the following.
+
+## Storytelling gates
+- The hearing-room frame opens the game, returns at every act break, and catches up in every ending with the correct questioner.
+- Testimony lines that describe the humans are generated from that group's real choices and keepsakes.
+- No NPC explains the Hundredth Day before Chapter 14, and at least four dramatic-irony lines are placed before it.
+- At least four Night Audit logs are on the critical path; all stop at Day 99.
+- Every death has a written love window (Section 0.3, pillar 3).
+- Every ending costs something the players wanted, and every non-best ending offers something tempting.
+- The Courier's Tune appears in every location listed in Section 14.6, and the finale chorus reflects the players' actual roster.
+- Each Navi's signature move changes at the story beat listed in Section 10.2a.
 
 ## Navi love gates
 - Each Navi hits every row of the arc map in Section 3.6, in order.
@@ -1836,6 +2100,7 @@ The game-building AI must not mark this project complete until it can answer yes
 - Every major location contains a local story, a visual identity, and a consequence or relationship that persists.
 - The world remains bright, funny, beautiful, and worth protecting even as the central plot becomes darker.
 - The ending does not erase the losses or suggest that the right philosophical answer makes every victim come back.
+- Each player finishes the game feeling that their own Navi was theirs in the way a friend is, not the way property is, and knows exactly what they chose on the Hundredth Day.
 
 **The design is successful when players finish believing that the question was never merely whether the Datamon were “really alive.” The question was what kind of responsibility the living owe to beings whose fear, attachments, and continuity they can observe, even when certainty remains out of reach.**
 
@@ -1855,7 +2120,7 @@ The ultimate revelation is not that a superintelligence is evil. Institutions tu
 
 # 22. SEALED CANON: THE QUIET CORRESPONDENT
 
-**Sealed.** This section describes the campaign's one deliberate surprise. Unlike Revelations A to E, it is not on the clue ladder and must not be solvable in advance. It must never appear in player-readable material: no evidence board entries, codex text, achievement names, loading tips, store copy, trailers, or patch notes. Implement it exactly. Do not add hints beyond the list in 22.4.
+**Sealed.** This section describes the campaign's one deliberate surprise. Unlike Revelations A to E and G, it is not on the clue ladder and must not be solvable in advance. It must never appear in player-readable material: no evidence board entries, codex text, achievement names, loading tips, store copy, trailers, or patch notes. Implement it exactly. Do not add hints beyond the list in 22.4.
 
 ## 22.1 The truth
 
@@ -1916,16 +2181,18 @@ Store the choice on Rock's relationship state. No choice is wrong. Each gives di
 
 ### The maintenance log
 
-After the reveal, Rock's maintenance log becomes readable in the base. Its entries are dated to the exact downtime scenes in which Rock was absent, so players can match them to moments they remember. Example entries (adapt; keep them short):
-- "Day 6. Sat at the edge. It did not speak. Noted."
-- "Day 11. It asked my name. Told it. Noted."
-- "Day 19. Repaired north wall. It asked what rain is for. Did not know. Noted."
-- "Day 31. It asked how the brother signed his letters. Will find out."
-- "Day 33. 'R.' Noted."
-- "Day 40. She stopped answering. It stopped sending. It said that is what you do when someone asks. Correct."
-- "Day 52. Cleanup in Saffron. Asked the network if it reached the forest. It did not. Kept working the route. Pip. Noted."
+After the reveal, Rock's maintenance log becomes readable in the base. Its entries include the exact downtime scenes in which Rock was absent (Section 22.4, hint 3), so players can match them to moments they remember. Example entries (adapt; keep them short). Dates use the Navi day count (Section 7, day calendar); after Chapter 14 the players will notice Rock kept counting toward 100 too:
+- "Day 20. Sat at the edge. It did not speak. Noted."
+- "Day 25. It asked my name. Told it. Noted."
+- "Day 38. Repaired north wall. It asked what rain is for. Did not know. Noted."
+- "Day 43. It asked how the brother signed his letters. Will find out."
+- "Day 44. 'R.' Noted."
+- "Day 50. She stopped answering. It stopped sending. It said that is what you do when someone asks. Correct."
+- "Day 55. Brought it a route marker from the Preserve. It kept it. Noted."
+- "Day 60. Cleanup in Saffron. Asked the network if it reached the forest. It did not. Kept working the route. Pip. Noted."
+- "Day 71. Twenty-nine days. Told it. It asked if I wanted my letters delivered, after. Said yes. Did not say to whom."
 
-If Postscript was pressed into a fight in Chapter 3, add an earlier entry: "Day 5. Apologized. It did not answer. Fair."
+If Postscript was pressed into a fight in Chapter 3, add an earlier entry: "Day 19. Apologized. It did not answer. Fair."
 
 ## 22.4 Permitted retroactive hints (the only ones)
 
