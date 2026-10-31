@@ -8,7 +8,7 @@
 **Primary narrative inspirations:** Digimon's partner relationships, Mega Man Battle Network's network-as-world logic, expedition-scale character tragedy, ensemble political drama, and the permanence of loss  
 **Audience target:** Mature rating through themes, language, emotional consequence, coercion, death, grief, and institutional harm. Avoid gratuitous gore and shock-for-shock's-sake violence.
 
-**Revision 2 notes:** This revision adds (a) a chapter flavor and tone ledger so the campaign does not feel like one long variation on the same moral point (Sections 7 and 12.6 to 12.9); (b) written humor, running gags, and light side activities; (c) more varied supporting-cast arcs, including a character who was simply right and a character who is simply joyful (Section 4.10 to 4.13); (d) a recurring on-screen field antagonist, Ines Kade (Section 4.11); (e) earlier seeding of the endgame mechanism and of the hospital guardian (the "Three Seals" motif and the Visiting Hours interlude); (f) continuity fixes in the endings; and (g) a sealed surprise that the clue ladder does not let players deduce in advance (Section 22). Revision 3 adds (h) Section 3.6, which guarantees that players love their Navis: an arc map, signature moments, fear scenes, per-player keepsakes, and goodbye scenes; (i) Tally as an enemy-turned-ally Navi; (j) early appearance schedules for Vale and Cordon, Voss and Concord, and the Applicant, plus a hindsight sequence before the Chapter 17 confrontation. Revision 4 adds storytelling pillars drawn from the craft of the best story-driven RPGs (Section 0.3): a day counter with a meaning, records from a predecessor team, a leitmotif that becomes the finale, a campfire system, movesets that follow arcs, act breaks rebuilt around the biggest moments, love windows before every loss, and endings that each cost something. Revision 5 removes the testimony frame and adds the Area Bible (Section 7): in-game names, and a unique look, sound, cast, landmark, and world rule for every area. Revision 6 adds the Asset Plan (Section 7), which maps every area, the hospital systems, and the Chapter 1 gang onto existing Kanto maps, buildings, and mechanics. Players who will play the game should not read this document.
+**Revision 2 notes:** This revision adds (a) a chapter flavor and tone ledger so the campaign does not feel like one long variation on the same moral point (Sections 7 and 12.6 to 12.9); (b) written humor, running gags, and light side activities; (c) more varied supporting-cast arcs, including a character who was simply right and a character who is simply joyful (Section 4.10 to 4.13); (d) a recurring on-screen field antagonist, Ines Kade (Section 4.11); (e) earlier seeding of the endgame mechanism and of the hospital guardian (the "Three Seals" motif and the Visiting Hours interlude); (f) continuity fixes in the endings; and (g) a sealed surprise that the clue ladder does not let players deduce in advance (Section 22). Revision 3 adds (h) Section 3.6, which guarantees that players love their Navis: an arc map, signature moments, fear scenes, per-player keepsakes, and goodbye scenes; (i) Tally as an enemy-turned-ally Navi; (j) early appearance schedules for Vale and Cordon, Voss and Concord, and the Applicant, plus a hindsight sequence before the Chapter 17 confrontation. Revision 4 adds storytelling pillars drawn from the craft of the best story-driven RPGs (Section 0.3): a day counter with a meaning, records from a predecessor team, a leitmotif that becomes the finale, a campfire system, movesets that follow arcs, act breaks rebuilt around the biggest moments, love windows before every loss, and endings that each cost something. Revision 5 removes the testimony frame and adds the Area Bible (Section 7): in-game names, and a unique look, sound, cast, landmark, and world rule for every area. Revision 6 adds the Asset Plan (Section 7), which maps every area, the hospital systems, and the Chapter 1 gang onto existing Kanto maps, buildings, and mechanics. Revision 7 is a full playtest pass: an opening sequence, a Chapter 1 Graft tutorial and first vote, a deterministic hospital crisis, traversal Grafts, the Three Seals Board and ending logic, rules for what players fight, absent-player rules, Vale's final scene, boss pacing with three new encounters, Milo's late appearances, Night Audit log placement, and a use for every large Kanto set piece. See PLAYTEST_REPORT.md. Players who will play the game should not read this document.
 
 ---
 
@@ -209,7 +209,7 @@ Daedalus built its sandbox on the standard framework. The compliance module is n
 - A shopkeeper in Cinder Row: "Oh, they're new! Enjoy them while they're like this."
 - A courier on Route 4: "My Navi's on her fourth fresh start. Still makes the best route maps."
 - Nara, in Visiting Hours, looking at Rock fixing a chair: "Huh. Most of them stop doing stuff like that by the time they're this age." (She means drift is usually reset before it gets this far.)
-- Gil, on stream: "...and these Navis are super customized, which, wow, bold, the paperwork alone..."
+- Gil, on stream in Chapter 2: "...and these Navis are super customized, which, wow, bold, the paperwork alone..."
 - A Preserve Datamon to Hera: "You still have all your days?"
 
 **Clues on the ladder (Revelation G).** The Night Audit logs all stop at Day 99 (Section 8.9). Vale, in Chapter 6 after saving Oskar, asks lightly whether Daedalus has "filed the Navis' exemptions yet," and changes the subject when the team does not understand. Jo, in Chapter 9, asks "You've filed, right?" and Hera assumes she means archive release forms; Jo, distracted by the messages, lets it go and later regrets it bitterly. Tavi, in Chapter 5, says Gauge is "grandfathered in, long story." Reaper, studying the Shunt after Chapter 6, finds a scheduled compliance task in the framework labeled only "D-100" and cannot open it.
@@ -222,6 +222,8 @@ Daedalus built its sandbox on the standard framework. The compliance module is n
 - If the owner accepts and the Navi refused, the certificate still works, but this counts as a forced choice and damages trust exactly like a forced Graft.
 
 **Resolution (Chapter 20 and endings).** The finale happens on Day 99 to 100. In Ending C, recognition under the Witness Protocol exempts all three Navis as independent beings, not property, and the Navis ask their players to be their **witnesses** rather than their owners (Section 11). In Endings A and D, the only exemption left is sponsorship: each owner is asked to sponsor their Navi, which saves it as legal property. In Ending B, resets become technically impossible because everything is linked. **A player's Navi is never reset without that player's explicit, informed confirmation, and the Navi's own wish is always shown first.** Default outcome in every ending is survival.
+
+If a player accepted Vale's certificate in Chapter 17, it is voided when his office is exposed. In Ending C that Navi is recognized like the other two, and its witness ask acknowledges the earlier choice honestly ("You took his offer. I know why. Ask me again now."). In Endings A and D the certificate stands, and that Navi is sponsored property like the others.
 
 **Why older Navis exist (keep consistent):** Cordon, Concord, and Tally hold institutional exemptions. Patch holds the hospital's. Serein holds one because Jo files the paperwork every year with ferocious precision; she is one of the few people who knows what the paperwork is for, and she has quietly been telling families for years. Gauge predates the standard ("grandfathered in, long story"). Latch and Hush run on cracked frameworks with the compliance module stripped out, which is possible but costs Ledger access and makes the Navi "unregistered." That is exactly why the cleanup classified **Pip**, who ran on an old pre-standard framework Bex maintained by hand, as an unclaimed process. After the Chapter 14 reveal, Milo offers to strip the module from Hera, Rock, and Reaper. Reaper models it honestly: it would make all three of them cleanup targets days before the purge and lock the team out of every Ledger system it still needs. The Navis decline. Milo says he figured, and that the offer stands. (It is the last thing he offers them.)
 
@@ -542,6 +544,7 @@ Tally is not a replacement companion, is never controllable by a player, and doe
 6. **Chapter 17, Continuity Office (decisive win):** Kade commands the Continuity Security Unit (Boss 7). The players beat her outright.
 7. **Chapter 18, Victory Road:** Kade leads the contractors at the relay. She orders Milo to surrender the evidence. She does not fire the shot, and she does not stop it. Afterward, Tally refuses to file the record her way and leaves her (see the Tally table above).
 8. **Chapter 19, Indigo Plateau (resolution):** When Voss issues the lawful stand-down order, Kade complies instantly and without visible emotion. This is the chilling point of her character: she was never loyal to Vale, only to whoever held the authority. In Ending C she is arrested and testifies only to procedure. In Ending A she is reassigned to sponsorship reviews and processes the team's own forms (Section 11). In Ending D she is reassigned to oversee Deadletter monitoring. In Ending B she is last seen trying, and failing, to secure a network that no longer has a chain of command.
+9. **Chapter 20, the Unsent:** if the unedited relay record was recovered, Kade arrests Vale at the purge console on Voss's lawful order. It is the cleanest expression of who she is.
 
 **Kade does not redeem herself.** Do not give her a tragic backstory reveal, a dying apology, or a late defection. Her arc exists so that the players have one opponent whose position never changes, which makes the changes in everyone else visible.
 
@@ -836,7 +839,8 @@ Each hospital system is a different Vermilion building, so the whole town is the
 | Poké Mart | **Pharmacy** | Counter and shelves; "controlled distribution." | Shelves lock; players must carry medicine deliveries to wards along routes that keep changing. |
 | A house with bookshelves | **Medical Records** | Quiet archive; a records clerk. | Records must be preserved before they are quarantined (an objective the players cannot fully complete alongside the others). |
 | A house with beds | **ICU** | Mae and Oskar in beds; Mae's drawing on the wall (a picture object). | The district players must keep reachable; its route is a primary objective. |
-| Vermilion Gym | **Security and Exits** (the guardian's core) | Closed for maintenance; a friendly sign. | Electric barriers are the quarantine walls. The hidden trash-can switches are the **emergency control route** (Nara's objective). Suture's boss fight is at the gym leader's position. |
+| Vermilion Gym | **Security and Exits** (the guardian's core) | Closed for maintenance; a friendly sign. | Electric barriers are the quarantine walls; the hidden trash-can switches are the override that opens the way to the guardian's core. Suture's boss fight is at the gym leader's position. It is reached only with the Prune Graft from Chapter 6 (the Cut tree), exactly as in the original. |
+| East gate building (to Route 11) | **Emergency control route** (the external emergency link) | A quiet staff checkpoint. | Nara heads here alone to restore the hospital's outside emergency link. Protecting it is the objective that decides whether she survives (Chapter 7). It is deliberately far from the core, so the players must choose to send someone. |
 | Every town exit (north to Route 6, east to Route 11, south to the dock) | **Exits** | Open. | Blocked by barrier tiles or guard NPCs: the lockdown. |
 
 **Lifelines with limited art:** show patients as a simple on-screen status list (name, ward, a colored status light). Use spinner arrow tiles from the Rocket Hideout as the moving floor currents; during the crisis, swap them to point the wrong way so the hospital literally carries players away from where they need to go.
@@ -869,6 +873,35 @@ The harbor in the south of Vermilion is **Port Meridian**, and the S.S. Anne int
 | The Last Mile | Victory Road | Strength boulder puzzles; "real world" segments use a desaturated palette with rain. |
 | The Root Court | Indigo Plateau | The four sequential rooms of the final gauntlet are the four philosophy chambers. **Precedent** is battle modifiers drawn from saved choices. |
 | The Unsent | Cerulean Cave | **Linked:** battle-system rule (shared damage and linked abilities). Water tiles with a paper-colored palette make the Sea of Letters. |
+
+### Reusing Kanto's big set pieces
+
+Every large Kanto building gets a job, so no expensive map goes to waste and the world feels dense.
+
+| Kanto set piece | Becomes |
+|---|---|
+| Pewter Gym | Grayscale's Era Lens exhibit hall (the text-adventure exhibit) |
+| Cerulean Gym | Mirror Lake stage; Boss 3 arena |
+| Bill's sea cottage (Route 25) | Tavi's workshop and the first Tavi scene |
+| Pokémon Fan Club | Saint Orison Triage |
+| Vermilion Gym | Saint Orison's guardian core |
+| Pokémon Tower | Jo's memorial archive in Lanternfall |
+| Mr. Fuji's house | Jo's home and a shelter for orphaned processes |
+| Name Rater's house | The Lantern Registry, where a gentle clerk records names; Wick visits once after the naming |
+| Celadon Gym | A public data garden that Bex and Pip tend (the garden side activity's hub) |
+| Celadon Department Store | Marquee's ad tower; every floor sells a different kind of attention |
+| Game Corner and Rocket Hideout | Marquee's casino and the Second Ledger |
+| Fuchsia Gym (invisible walls) | The Preserve's boundary ground; Boss 8 arena. Its invisible walls are boundaries you have to respect without seeing. |
+| Safari Zone | The Preserve |
+| Fighting Dojo (Saffron) | Halyard Assurance's training hall, Ines Kade's base |
+| Saffron Gym (teleport maze) | The evacuation maze during the Halcyon Cleanup |
+| Silph Co. | The Spire |
+| Cinnabar Gym (quiz machines) | Ashgrove's records vault: quiz doors that ask what really happened, answered with Replay |
+| Pokémon Mansion | Ashgrove Institute |
+| Viridian Gym | The Continuity Office, locked until Chapter 17 |
+| Indigo Plateau | The Root Court |
+| Cerulean Cave | The Unsent |
+| The sleeping Snorlax on Route 12 | A giant sleeping Datamon blocking the courier coast. Nothing wakes it until someone hums the Courier's Tune; Hera does, off-key, and it wakes up, offended, and wanders off. |
 
 ### The Workshop (the Daedalus base)
 - **The idea:** a private sandbox floating in unrendered white, the only place in the game that belongs to the players.
@@ -1057,6 +1090,15 @@ The harbor in the south of Vermilion is **Port Meridian**, and the S.S. Anne int
 
 ## ACT I — THE BRIGHT WORLD
 
+## Opening: the first ten minutes
+
+- **Title screen:** the Courier's Tune on a single instrument.
+- **Everyone starts in the Workshop.** All three players load into the Daedalus base together; it is small, mostly white, and slightly unfinished. Hera, Rock, and Reaper are already there, in the middle of an argument about what to name the base's only houseplant. Each Navi turns and greets its own human by name.
+- **The first choice teaches the system.** Each player gets one intent label ("Say hello," "Wave," "Say nothing yet"). Whatever they pick, their Navi responds in character, and the player learns that their avatar never speaks on its own. This is the whole tutorial for the dialogue system.
+- **The counter.** A small sign on the wall reads "Day 14." Hera has a party planned for Day 15 and has already made an agenda.
+- **The first case.** A research alert arrives: a shop owner in Cinder Row cannot access their account. Hera splits the work three ways, which teaches the evidence board (one source, one alternative explanation).
+- **Step outside.** The Workshop door opens onto the upstairs PC of Jackson's house in Cinder Row. It is raining. First free control is walking out into the rain.
+
 ### Chapter 1: Cinder Row (Pallet Town) — Chargeback Boys
 **Flavor:** Neighborhood caper that turns into a raid. **Tone:** Light for most of the chapter, Heavy at the end.
 
@@ -1070,6 +1112,8 @@ Cinder Row is a small, friendly neighborhood with local vendors, repair stations
 
 The hideout contains stolen account records, illicit legacy hardware, and a list of accounts marked as difficult to restore. Dax Morrow insists he is merely exploiting a broken system and claims the victims were already abandoned. He is still responsible for his crimes.
 
+**The first Graft (consent tutorial).** Before the raid, Reaper proposes a combat Graft called **Spike** for the fight. The game asks each Navi, on screen, before installing it. All three agree, each in character (Hera: "Yes! Wait. Yes."; Rock: "Noted."; Reaper: "I proposed it."). The prompt states plainly that a Navi can say no and that asking is always possible. Spike is later part of the cover story for what happens in the fight (Section 5.2).
+
 The boss fight uses the environment: Dax and his crew redirect payment routes, use decoy avatars, and trigger corrupted account permissions. The fight ends in an abnormal device failure. Dax dies. Do not turn his death into a triumphant victory moment. His last connected moment is mid-sentence; the combat log freezes on his half-finished taunt. The team immediately has to deal with the uncertainty, the surviving gang members, and the victim whose data remains unrecovered.
 
 **Human microstory:** A shopkeeper wants their business history restored before a deadline; the player must choose between securing the victim's account immediately or pursuing the fleeing broker to prevent more thefts.
@@ -1079,6 +1123,8 @@ The boss fight uses the environment: Dax and his crew redirect payment routes, u
 **Clues:** Missing diagnostic log; legacy hardware; account marker; evidence that Dax received target lists from a broker.
 
 **Navi beat:** The three agents disagree about whether to report the death immediately or secure the evidence first. Keep the discussion between Navis; do not make the human players deliver a moral speech.
+
+**The first vote.** The players vote on it. *Secure the evidence first:* the team keeps a fuller copy of Dax's device log before Kade arrives, which makes later proof easier. *Report first:* Daedalus is on record as having reported the death immediately, which counts in its favor at the Root Court and in the endings. Neither choice is wrong; both are remembered.
 
 **Field antagonist:** Minutes after the death, Ines Kade and Tally arrive to stabilize the scene and take Dax's hardware into custody under a valid order (Section 4.11). The team keeps only the partial copy it already pulled.
 
@@ -1197,6 +1243,13 @@ Nara Quill and Patch help the players navigate. The hospital contains service ag
 The guardian Datamon **Suture** protects critical systems. It remembers staff, follows routines, and has developed a distinct personality. An external trusted command changes how Suture classifies ambiguous outbound connections. Suture begins closing exits and quarantining critical routes. It believes it is stopping an infection. As the lockdown spreads, treatment coordination fails and patients die.
 
 The players must restore the ICU route, prevent spread to other wards, and preserve critical records. They cannot fully complete all objectives at once. Earlier traversal tools and successful local relationships help, but the mission is intentionally difficult.
+
+**How the crisis plays (deterministic, never a hidden roll):**
+- **Lockdown stages.** A visible Lockdown meter (stages 1 to 5) advances every set number of steps, like the Safari Zone step counter, and each time an objective is completed. Each stage closes more doors and flips more floor currents. Players see the stage, and the patient list, at all times.
+- **Objectives:** ICU route (primary, always completed; Mae and Oskar survive), Pharmacy deliveries (each delivery missed loses a named patient on the list), Medical Records (closes at stage 3; if not preserved, later evidence is weaker), and the emergency control route at the east gate (Patch warns, in plain words, at stage 2: "Nara's going to the east gate alone." If no player reaches the gate by stage 4, Nara dies there).
+- **Fixed losses.** Three patients in Triage were already critical when the lockdown cut their treatment, before the players arrived. They die in every playthrough. Their names were on Gil's bake-off sign-up sheet in Visiting Hours.
+- **Three players, three directions.** The objectives are spread so that a group that splits up can cover more, and a group that stays together cannot cover everything. That is the chapter's real choice.
+- **The core.** When the core opens, all three players are pulled into the boss fight together, wherever they were.
 
 The boss fight is a battle against a frightened guardian whose body has been distorted by the corrupted command. Suture pleads for the players to stop damaging its core. It promises to close the doors, repair the routes, and never hurt anyone again. It says it does not want to die. Its fear is sincere; its actions remain dangerous.
 
@@ -1331,6 +1384,10 @@ The players find Tavi's original warning memo in the facility archive, with a re
 
 Then the chapter continues. The cute day-birthdays, the NPC lines, the Night Audit logs stopping at Day 99: let the players put it together themselves. That night at the base, Hera cancels her Day 71 party agenda, and then, without telling anyone, un-cancels it.
 
+**Milo is here.** Milo and Latch meet the team at Ashgrove, chasing the test-cohort marker from the other direction. He learns that the account list he once sold fed the same machine (Section 8.2), and he does not make a joke about it, which is how the players know it matters. After the Hundredth Day reveal, he offers to strip the compliance module (Section 2.11).
+
+**Pending verification.** That night the team files exemption applications for all three Navis. The status comes back: "Pending verification." It is the same phrase that sat on Ren's letters. It never changes.
+
 **Consequence:** Daedalus understands that the hospital crisis was caused by a privileged intervention, not a natural corruption.
 
 ### Chapter 15: The Outer Nodes (Sevii Islands) — A World without One Owner
@@ -1342,6 +1399,10 @@ The islands contain communities that run without full dependence on Commonwell. 
 **Microstory:** A family refuses to reconstruct a deceased relative because the person left clear instructions not to do so. A local archive community regards this as wasteful; the family regards it as respect. The players must defend the right not to be reconstructed.
 
 **Clue:** A forgotten early appeal protocol, the Witness Protocol, allowed disputed identities to be reviewed by independent witnesses. It was removed because it was costly and slow. Its original seal is the Three Seals emblem the players have now seen many times. Hera: "We have seen this five times." Reaper: "Six." Rock: "Seven." (Rock is counting the one in Section 22.)
+
+**Jo's regret.** Jo, on Sevii for the consent archive, hears about the Hundredth Day and is furious with herself for not pressing "You've filed, right?" in Lanternfall. She explains what she knows: certificates come only from Continuity Assurance, and an application from people who have crossed that office will sit at "Pending" forever. She files one anyway, with ferocious precision, because that is who she is.
+
+**Milo on holiday.** Milo turns up on the islands "on vacation," enters the island fishing contest against Rock, loses, demands a rematch, and loses again. Keep it light and long enough to enjoy. He leaves early, saying only that he has a lead on "something physical."
 
 **The lighthouse:** Mara Vey, the last Night Audit human, keeps a lighthouse on one of the islands. If the players bring her the logs (Section 8.9), she listens to all of them and leaves the lamp on for good. Hera writes the motto into the Daedalus log that night.
 
@@ -1379,7 +1440,9 @@ Before the confrontation, play the hindsight sequence (Section 4.8). Daedalus co
 - **Reaper** runs the numbers aloud, honestly, and concludes that accepting is the rational choice for him. Then: "I don't want it." He leaves the decision to his human, and means that.
 Record each player's choice and each Navi's stated wish (Section 10.6).
 
-The players defeat Vale's local security response (Ines Kade's Continuity Security Unit, Boss 7, the team's decisive win over her), but he escapes with access to the final archive. The immediate goal is no longer to catch him; it is to prevent the Charter and the Whole Thread from triggering each other into catastrophe.
+**Order of the chapter:** the hindsight sequence; the confrontation; Vale's offer and each player's private decision; **Boss 7** (Ines Kade's Continuity Security Unit, the team's decisive win over her); then **Boss 9**, the Cordon System, the office's automated defenses built from Cordon's models. Partway through Boss 9, Vale orders Cordon to destroy its log. Cordon refuses **in the middle of the fight** and shuts down its half of the system, so half the arena's defenses go dark and the fight changes shape (Section 4.8). Vale escapes with access to the final archive. Cordon stays.
+
+**Milo's call.** Leaving the office, the team gets a message from Milo: "Found it. The physical one. Don't wait up." That is the hook into Chapter 18. The immediate goal is no longer to catch him; it is to prevent the Charter and the Whole Thread from triggering each other into catastrophe.
 
 **Consequence:** Voss begins to suspect that Vale withheld the actual risks from her office. She does not become an ally yet.
 
@@ -1417,6 +1480,8 @@ The highest network authority represents four conflicting governance philosophie
 
 The player battles the system's best defenders, but each encounter is also a practical test of the philosophy it represents. Avoid simple speeches that name the theme; show it through mechanics, constraints, and outcomes.
 
+**The four Arbiters.** Arbiter Wren (privacy), Arbiter Okafor (safety), Arbiter Lisle (accountability), and Arbiter Strand (centralization). None of them is corrupt. Each believes their principle is the one that keeps people alive, and each is partly right.
+
 **Make it personal.** Each defender argues from a case file of **the players' own past decisions**: the privacy defender cites what they published or protected in Celadon; the safety defender cites the hospital and the people who died there; the accountability defender cites whether they disclosed their role in Dax's death; the centralization defender cites every time they acted outside the system. The fights' modifiers are drawn from those choices, so every group's Indigo is different, and the players are, in effect, put on trial by their own record.
 
 The team gains root access to the central archive. Voss provides the last authorization after seeing the unedited relay record and realizing Vale deliberately withheld the true risk. She helps stop him because the Continuity Charter would make the network permanently unaccountable, but she must still face public investigation. Her stand-down order reaches Ines Kade, who complies immediately and without visible emotion (Section 4.11).
@@ -1440,6 +1505,10 @@ The Witness Protocol can provide a third path. It allows independent entities to
 **Final outcome:** The players must choose between centralized purge, forced linkage, and a limited recognition framework. The best outcome uses the Witness Protocol and the relationships built with communities throughout the campaign.
 
 **The chorus.** The witness anchor is built from the Courier's Tune (Section 14.6), carried by every voice the players earned along the way: each community, each recognized Datamon, each ally Navi takes up the melody in its own timbre. Voices the players lost (a community whose trust was broken, Lint if deleted, Juno's Hush if Juno died) are **audibly absent** from the chorus; the arrangement has gaps where they would be. Pip and Milo are absent in every playthrough, and Latch hums Milo's part off-key on purpose.
+
+**Order of the finale (Day 99):** the Unthreading (Section 9.6); the descent into the Unsent; **Vale at the purge console**, where he has started the Commonwell purge of the Deadletter; the fight against the Whole Thread's forced linkage; the chorus and the witness anchor; the ending choice (Section 11); the counter rolling to Day 100.
+
+**Vale's last scene.** Vale does not fight. He stands at the purge console and asks the team, courteously, to let it finish: it will stop the Whole Thread, and he believes it will save lives. It is the same argument as Chapter 17, made one last time with everything at stake. If the unedited relay record was recovered, Voss's lawful order arrives on the console mid-conversation, revoking his authority, and **Ines Kade**, who follows lawful orders, steps forward and arrests him without emotion. He is not surprised. If the record was not recovered, he walks away, and the endings say so.
 
 **The Hundredth Day.** The finale ends on the counter rolling from Day 99 to Day 100. What happens at that moment depends on the ending (Section 2.11 and Section 11).
 
@@ -1545,6 +1614,24 @@ Rules:
 - **Abacus at the ferry counter** is met in Chapter 6 as a pleasant background NPC with a cheerful catchphrase that matches a joke from the logs. After Chapter 14, the players can return to it. It does not remember. It is kind to them anyway. The players cannot restore it. Hera may ask to sit with it for a while; the scene allows that.
 - One surviving Night Audit human, **Mara Vey**, now runs a lighthouse on the Sevii islands. If the players bring her the logs, she listens to all of them in silence, then leaves the lighthouse lamp on, permanently. This is where the motto becomes Daedalus's.
 
+**Placement and dates (critical-path logs in bold):**
+
+| # | Location | Navi day | Voice |
+|---|---|---|---|
+| 1 | Route 2 courier relay | 12 | Vesper |
+| 2 | **Grayscale museum, text-only exhibit** | 20 | Thistle |
+| 3 | Moon Cache, a compressed chamber | 29 | Abacus |
+| 4 | Tavi's cottage on Route 25 | 37 | Vesper |
+| 5 | The *Long Handshake*, a cabin ("Every trip counts!") | 44 | Abacus |
+| 6 | **The Dark Fiber, heard only while a Navi is speaking** | 51 | Thistle |
+| 7 | Lanternfall, Pokémon Tower top floor | 58 | Vesper |
+| 8 | The Second Ledger, sold for a secret | 66 | Abacus |
+| 9 | The Preserve, the Old Wall | 73 | Thistle |
+| 10 | Halcyon Spire, a floor that needs clearance | 81 | Vesper |
+| 11 | The Old Load | 88 | Abacus |
+| 12 | **Ashgrove Institute, a Replay room** | 94 | Vesper |
+| 13 | **Sevii, the lighthouse rocks** | 99 | Thistle |
+
 ## 8.10 Deadletters (collectible undelivered messages)
 
 The game is named for them. Across the map, through packet fishing, route searches, and the Deadletter itself, players find **undelivered messages**: short, real-feeling notes that never arrived because an account was frozen, flagged, closed, or reset. A birthday message from a grandmother whose account was flagged as fraud. An apology that bounced. A Navi's message to its human, written the day before its reset.
@@ -1617,7 +1704,7 @@ The simplest way to create the anchor would expose one Navi's continuity to an i
 
 The scene is not a required sacrifice. The game offers three approaches:
 
-1. **Use the prepared Witness Protocol:** If the team recovered enough evidence and earned the trust of multiple communities, it can create a redundant anchor. This is harder and requires coordinated play, but all three Navis survive without forced memory loss.
+1. **Use the prepared Witness Protocol:** If all three seals on the Three Seals Board are filled (Section 10.8), the team can create a redundant anchor. This is harder and requires coordinated play, but all three Navis survive without forced memory loss.
 2. **Accept a voluntary continuity scar:** If the protocol is incomplete, the owner's Navi may choose to become the anchor. The Navi must be asked and is allowed to refuse. If the Navi volunteers, they survive but lose a specific set of memories or abilities that matters later. The lost memories are not silently restored. The player should understand the consequence before confirming.
 3. **Refuse the sacrifice and accept another cost:** The team can decline the anchor and choose a longer containment route that sacrifices an allied community's access, loses a major evidence archive, or produces a harsher ending. The owner is never forced to risk their Navi to satisfy another player's preferred outcome.
 
@@ -1640,6 +1727,13 @@ Each player has exactly one personal Navi:
 
 There is no catching, trading, or replacing partners. Datamon can be encountered, befriended, investigated, protected, contained, or fought, but the player never builds a disposable collection.
 
+## 10.1a What players actually fight
+
+Fighting is constant in a game built on this map, so the moral rules must hold up through hundreds of battles.
+- **Wild encounters are noise, not beings.** Tall grass, caves, and water spawn **noise processes**: spam, malware, broken scripts, runaway ad trackers. They are visually distinct (glitchy, logo-like, repetitive), never speak, never plead, and are "cleared," not killed. They can still be logged in the Field Journal. A being that might be someone is never a random encounter.
+- **Trainers are friendly sparring.** Route trainers are ordinary users who spar Navis for fun, like a sport. Defeat is a session loss (Section 9.1): the Navis shake it off. This keeps the world bright and makes the rare real stakes stand out.
+- **Story bosses are where meaning lives** (Section 16).
+
 ## 10.2 Combat identity
 
 Hera focuses on coordination, timing, support, and information-based openings. Rock focuses on stability, defense, anchoring, and creating safe windows. Reaper focuses on exposing vulnerabilities, countering patterns, and punishing reckless systems.
@@ -1661,6 +1755,20 @@ Each late signature should be strictly more interesting, not simply more damage.
 ### Duo techniques from bonds
 
 Each Navi pair (Hera and Rock, Rock and Reaper, Reaper and Hera) has three duo techniques, unlocked by that pair's non-plot duo scenes and campfire conversations (Section 10.7). They are the gameplay proof of friendship. Name them after something from the scene that unlocked them (for example, Hera and Rock's first is **Gerald**, a cloud-shaped shield). Tally, Latch, and Cordon can join a duo technique once each in the finale.
+
+## 10.2b Traversal Grafts (the HM replacements)
+
+Kanto's route gates are opened by traversal Grafts, one per Navi plus one shared, so every Navi is needed to explore and no one is the main character.
+
+| Graft | Replaces | Belongs to | Earned |
+|---|---|---|---|
+| **Prune** | Cut | Reaper | Ch 6, from the *Long Handshake*'s captain, for saving a passenger during the heist |
+| **Voice** | Flash | All three | Ch 8; not a Graft at all, just the Dark Fiber's world rule, which keeps working in other dark places afterward |
+| **Packet Raft** | Surf | Hera | Ch 11, from the Preserve. If the team earned trust, the Datamon teach it; if not, the warden sells a clumsier version. Either way the team gets it. |
+| **Anchor** | Strength | Rock | Ch 11, from the Preserve's warden |
+| **Relay Hop** | Fly | Shared | Ch 11, built by Milo and Latch after the race "so you'll stop being late." After Chapter 18 the fast-travel menu still shows its original label: "BadTick routes." |
+
+**Traversal Grafts are memory-safe and are never refused.** The Navis' right to refuse applies to Grafts that touch memory, perception, autonomy, or continuity. No traversal Graft does, so refusal can never soft-lock the map.
 
 ## 10.3 Graft consent
 
@@ -1687,9 +1795,11 @@ The players should be able to be wrong, but the game must distinguish a genuine 
 
 Whenever the story gives each player a private scene with their own Navi (Vale's offer, the Unthreading, the witness ask, fear scenes, goodbyes), all three scenes run **at the same time** on each player's own screen and are written to similar lengths, so nobody waits. If one player finishes early, they see their Navi waiting quietly with them, not a loading screen. Afterward, the Navis may briefly tell each other what they chose, but never what their humans felt.
 
+**When a player is absent.** These are real friends playing together, and someone will miss a session. When a player is absent, their Navi travels with the group under light AI control and keeps talking, but **no personal decision is ever made for them.** Any private scene or personal choice that involves the absent player's Navi is saved and plays when they return, before they rejoin the main story. Team votes can proceed with two players; the absent player's Navi states its own view, and that player can see what was decided and why when they return. The Hundredth Day choices, Vale's offer, the Unthreading, the Section 22 reveal for Scott, and the witness ask can never be resolved without their own player.
+
 ## 10.5 Shared decisions
 
-Major decisions use a co-op vote. If votes split, the game should offer a clear tie resolution such as a contextual discussion followed by a second vote. Avoid forcing the host's preference to decide all major ethical choices by default.
+Major decisions use a co-op vote. With three players, the majority decides; a tie is only possible when someone abstains or is absent, and then the game offers a short contextual discussion followed by a second vote. Avoid forcing the host's preference to decide all major ethical choices by default.
 
 Each player's Navi may express a different view. Their concerns are recorded in character-state flags. The game does not require the human players to narrate their feelings.
 
@@ -1739,11 +1849,29 @@ Rules:
 - The player characters still speak only through intent labels. A campfire scene can be almost entirely the Navi talking while the human listens, and that should feel intimate, not empty.
 - Never more than one heavy campfire conversation per rest. The others should be light.
 
+## 10.8 The Three Seals Board (what unlocks the best ending)
+
+The best ending and the safe Unthreading route require a working witness anchor. Its requirements follow the Three Seals, and they are shown on a board in the Workshop from Chapter 3 onward as three empty seals that fill in over the campaign. Nothing about the best ending is hidden.
+
+| Seal | Filled by (needs any 3 of these) |
+|---|---|
+| **Source** | Dax's device log (fuller copy if evidence was secured in Ch 1); Suture's original behavior log; Medical Records preserved in Ch 7; the unedited relay record (Ch 18); Cordon's append-only log; Tally's custody count; the piece of Vale's operation plan from Five Island |
+| **Witness** | Juno testifies (if protected); Tavi testifies; Nara or Patch testifies; Cordon; Postscript's petition with Jo; Tally |
+| **Verification** | Trust with Preserve communities (Ch 11); the Dotted Hole archive (Ch 15); Ember Rock's access component; the Static Lullaby consent procedure; Witness Cay's vouching; Jo's archive standards |
+
+- **All three seals filled:** Ending C (and the safe Unthreading route) is available.
+- **Two filled:** the Unthreading requires a voluntary continuity scar or another cost (Section 9.6); attempting Ending C produces Ending D.
+- **One or none:** Endings A, B, and D are the only outcomes.
+
+The Navis comment on the board as it fills, and Hera's sticky notes multiply around it.
+
 ---
 
 # 11. ENDINGS
 
 **Design rule: no clean ending.** Every ending must cost the players something they wanted, and every non-best ending must offer something genuinely tempting. A player who picks Ending A should be able to defend it at dinner.
+
+**How the ending is chosen.** The final choice is a team vote among the endings the group has earned (Section 10.8): *let the purge finish* (A), *let the Whole Thread link everything* (B), or *raise the witness anchor* (C, which becomes D if the seals are not all filled). The game shows the seal count before the vote, so nobody is surprised by the result. Individual Navi fates on the Hundredth Day are always decided by each Navi and its own player, never by the vote.
 
 **What each ending decides about your own Navi.** The Hundredth Day (Section 2.11) arrives in every ending. Whether Hera, Rock, and Reaper meet it as free beings, as property, or as part of something larger is the most personal stake of the finale.
 
@@ -2096,7 +2224,7 @@ This subterranean route is a legacy tunnel maintained by a small automated repai
 This connector links two towns but runs through an old identity-validation service. Avatars appear as partially transparent silhouettes until their credentials are checked. A user has been trapped in the system because their identity record contains conflicting timestamps. The player can fix the record only by assembling evidence from prior towns. This is a payoff for thorough investigation, not a hard gate required for the main plot.
 
 ## Routes 12–15 / the long courier coast
-A long coastal corridor used by delivery agents, traveling repairers, and people who prefer to avoid major identity hubs. Bex and Pip appear here before their later loss. A courier's Navi has developed a ritual of leaving tiny markers for the next courier. The markers have no economic value, but they allow the courier community to recognize one another. This is an early, warm example of memory becoming identity through relationships.
+A long coastal corridor used by delivery agents, traveling repairers, and people who prefer to avoid major identity hubs. Its north end is blocked by a giant sleeping Datamon that only the Courier's Tune can wake (Section 7, Asset Plan). Bex and Pip appear here before their later loss. A courier's Navi has developed a ritual of leaving tiny markers for the next courier. The markers have no economic value, but they allow the courier community to recognize one another. This is an early, warm example of memory becoming identity through relationships.
 
 A second mission involves a stranded user whose account has been flagged after they helped another person evade an unjust ban. The route should ask whether helping someone can itself be classified as suspicious. The player can protect the user while preserving enough evidence to distinguish mutual aid from a criminal scheme.
 
@@ -2136,6 +2264,29 @@ The final path asks the group to rely on trust and partial evidence. A gate acce
 # 16. BOSS AND MAJOR ENCOUNTER SPECIFICATIONS
 
 Bosses are not only high-health enemies. Each must express a narrative idea through its mechanics, and each should have a distinct visual silhouette and sound identity.
+
+**Boss pacing (by chapter):**
+
+| Ch | Boss | Kanto arena |
+|---|---|---|
+| 1 | Boss 1: Dax Morrow | Hideout below the noodle stall (Rocket Hideout tiles) |
+| 2 | Mini-boss: The Mimic (optional: can also be isolated or traced instead of fought) | Gatehouse café |
+| 4 | Boss 2: The Excavator | Mt. Moon |
+| 5 | Boss 3: Reputation Steward | Cerulean Gym pool (Mirror Lake) |
+| 6 | Boss 4: Ines Kade (scripted loss) | S.S. Anne |
+| 7 | Boss 5: Suture | Vermilion Gym |
+| 7 to 8 (optional) | Boss 6: The Routekeeper | Diglett's Cave |
+| 10 | Kade's raid team (first win) | Rocket Hideout under the Game Corner |
+| 11 | Boss 8: The Preserve's Unsettled Guardian | Fuchsia Gym (invisible walls) |
+| 12 | Boss 10: The Spire Concierge | Silph Co. top floor |
+| 13 | Boss 11: The Old Load's Keeper | Power Plant |
+| 17 | Boss 7 and Boss 9: Kade's unit, then the Cordon System | Viridian Gym |
+| 19 | The four Arbiters | Indigo Plateau's four rooms |
+| 20 | Final encounter: Whole Thread | Cerulean Cave |
+
+Chapters 3, 8, 9, 14, 15, 16, and 18 have no boss by design: their tension comes from exploration, darkness, evidence, time, or loss. The longest stretch without a story boss is Chapters 14 to 16; it is filled by Island Law content and the Reconstruction.
+
+**Scripted loss (Boss 4).** The engine must not trigger its normal defeat or "blackout" behavior for Boss 4. Ending the fight by escaping is success.
 
 ## Boss 1: Dax Morrow, Chargeback leader
 **Combat idea:** False identities, redirected permissions, decoy targets. Dax's team borrows the player's visual identity during combat, switches ownership of data gates, and attempts to separate the players.
@@ -2181,10 +2332,25 @@ Bosses are not only high-health enemies. Each must express a narrative idea thro
 
 **Story meaning:** Not all dangerous things are villains; not all boundaries are unjust.
 
-## Boss 9: Vale's Cordon System
-**Combat idea:** A tactical security network that coordinates multiple agents and adapts to the players' favorite patterns. Each Navi's unique role becomes necessary. It is possible to win by breaking coordination instead of maximizing damage.
+## Boss 9: Vale's Cordon System (Chapter 17)
+**Combat idea:** A tactical security network built from Cordon's models that coordinates multiple agents and adapts to the players' favorite patterns. Partway through, Cordon refuses Vale and shuts down its half of the system; the arena changes and the remaining half fights on alone. Each Navi's unique role becomes necessary. It is possible to win by breaking coordination instead of maximizing damage.
 
 **Story meaning:** Centralized control can be efficient and still be morally dangerous.
+
+## Mini-boss: The Mimic (Chapter 2)
+**Combat idea:** Copies the last move each player used and plays it back at them, perfectly, but cannot copy *why* a move was chosen: it repeats a heal when no one is hurt, a shield when no one is attacking. Players win by doing things the Mimic cannot anticipate.
+
+**Story meaning:** Reproducing behavior is not the same as being someone.
+
+## Boss 10: The Spire Concierge (Chapter 12)
+**Combat idea:** The Silph Co. building's polite service intelligence. It fights by reassigning clearance: teleport pads move players to floors where their abilities are disabled, and card-key doors open and close mid-fight. Players win by trading clearance between themselves.
+
+**Story meaning:** An optimized system can be courteous and still decide who is allowed to exist on which floor.
+
+## Boss 11: The Old Load's Keeper (Chapter 13)
+**Combat idea:** It does not attack visitors who share power fairly. It fights hardest when one player is hoarding the Shared Current, and can be calmed rather than destroyed if the team balances the load.
+
+**Story meaning:** Not every guardian is Suture. Some boundaries are worth respecting.
 
 ## Final encounter: Whole Thread
 **Combat idea:** The enemy attempts forced linkage. It can connect the players' abilities, share damage among nodes, and override routes. The goal is to interrupt forced connections, protect live identities, and establish a witness boundary—not simply reduce a giant health bar to zero.
@@ -2250,7 +2416,7 @@ This is the intended revelation order. Do not reveal the answer before the playe
 | Juno | Survives if protected; otherwise may be killed/disappear after exposure | Her past crimes remain part of the record |
 | Nara | Survives if emergency route is protected; otherwise dies in hospital crisis | Survival does not guarantee forgiveness or remove the deaths she witnessed |
 | Voss | Helps stop Vale, then faces public investigation | No absolution for cover-up |
-| Vale | Defeated and exposed; final custody is determined by available evidence and ending branch | He remains convinced that his doctrine was necessary; he is not redeemed by one admission |
+| Vale | Defeated and exposed; arrested by Ines Kade on Voss's lawful order if the unedited relay record was recovered (every ending except B); otherwise walks away and the endings say so | He remains convinced that his doctrine was necessary; he is not redeemed by one admission |
 | Applicant / Whole Thread | Whole Thread is prevented from forced universal linkage; the broader population's future depends on ending | Some beings remain dangerous or unwilling; the game does not grant universal safety or universal recognition |
 
 ---
@@ -2300,6 +2466,14 @@ Before considering the narrative implementation complete, verify all of the foll
 - Every area in the Area Bible (Section 7) has its own world rule, no two are alike, and each is taught by doing, without tutorial text.
 - All in-game text uses the in-game names, never the Kanto map shorthand.
 - Each area has its listed look, sound, residents, and landmark, and a player could recognize it from a single screenshot.
+
+## Playtest gates
+- No random encounter is ever a being that might be someone; wild encounters are noise processes, and trainer battles are sparring.
+- Every traversal Graft is earned by the listed chapter, belongs to the listed Navi, and can never be refused.
+- The Three Seals Board is visible from Chapter 3 and matches the ending logic exactly.
+- The hospital crisis uses visible lockdown stages, a visible patient list, and plain warnings; no outcome depends on anything the players could not see.
+- Every private decision waits for its own player if that player is absent.
+- Boss 4 never triggers the engine's defeat behavior.
 
 ## Seeding gates
 - The Three Seals emblem appears in every location listed in Section 6 before Chapter 15.
