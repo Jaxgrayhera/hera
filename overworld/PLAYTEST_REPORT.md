@@ -1,6 +1,6 @@
 # Overworld: Deadletter: Simulated Playtest Report
 
-**Contains full spoilers. For builders only.** This is a desk playthrough of the master spec (Revision 7), played start to finish as a three-player co-op group on the Kanto map, checking geography, gating, pacing, mechanics, story logic, and co-op behavior. Every issue below has been fixed in the spec; the section where each fix lives is listed.
+**Contains full spoilers. For builders only.** This is a desk playthrough of the final master spec, played start to finish as a three-player co-op group on the Kanto map, checking geography, gating, pacing, mechanics, story logic, and co-op behavior. Every issue below has been fixed in the spec; the section where each fix lives is listed.
 
 ## Route walked
 

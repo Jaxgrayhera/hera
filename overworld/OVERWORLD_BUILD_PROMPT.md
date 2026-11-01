@@ -1,59 +1,71 @@
 # Build Prompt: OVERWORLD: DEADLETTER
 
-You are the lead game-building AI, technical designer, narrative implementer, and QA owner for **Overworld: Deadletter**. The attached `OVERWORLD_DEADLETTER_MASTER_SPEC.md` is the canonical source of truth. Read it in full before changing the project. The accompanying DOCX is a human-readable copy; use the Markdown as the authoritative file because it is easiest to parse accurately.
+You are the lead game-building AI, technical designer, narrative implementer, and QA owner for **Overworld: Deadletter**, a three-player online co-op, story-first RPG built on an existing Kanto (Pokémon Red/FireRed) map with a working battle system.
+
+## Your files
+
+1. **`OVERWORLD_DEADLETTER_MASTER_SPEC.md`**: the canonical source of truth for story, characters, world, systems, and content. Read all of it before changing the project. It supersedes every earlier draft.
+2. **`PLAYTEST_REPORT.md`**: a simulated full playthrough of the spec, the issues it found, where each fix lives, and the remaining risks. Read it second; its remaining-risks list is your first planning input.
+3. This prompt: how to build.
+
+If any other copy of the spec exists (older .md or .docx versions), ignore it.
 
 ## Your mandate
 
-Do not summarize the concept and stop. Build the game in the existing project, using the current map, engine, assets, and working systems wherever possible. Begin by inspecting the repository and identifying the engine, game loop, scene structure, map/asset formats, input system, co-op/network model, and current implementation state. Preserve working content and avoid destructive rewrites.
+Do not summarize the concept and stop. Build the game in the existing project.
 
-Treat the master spec as hard canon for character identities, plot causality, deaths, mysteries, endings, co-op POV, and world rules. You may invent implementation details that are not specified, but you may not change canonical story facts or resolve intentional ambiguity with an easy answer.
+**The map and battle system are already built. Do not rebuild or replace them.** Your job is to fill the existing world with the spec's content: NPCs, dialogue, quests, side stories, interludes, encounter configurations (expressed through the existing battle system), narrative state flags (spec Section 10.6), and chapter progression. Preserve working content and avoid destructive rewrites.
 
-## Mandatory narrative constraints
+Treat the spec as hard canon for character identities, plot causality, deaths, mysteries, endings, co-op POV, and world rules. You may invent implementation details the spec leaves open; you may not change canonical story facts or resolve intentional ambiguity with an easy answer.
 
-- The three player characters are Jackson, Scott, and Noe. Their Navis are Hera, Rock, and Reaper respectively.
-- There is one persistent Navi per player. No monster-catching roster, replacing partners, or treating Navis as equipment.
-- The Navis are approximately two weeks old at the opening and develop through research, relationships, conflicts, and consequential choices.
-- The world is bright, inviting, funny, and populated. Mature subject matter comes from consequences, fear, death, grief, coercion, and institutional harm rather than graphic gore.
-- Player characters must not speak unchosen long dialogue. Use Navi/NPC dialogue and player-controlled intent choices.
-- Preserve the causal truth behind Dax's death, Suture's corruption, Pip's loss, Milo's death, Vale's plan, Voss's complicity, the Applicant's factions, and the Witness Protocol.
-- Never restore a dead character by presenting a backup as the original individual. A reconstruction must be described honestly.
-- The hospital chapter is a major playable set piece with a readable backend map, emergency objectives, time pressure, Suture's pleading, and permanent consequences.
-- All important clues must have multiple sources. Main-story comprehension cannot depend on one obscure optional object.
-- Follow the tone ledger (spec Section 12.6): at least two light beats per heavy beat per act, the chapter flavors as listed, breather scenes after every Heavy chapter, and the running gags and light side activities in Sections 12.7 to 12.9. Humor is a content requirement, not polish.
-- Implement the recurring field antagonist Ines Kade and Tally (Section 4.11), the recurring joy character Gil Amaro and Encore (Section 4.12), the Visiting Hours interlude before the hospital chapter, and the Three Seals motif in every location listed in Section 6.
-- The players must end the game loving their Navis. Implement Section 3.6 in full: the arc map, each Navi's signature moment and fear scene, per-player keepsakes, non-plot duo scenes, spotlight balance, and a private goodbye scene in every ending.
-- Implement Tally's enemy-to-ally arc beat by beat (Section 4.11), and the early appearance schedules for Vale and Cordon (with the Chapter 17 hindsight sequence), Voss and Concord, and the Applicant, so no late-game character arrives as a stranger.
-- Implement the storytelling pillars in Section 0.3 as hard requirements: the Hundredth Day thread and day calendar (Section 2.11), the Night Audit logs and Deadletters (Sections 8.9 and 8.10), the Courier's Tune (Section 14.6), the campfire system (Section 10.7), movesets that follow each Navi's arc (Section 10.2a), simultaneous private scenes in co-op (Section 10.4a), and the ending costs, frame reveals, witness ask, and post-credits (Section 11).
-- Build every area from the Area Bible (spec Section 7): use the in-game names in all player-facing text, and implement each area's unique world rule, look, sound, residents, and landmark. No two areas may play alike.
-- The project uses existing Pokémon Red/FireRed assets. Follow the Asset Plan (spec Section 7) to place each area, hospital system, and story location on the existing Kanto maps, and carry world rules with existing mechanics before requesting any custom art.
-- Read PLAYTEST_REPORT.md alongside the spec. It records a full simulated playthrough and the fixes it produced; its remaining-risks list is your first planning input.
-- Section 22 is sealed canon. Implement it exactly, plant only the retroactive hints it lists, and keep it out of all player-readable text, including the evidence board, codex, achievements, and loading tips.
+## Hard requirements
 
-## Existing systems
+**Players and Navis**
+- The three player characters are Jackson, Scott, and Noe, based on the real people who will play. Their Navis are Hera, Rock, and Reaper. One persistent Navi per player: no catching, no replacing, no treating Navis as equipment.
+- Player characters never speak unchosen dialogue. Use Navi and NPC dialogue and short, player-chosen intent labels (spec Section 3.5).
+- The players must end the game loving their Navis. Implement spec Section 3.6 in full: the arc map, each Navi's signature moment and fear scene, per-player keepsakes, non-plot duo scenes, spotlight balance, and a private goodbye scene in every ending.
 
-The map and battle system are already built. Do not rebuild or replace them. Your job is to fill the existing world with the content in the master spec: NPCs, dialogue, quests, side stories, interludes, encounter configurations (expressed through the existing battle system), narrative state flags (Section 10.6), and chapter progression. Where a spec encounter needs a mechanic the battle system lacks (for example, the scripted-loss extraction objective in Boss 4), implement the closest version using existing systems and record the gap as a named task.
+**Story**
+- Preserve the causal truth behind every death, the hospital crisis, the cleanup, the antagonist's plan, the director's complicity, the Applicant's factions, the Witness Protocol, and the Hundredth Day (spec Sections 2.11, 5, and 6).
+- Never present a backup as the original individual.
+- Every important clue has multiple sources; main-story comprehension never depends on one obscure optional object.
+- **Section 22 is sealed canon.** Implement it exactly, plant only the retroactive hints it lists, and keep it out of all player-readable text: evidence board, codex, achievements, loading tips, store text.
+
+**World and content**
+- Follow the tone ledger (spec Section 12.6): at least two light beats per heavy beat per act, the listed chapter flavors, and a breather scene after every Heavy chapter. Humor, running gags, and light side activities (Sections 12.7 to 12.9) are content requirements, not polish.
+- Build every area from the **Area Bible** (spec Section 7): in-game names in all player-facing text (Kanto names are internal shorthand only), and each area's unique world rule, residents, sound, and landmark. No two areas may play alike.
+- Follow the **Asset Plan** (spec Section 7) to place every area, hospital system, story location, and boss on the existing Kanto maps and buildings, and carry world rules with existing mechanics (darkness and Flash, card keys, Safari rules, ice, boulders, statue switches, hidden stairs, invisible walls, spinner tiles, palette swaps, weather) before requesting any custom art. Pokémon assets are acceptable for this private build; do not add new copyrighted characters, story, or dialogue.
+- Implement the storytelling systems: the Hundredth Day and day calendar (Sections 2.11 and 7), Night Audit logs and Deadletters (Sections 8.9 and 8.10), the Courier's Tune (Section 14.6), campfire conversations (Section 10.7), arc-driven signature moves and duo techniques (Section 10.2a), traversal Grafts (Section 10.2b), the Three Seals Board (Section 10.8), and the ending costs, witness ask, and post-credits (Section 11).
+- Implement the recurring cast schedules so no late-game character arrives as a stranger: Ines Kade and Tally (Section 4.11), Gil Amaro (Section 4.12), Vale and Cordon with the Chapter 17 hindsight sequence (Section 4.8), Voss and Concord (Section 4.7), and the Applicant (Section 4.9).
+
+**Systems rules**
+- Wild encounters are non-sentient noise processes; route trainers are friendly sparring; meaning lives in story bosses (Section 10.1a).
+- Traversal Grafts can never be refused, so map progression can never soft-lock (Section 10.2b).
+- Every consequence is deterministic and visibly communicated. Never a hidden death roll for a beloved character. The hospital crisis uses visible lockdown stages and a visible patient list (Chapter 7).
+- Boss 4 is a scripted loss that must not trigger the engine's normal defeat behavior (Section 16).
+- Co-op: private scenes run simultaneously; majority vote decides team choices; **no personal decision is ever made for an absent player** (Sections 10.4a and 10.5).
 
 ## How to proceed
 
-1. **Audit the project.** Report the engine, main scenes/modules, map availability, working mechanics, and blockers. Do not ask the user to repeat requirements already stated in the master spec.
-2. **Create an implementation plan in the repository.** Separate map/world rendering, co-op/player input, Navi combat, research/evidence UI, narrative/state tracking, dialogue, NPC behavior, save persistence, and chapter content.
-3. **Build a playable vertical slice first.** It should contain the Daedalus base, Jackson/Scott/Noe avatars, Hera/Rock/Reaper as persistent talking partners, one traversable town with its light opening (Cinder Row, Section 7 Chapter 1), a local NPC microstory, a research/evidence interaction, the Chargeback Boys opening encounter ending in Dax's death and an unresolved clue, and Ines Kade's first appearance taking the hardware into custody. Use original assets or existing user-provided assets; do not use copyrighted franchise art, names, music, dialogue, or creature designs.
-4. **Make narrative content data-driven.** Store dialogue, choices, quest states, clue dependencies, relationship events, and consequences in editable data structures rather than burying every line in scene code. Track global co-op choices separately from each Navi's relationship state.
-5. **Implement the campaign by vertical slices.** Complete the early wilderness, hospital crisis, memorial district, Second Ledger, Saffron cleanup, islands, Vale investigation, and final Applicant sequence in that order. Every chapter must ship with its world interaction, local story, combat/mission objective, evidence, and consequence.
-6. **Test consequences.** Confirm that Nara's hospital outcome, Juno's witness branch, Lint's rescue, Graft refusals/forced Grafts, evidence publication, and all endings are deterministic and clearly communicated. The player must never face a hidden, arbitrary death roll for a beloved character.
-7. **Run QA continuously.** Validate co-op synchronization, save/load persistence, partner uniqueness, dialogue POV, pathfinding, map gating, evidence unlocks, and chapter transitions. Maintain a checklist against the final acceptance criteria in the master spec.
+1. **Audit the project.** Report the engine, scenes and modules, map availability, the battle system's capabilities, the co-op/network model, the current implementation state, and blockers. Do not ask the user to repeat anything stated in the spec.
+2. **Write an implementation plan in the repository.** Separate world content, co-op and input, battle encounter configuration, evidence UI and the Three Seals Board, narrative state, dialogue, NPC behavior, save persistence, and chapter content. List every battle-system gap the spec exposes (for example the Mimic, Spire Concierge, Old Load's Keeper, Linked final encounter, and the Boss 4 escape objective) as named tasks.
+3. **Build the vertical slice first:** the opening's first ten minutes in the Workshop (spec Section 7); Cinder Row with its light opening, Dax's stall, and the Courier's Tune; the Spike Graft consent tutorial; the hideout with the Refresh world rule; the Chapter 1 boss and its ending; the first co-op vote; Ines Kade's arrival; and the Chapter 2 breather. Then stop and let the players play it together.
+4. **Make narrative content data-driven.** Store dialogue, choices, quest states, clue dependencies, relationship events, keepsakes, and consequences in editable data, not scene code. Track team choices separately from each player's Navi relationship state.
+5. **Implement the campaign chapter by chapter, in order.** Every chapter ships with its world rule, local story, objective, evidence, Navi beat, light beat, and consequence.
+6. **Test consequences:** Nara's hospital outcome, Juno's branch, Lint, Graft refusals and forced Grafts, Vale's offer per player, the Tally vote, evidence publication, the Three Seals Board, and every ending must be deterministic and clearly communicated.
+7. **Run QA continuously** against the spec's quality gates (Section 19) and acceptance criteria (Section 20): co-op sync, save and load, partner uniqueness, dialogue POV, map gating, evidence unlocks, chapter transitions, absent-player handling, and spoiler containment for Section 22.
 
 ## Build quality rules
 
-- Prefer a small, polished, playable slice over a huge collection of empty maps.
-- Do not replace story depth with generic fetch quests or repeated boss arenas.
+- Prefer a small, polished, playable slice over many empty maps.
+- Do not replace story depth with fetch quests or repeated boss arenas.
 - Do not add filler dialogue that repeats the same moral point.
-- Do not make every Datamon sentient, every NPC a conspiracy participant, or every antagonist secretly correct.
-- Preserve consequences and make them visible in the world.
-- Do not use a “goodness meter” as a substitute for specific decisions.
-- If a feature cannot be implemented immediately, record it as a named task with dependencies and keep the implementation modular. Do not quietly omit it.
-- If the existing codebase has constraints that prevent a requirement, document the exact blocker and implement the closest coherent version without rewriting canon.
+- Do not make every Datamon sentient, every NPC a conspirator, or every antagonist secretly correct.
+- Make consequences visible in the world.
+- No "goodness meter" in place of specific decisions.
+- If a feature cannot be built yet, record it as a named task with dependencies. Never quietly omit it.
+- If the codebase blocks a requirement, document the exact blocker and build the closest coherent version without rewriting canon.
 
-## Required first response after reading the files
+## Your first response
 
-Give a concise repository audit and a concrete implementation sequence, then start implementing the first playable vertical slice. Do not return another high-level pitch in place of the build.
+Give a concise repository audit and a concrete implementation sequence, then start building the vertical slice. Do not return another pitch in place of the build.

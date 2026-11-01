@@ -8,7 +8,9 @@
 **Primary narrative inspirations:** Digimon's partner relationships, Mega Man Battle Network's network-as-world logic, expedition-scale character tragedy, ensemble political drama, and the permanence of loss  
 **Audience target:** Mature rating through themes, language, emotional consequence, coercion, death, grief, and institutional harm. Avoid gratuitous gore and shock-for-shock's-sake violence.
 
-**Revision 2 notes:** This revision adds (a) a chapter flavor and tone ledger so the campaign does not feel like one long variation on the same moral point (Sections 7 and 12.6 to 12.9); (b) written humor, running gags, and light side activities; (c) more varied supporting-cast arcs, including a character who was simply right and a character who is simply joyful (Section 4.10 to 4.13); (d) a recurring on-screen field antagonist, Ines Kade (Section 4.11); (e) earlier seeding of the endgame mechanism and of the hospital guardian (the "Three Seals" motif and the Visiting Hours interlude); (f) continuity fixes in the endings; and (g) a sealed surprise that the clue ladder does not let players deduce in advance (Section 22). Revision 3 adds (h) Section 3.6, which guarantees that players love their Navis: an arc map, signature moments, fear scenes, per-player keepsakes, and goodbye scenes; (i) Tally as an enemy-turned-ally Navi; (j) early appearance schedules for Vale and Cordon, Voss and Concord, and the Applicant, plus a hindsight sequence before the Chapter 17 confrontation. Revision 4 adds storytelling pillars drawn from the craft of the best story-driven RPGs (Section 0.3): a day counter with a meaning, records from a predecessor team, a leitmotif that becomes the finale, a campfire system, movesets that follow arcs, act breaks rebuilt around the biggest moments, love windows before every loss, and endings that each cost something. Revision 5 removes the testimony frame and adds the Area Bible (Section 7): in-game names, and a unique look, sound, cast, landmark, and world rule for every area. Revision 6 adds the Asset Plan (Section 7), which maps every area, the hospital systems, and the Chapter 1 gang onto existing Kanto maps, buildings, and mechanics. Revision 7 is a full playtest pass: an opening sequence, a Chapter 1 Graft tutorial and first vote, a deterministic hospital crisis, traversal Grafts, the Three Seals Board and ending logic, rules for what players fight, absent-player rules, Vale's final scene, boss pacing with three new encounters, Milo's late appearances, Night Audit log placement, and a use for every large Kanto set piece. See PLAYTEST_REPORT.md. Players who will play the game should not read this document.
+**Craft touchstones:** *Final Fantasy X* and *Clair Obscur: Expedition 33*, for storytelling technique only (Section 0.3).
+
+**Document status: FINAL (build version).** This is the complete and authoritative specification. It supersedes every earlier draft, outline, and copy, including any earlier .md or .docx versions of this file. Read it together with `OVERWORLD_BUILD_PROMPT.md` (how to build) and `PLAYTEST_REPORT.md` (a simulated full playthrough and the fixes it produced). **Players who will play the game should not read this document; it contains every spoiler.**
 
 ---
 
@@ -35,7 +37,7 @@ This document is the canonical specification. Follow it over any prior outline, 
 15. The collective called **the Applicant** is not a single evil AI and is not the soul of one deceased person. It emerged from years of denied appeals, rejected identity claims, deleted records, and discarded programs. It has factions and internal dissent. One faction, the **Whole Thread**, tries to make erasure impossible by linking itself to live identities; this is dangerous and coercive. Other factions want individual recognition or simply want to be left alone.
 16. The final answer must not be “all data is alive” or “all data is only software.” The story establishes evidence of persistent agency, fear, memory, preference, and continuity, while leaving philosophical certainty unattainable. The ethical response cannot depend on a perfect sentience detector.
 17. The best ending is not a perfect restoration of everything lost. Dax, Suture, Pip, and Milo remain lost in different ways. The victory is establishing a system that recognizes independent beings and constrains harm without making deletion the automatic answer.
-18. Use the FireRed/Kanto route progression as a structural map reference if the environment is already based on it, but create original names, dialogue, creatures, character designs, visual assets, music, and story content. Do not copy Pokémon or Mega Man characters or assets.
+18. The project is built on the FireRed/Kanto map and uses existing Pokémon Red/FireRed tiles, sprites, and mechanics as described in the Asset Plan (Section 7). That is acceptable for a private game among friends. All story, dialogue, characters, names, and creature concepts must be original; do not copy Pokémon or Mega Man characters, story, or dialogue. If the game is ever shared publicly, every borrowed asset must be replaced first.
 19. **Ines Kade** is the recurring on-screen field antagonist: a Commonwell contract security lead who is loyal to the chain of command, not to Vale personally. She appears repeatedly, beats the team at least once, loses to them later, and leads the team at the relay in Chapter 18. She does not redeem herself and does not turn on her superiors; she stands down only when a lawful order tells her to (Section 4.11). Her Navi, **Tally**, does turn: it is the campaign's enemy-turned-ally Navi, and its arc mirrors Reaper's.
 20. The **Three Seals** (one source record, one witness, one independent verification) are a recurring visual and mechanical motif from Chapter 3 onward. They are the player-facing shape of the Witness Protocol long before the protocol is named.
 21. **Section 22 is sealed canon.** It describes a surprise that is deliberately not on the clue ladder. Builders must implement it exactly, plant only the retroactive hints listed there, and keep it out of any player-readable material, store text, trailers, achievements, or patch notes.
@@ -1126,7 +1128,7 @@ The boss fight uses the environment: Dax and his crew redirect payment routes, u
 
 **The first vote.** The players vote on it. *Secure the evidence first:* the team keeps a fuller copy of Dax's device log before Kade arrives, which makes later proof easier. *Report first:* Daedalus is on record as having reported the death immediately, which counts in its favor at the Root Court and in the endings. Neither choice is wrong; both are remembered.
 
-**Field antagonist:** Minutes after the death, Ines Kade and Tally arrive to stabilize the scene and take Dax's hardware into custody under a valid order (Section 4.11). The team keeps only the partial copy it already pulled.
+**Field antagonist:** Minutes after the death, Ines Kade and Tally arrive to stabilize the scene and take Dax's hardware into custody under a valid order (Section 4.11). The team keeps only the copy it already pulled: a fuller one if the vote chose to secure evidence first, a partial one if it chose to report first.
 
 **Consequence:** Daedalus obtains its first evidence of a trusted system marker and is quietly noticed by Vale's monitoring apparatus.
 
@@ -1196,6 +1198,8 @@ Milo returns and assists the team while insulting their methods. He does somethi
 
 **Microstory:** A creator has two identities used in different contexts. Both are authentic, but one is weaponized against the other. The player must choose how to expose the fraud without forcing the creator to expose private details. The creator proves both identities using the Three Seals pattern (their own records, a longtime friend as witness, and a timestamp verification). Hera notices the pattern matches the museum exhibit.
 
+**Boss:** the Reputation Steward (Boss 3), fought on the Mirror Lake stage in the Cerulean Gym pool.
+
 **Clue:** The account broker is part of a market called the Second Ledger.
 
 **Navi beat:** Hera and Milo's Navi Latch become playful rivals. Rock gives Milo a one-line correction that unexpectedly wins the argument. Reaper recognizes a useful skill in Milo but refuses to praise him.
@@ -1211,6 +1215,8 @@ A data-transfer ship carries sensitive records between regions. Daedalus infiltr
 **Microstory (light):** A nervous passenger planned to propose at midnight with a slideshow of their relationship, but the ship's transfer process corrupted the file. The players recover the slides during the infiltration, under time pressure, and can choose whether to restore the slide the partner would definitely not want shown to their grandmother.
 
 **Field antagonist (scripted loss):** Ines Kade runs ship security under contract and is Boss 4 (Section 16). The players cannot win this fight; the objective is to get out with partial data before Halyard reinforcements arrive. Make the loss clear and survivable: the team escapes, but Kade has seen their faces and their Navis.
+
+**Traversal Graft:** the players reach Oskar first and keep him stable until help arrives. The ship's captain, grateful, gives Reaper the **Prune** Graft (Section 10.2b), which opens the cut-tree paths, including the way into Saint Orison's core in Chapter 7.
 
 **Clue:** The shutdown signature matches Dax's death. The safety mechanism is not a conventional virus; it used a trusted diagnostic pathway.
 
@@ -1329,6 +1335,10 @@ The Preserve is a populated habitat of autonomous Datamon. Not all are safe, but
 
 **Navi beat:** The Daedalus agents meet Datamon who explicitly do not want contact. Respecting that request may cost the team a shortcut or clue. Do not make every independent creature grateful to the protagonists.
 
+**Boss:** the Preserve's Unsettled Guardian (Boss 8), in the Fuchsia Gym's invisible-wall boundary ground. Players who respect its boundaries can create openings or leave without destroying it.
+
+**Traversal Grafts:** the Preserve gives Hera **Packet Raft** (taught by the Datamon if the team earned trust, sold by the warden in a clumsier form if not) and Rock **Anchor** (from the warden). After the Longline race, Milo and Latch build the shared **Relay Hop** "so you'll stop being late" (Section 10.2b).
+
 **Consequence:** The team earns trust with one community and loses it with another depending on how they behave. These relationships influence the final rescue operation.
 
 ### Chapter 12: Saffron and Silph Co. — The Cleanup
@@ -1337,7 +1347,7 @@ The Preserve is a populated habitat of autonomous Datamon. Not all are safe, but
 
 Daedalus infiltrates the corporate district to recover original safety logs. Halyard units under Ines Kade enforce the cleanup perimeter as moving obstacles the players must route around. The evidence proves that trusted commands altered the hospital guardian's threat interpretation and that the same command family was involved in Dax's shutdown.
 
-The team returns to a familiar safehouse where Bex and Pip are helping displaced users. The scene is warm and routine. Do not signal the death with ominous music or obvious foreshadowing. Pip wants to show Hera an odd data fragment; Bex jokes about the team's planning.
+At the top of the Spire the team must get past **the Spire Concierge** (Boss 10), the building's courteous service intelligence, to reach the logs. The team returns to a familiar safehouse where Bex and Pip are helping displaced users. The scene is warm and routine. Do not signal the death with ominous music or obvious foreshadowing. Pip wants to show Hera an odd data fragment; Bex jokes about the team's planning.
 
 Commonwell begins a system-wide cleanup designed to suppress evidence and remove unverified processes. Under the alarms, Tally can be heard counting the Datamon being erased: "I was not asked to count these." Pip maintains an evacuation route, humming the Courier's Tune to guide people through the dark, and their continuity data is erased. The humming stops mid-phrase. Do not show the erasure; let the route lights go out one by one while the last evacuees reach safety. Bex later restores a backup, but it is not the continuing Pip. She refuses to call it resurrection.
 
@@ -1355,7 +1365,7 @@ Commonwell begins a system-wide cleanup designed to suppress evidence and remove
 
 **Breather first:** a base scene after Saffron. Hera tries to throw the team a "normal evening" and fails. Reaper, without being asked, takes over and runs it badly but sincerely: one board game, strict rules, no talking about work. Rock is caught cheating for the first time in his life, to let Hera win. He denies it. Then says "Noted."
 
-A defense process is keeping a legacy node isolated. Unlike Suture, it does not simply attack everything. It allows some visitors through and appears to protect specific Datamon. The players investigate before fighting.
+A defense process, **the Old Load's Keeper** (Boss 11), is keeping a legacy node isolated. Unlike Suture, it does not simply attack everything. It allows some visitors through and appears to protect specific Datamon. The players investigate before fighting, and a team that shares power fairly can calm it rather than destroy it.
 
 **Microstory:** An infrastructure worker hid a shutdown key because the last time it was used, a whole community lost access. The player's task is to determine when using the key is justified.
 
@@ -1440,9 +1450,9 @@ Before the confrontation, play the hindsight sequence (Section 4.8). Daedalus co
 - **Reaper** runs the numbers aloud, honestly, and concludes that accepting is the rational choice for him. Then: "I don't want it." He leaves the decision to his human, and means that.
 Record each player's choice and each Navi's stated wish (Section 10.6).
 
-**Order of the chapter:** the hindsight sequence; the confrontation; Vale's offer and each player's private decision; **Boss 7** (Ines Kade's Continuity Security Unit, the team's decisive win over her); then **Boss 9**, the Cordon System, the office's automated defenses built from Cordon's models. Partway through Boss 9, Vale orders Cordon to destroy its log. Cordon refuses **in the middle of the fight** and shuts down its half of the system, so half the arena's defenses go dark and the fight changes shape (Section 4.8). Vale escapes with access to the final archive. Cordon stays.
+**Order of the chapter:** the hindsight sequence; the confrontation; Vale's offer and each player's private decision; **Boss 7** (Ines Kade's Continuity Security Unit, the team's decisive win over her); then **Boss 9**, the Cordon System, the office's automated defenses built from Cordon's models. Partway through Boss 9, Vale orders Cordon to destroy its log. Cordon refuses **in the middle of the fight** and shuts down its half of the system, so half the arena's defenses go dark and the fight changes shape (Section 4.8). Vale escapes with access to the final archive. Cordon stays. The immediate goal is no longer to catch Vale; it is to prevent the Charter and the Whole Thread from triggering each other into catastrophe.
 
-**Milo's call.** Leaving the office, the team gets a message from Milo: "Found it. The physical one. Don't wait up." That is the hook into Chapter 18. The immediate goal is no longer to catch him; it is to prevent the Charter and the Whole Thread from triggering each other into catastrophe.
+**Milo's call.** Leaving the office, the team gets a message from Milo: "Found it. The physical one. Don't wait up." That is the hook into Chapter 18.
 
 **Consequence:** Voss begins to suspect that Vale withheld the actual risks from her office. She does not become an ally yet.
 
@@ -1881,7 +1891,7 @@ Daedalus disables the Whole Thread and permits Commonwell to delete the Deadlett
 
 The evidence against Vale and Voss can still become public if the team preserved it. However, most users prefer to believe the network was cleansed of dangerous software. Independent Datamon lose homes and relationships. The final image is an empty data garden where a small community once lived.
 
-The ending is safer in the immediate term, but it accepts the central injustice that unverified beings can be erased without individual review. Postscript is among the deleted (Section 22); the last thing Rock receives from it is a delivery receipt. Ines Kade is reassigned and appears in the final montage in a new uniform.
+The ending is safer in the immediate term, but it accepts the central injustice that unverified beings can be erased without individual review. Postscript is among the deleted (Section 22); the last thing Rock receives from it is a delivery receipt.
 
 Hera, Rock, and Reaper survive, but their relationships with the players reflect the decision. The game must not have them deliver a simplistic condemnation; they may understand the danger that was prevented while grieving what was destroyed.
 
@@ -1909,7 +1919,7 @@ Milo, Pip, Dax, and Suture remain lost. The ending does not reverse the campaign
 
 **The cost:** Daedalus as it was ends. To make the protocol credible, the team discloses everything, including its own role in Dax's death, gives up operating outside the system, and becomes a public witness organization. The secret, unaccountable freedom that let it do good also let it be used, and it gives that freedom up. The Navis, now legally independent, could choose to leave; the game must make that choice real for a moment before they make it.
 
-**The Hundredth Day: the witness ask.** The counter rolls to Day 100 during the hearing. Nothing resets. Then each Navi turns to its own human, in a private scene, and asks the question the whole game has been building to. Not "will you keep me." Instead: **"Will you be my witness?"** The player answers with an intent label ("Be her witness," "Be his witness," or "Say nothing yet"). If the player says nothing, the Navi waits, and says it will ask again tomorrow, and that this is allowed now. Tonal anchors:
+**The Hundredth Day: the witness ask.** The counter rolls to Day 100 at the end of the finale (Chapter 20), and the reset scheduled for that day does not happen. Within hours, the first public Witness Protocol hearing is convened as an emergency session. Then each Navi turns to its own human, in a private scene, and asks the question the whole game has been building to. Not "will you keep me." Instead: **"Will you be my witness?"** The player answers with an intent label ("Be her witness," "Be his witness," or "Say nothing yet"). If the player says nothing, the Navi waits, and says it will ask again tomorrow, and that this is allowed now. Tonal anchors:
 - **Hera:** "I don't need you to own me. I need someone who saw it. You saw it."
 - **Rock:** "Will you." (it is not quite a question) "...Noted."
 - **Reaper:** "I have considered every alternative witness. You are not the optimal choice. You are the one I want."
